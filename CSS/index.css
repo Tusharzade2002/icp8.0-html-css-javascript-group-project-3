@@ -9,9 +9,12 @@ body{
     height: 10%;
     background-color:#f8ecec;
     padding: 20px;
-
 }
 .logo img{
     height: 80px;
     margin: 5px;
+}
+.input-text{
+    height: 50px;
+    width: 450px;
 }
