@@ -33,3 +33,27 @@ body{
     margin: 20px;
     cursor: pointer;
 }
+.main-section{
+    display: flex;
+    justify-content: space-around;
+}
+.main-section p{
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+#image-slider{
+    display: block;
+    width: 100%;
+    margin: 0px auto;
+    transition: 1s;
+}
+.shop-by-category{
+   margin: 50px 40px ;
+}
+.shop-by{
+    text-align: center;
+}
+.category{
+      text-align: center;
+}
