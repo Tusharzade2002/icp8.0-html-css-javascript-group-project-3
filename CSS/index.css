@@ -57,3 +57,10 @@ body{
 .category{
       text-align: center;
 }
+.shop-by-category-images{
+    padding: 40px 40px;
+}
+.shop-by-category-images img{
+    margin: 40px;
+    cursor: pointer;
+}
