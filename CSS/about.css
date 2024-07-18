@@ -3,7 +3,7 @@
     padding: 0;
 }
 .section{
-    background-color: pink;
+    background-color: rgb(238, 231, 233);
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -28,6 +28,8 @@ span{
     position: relative;
     width: 500px;
     display: inline;
+    margin: 100px;
+    
     
 }
 .design-img{
@@ -55,4 +57,7 @@ span{
    left: 1000px;
    top: 10px;
    font-size: 30px;
+}
+.directorinfo{
+    margin: 50px;
 }
