@@ -90,7 +90,7 @@ span {
 
 .product-bg {
     background-color: rgb(184, 19, 19);
-    height: 430px;
+    height: 450px;
     width: 370px;
     float: left;
     margin-left: 100px;
@@ -114,5 +114,16 @@ span {
 .operations {
     height: 30px;
     width: 30px;
-
+    cursor: pointer;
+}
+#qualitytext{
+    font-size: 30px;
+    color: white;
+}
+.counter {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
 }
