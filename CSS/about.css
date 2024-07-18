@@ -27,31 +27,32 @@ span{
     height: auto;
     position: relative;
     width: 500px;
-    display: block;
+    display: inline;
+    
 }
 .design-img{
     margin-top: 90px;
     margin-left: 90px;
     height: 300px;
-    display: flex;
+    
     border-radius: 60px;
     
 }
 .one{
      position: absolute;
-    left: 180px;
-    top: 100px;
+    left: 150px;
+    top: 10px;
     font-size: 30px;
 }
 .two{
     position: absolute;
-   left: 480px;
-   top: 100px;
+   left: 560px;
+   top: 10px;
    font-size: 30px;
 }
 .three{
     position: absolute;
-   left: 780px;
-   top: 100px;
+   left: 1000px;
+   top: 10px;
    font-size: 30px;
 }
