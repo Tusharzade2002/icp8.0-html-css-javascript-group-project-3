@@ -15,3 +15,7 @@ body{
 }
 
 
+.theme-selector-container{
+    position: fixed;
+    right: 5px;
+}
