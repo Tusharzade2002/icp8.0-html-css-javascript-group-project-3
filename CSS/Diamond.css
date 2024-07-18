@@ -15,7 +15,12 @@ body{
 }
 
 
+
 .theme-selector-container{
     position: fixed;
     right: 5px;
+}
+.theme-select-icon{
+    height: 30px;
+    cursor: pointer;
 }
