@@ -3,7 +3,6 @@
     padding: 0;
 }
 .section{
-    background-color: rgb(238, 231, 233);
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -33,31 +32,35 @@ span{
     
 }
 .design-img{
-    margin-top: 90px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     margin-left: 90px;
     height: 300px;
-    
     border-radius: 60px;
-    
 }
 .one{
      position: absolute;
     left: 150px;
-    top: 10px;
-    font-size: 30px;
+    top: -210px;
+    font-size: 35px;
 }
 .two{
     position: absolute;
-   left: 560px;
-   top: 10px;
-   font-size: 30px;
+   left: 540px;
+   top: -210px;
+   font-size: 35px;
 }
 .three{
     position: absolute;
-   left: 1000px;
-   top: 10px;
-   font-size: 30px;
+   left: 950px;
+   top: -210px;
+   font-size: 35px;
 }
 .directorinfo{
-    margin: 50px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.directorimg{
+    margin-top: 70px;
+    margin-right: 100px;
 }
