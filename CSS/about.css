@@ -1,74 +1,86 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.section{
+
+.section {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    
+
 }
-span{
+
+span {
     font-size: 46px;
 }
-.main-info{
+
+.main-info {
     font-size: 30px;
     padding-right: 150px;
 }
 
-.main-img{
+.main-img {
     height: 450px;
     margin: 0;
     border-radius: 90px;
     margin-right: 100px;
 }
-.design-container{
+
+.design-container {
     height: auto;
     position: relative;
     width: 500px;
     display: inline;
     margin: 100px;
-    
-    
+
+
 }
-.design-img{
+
+.design-img {
     margin-top: 40px;
     margin-bottom: 40px;
     margin-left: 90px;
     height: 300px;
     border-radius: 60px;
 }
-.one{
-     position: absolute;
+
+.one {
+    position: absolute;
     left: 150px;
     top: -210px;
     font-size: 35px;
 }
-.two{
+
+.two {
     position: absolute;
-   left: 540px;
-   top: -210px;
-   font-size: 35px;
+    left: 540px;
+    top: -210px;
+    font-size: 35px;
 }
-.three{
+
+.three {
     position: absolute;
-   left: 950px;
-   top: -210px;
-   font-size: 35px;
+    left: 950px;
+    top: -210px;
+    font-size: 35px;
 }
-.directorinfo{
+
+.directorinfo {
     margin-top: 50px;
     margin-left: 100px;
 }
-.directorimg{
+
+.directorimg {
     margin-top: 70px;
     margin-right: 100px;
 }
-.dark-mode{
+
+.dark-mode {
     background-color: black;
     color: white;
 }
-.btn-toggle{
+
+.btn-toggle {
     cursor: pointer;
     padding: 10px;
     border: 1px solid black;
@@ -76,23 +88,31 @@ span{
     border-radius: 50% 20%;
 }
 
-.product-bg{
-  background-color: rgb(184, 19, 19);
-  height: 370px;
-  width: 370px;
+.product-bg {
+    background-color: rgb(184, 19, 19);
+    height: 430px;
+    width: 370px;
     float: left;
     margin-left: 100px;
     margin-bottom: 50px;
     border-radius: 10px;
     cursor: pointer;
 }
-.product-bg img{
+
+.product-bg img {
     border-radius: 50%;
     margin: 10px;
     padding: 10px;
 }
-.valueProduct{
+
+.valueProduct {
     color: white;
     font-size: 25px;
     margin-left: 150px;
+}
+
+.operations {
+    height: 30px;
+    width: 30px;
+
 }
