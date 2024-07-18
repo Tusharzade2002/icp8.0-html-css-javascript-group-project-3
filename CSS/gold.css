@@ -1,0 +1,36 @@
+.card {
+    height: 230px;
+    width: 300px;
+    background-color: #d2d7db;
+    padding: 10px;
+    margin: 30px 10px; /* Adjust margin for spacing between cards */
+    border-radius: 10px;
+    text-align: center; /* Center align content */
+}
+
+.btn {
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: #2b3c6c;
+    height: 30px;
+    width: 90px;
+    color: white;
+    border: none;
+}
+
+.head {
+    font-size: 20px;
+    margin-top: -20px; /* Adjust as needed */
+}
+
+.img {
+    margin: 10px auto; /* Center image horizontally with some vertical margin */
+    display: block; /* Ensures image is treated as a block element */
+}
+
+.ctn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
