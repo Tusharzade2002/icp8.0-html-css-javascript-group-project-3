@@ -75,3 +75,13 @@ button{
     margin-left: 400px;
     border-radius: 50% 20%;
 }
+.product{
+    display: block;
+}
+.product-bg{
+    background-image: url(./../Images/bgimg.jpg);
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+
+}
