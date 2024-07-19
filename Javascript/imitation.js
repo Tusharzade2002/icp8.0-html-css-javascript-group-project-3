@@ -12,3 +12,5 @@ function handleQuantity(action){
 
     quantityElement.innerText = action=='increment' ? ++quantity:--quantity
     }
+
+    
