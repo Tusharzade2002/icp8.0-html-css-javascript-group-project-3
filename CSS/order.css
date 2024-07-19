@@ -56,3 +56,9 @@ body {
     background-color: #c8c6a9;
 
 }
+.price-text {
+    margin-top: -20px;
+    text-align: center;
+    font-size: 18px;
+
+}
