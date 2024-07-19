@@ -150,6 +150,9 @@ color:#3d5c5c;
     border: 3px solid #3e2922;
     color: #3e2922;
 }
+.f{
+    color:#3d5c5c;
+}
 /* media query */
 @media screen and (max-width: 648px){
     .container{
