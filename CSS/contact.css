@@ -12,6 +12,16 @@ body{
     position: relative;
     top: 32px;
 }
+.container
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 30px;
+}
 .Contact{
     
     min-height: 100vh;
@@ -57,4 +67,37 @@ body{
     font-family: 'Lora', serif;
     color: #3e2922;
     
+}
+.fo{
+    font-size: 35px;
+    font-family: 'Lora', serif;
+}
+.btn{
+    font-family: 'Lora', serif;
+    font-size: 22px;
+    height:34px;
+    width: 194px;
+    border:1.5px solid #ef7743;
+   color:white;
+    background-color:#3e2922 ;
+    box-shadow: 2px 2px 2px 0 #4d001f;
+    margin-left: 25%;
+    margin-top: 50px;
+}
+.btn:hover{
+    background-color:#ef7743;
+    border:2px solid #4d001f;
+    transition:1.5s;
+    border-radius:10px;
+    color:#3e2922;
+}
+.container .contactform .inputbox input
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 22px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
 }
