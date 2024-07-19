@@ -153,6 +153,10 @@ color:#3d5c5c;
 .f{
     color:#3d5c5c;
 }
+.ft{
+    color:#3d5c5c;
+}
+
 /* media query */
 @media screen and (max-width: 648px){
     .container{
