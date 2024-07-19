@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 
 body{
-    background-color:#f3e0ba;
+    background-color:#f0f5f5;
 }
 .pr{
     margin: 10px 22px ;  
@@ -30,13 +30,13 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: #4d001f;
+    color: #3d5c5c;
    
    
 } 
 .contactinfo{
     font-family: 'Lora', serif;
-    color: #3e2922;
+    color: #334d4d;
 }
 .Contact .content h2
 {
@@ -44,7 +44,7 @@ text-align: center;
 font-family: 'EB Garamond', serif;
 font-size: 44px;
 margin-top: -40px;
-color:#3e2922;
+color:#3d5c5c;
 }
 .Contact .content p
 {
@@ -52,7 +52,7 @@ color:#3e2922;
     font-size: 18px;
     font-family: 'Lora', serif;
     margin-top: 10px;
-    color:#3e2922;  
+    color:#3d5c5c;  
 }
 .Contact .content
 {
@@ -77,22 +77,22 @@ color:#3e2922;
 }
 .nm-txt{
     font-size: 20px;
-    color: #3e2922;
+    color: #3d5c5c;
 }
 .mp{
     text-decoration: none;
     font-family: 'Lora', serif;
-    color: #3e2922;   
+    color: #3d5c5c;   
 }
 .cnt{
     text-decoration: none;
     font-family: 'Lora', serif;
-    color: #3e2922;
+    color: #3d5c5c;
 }
 .ml{
     text-decoration: none;
     font-family: 'Lora', serif;
-    color: #3e2922;
+    color: #3d5c5c;
     
 }
 .fo{
@@ -104,19 +104,19 @@ color:#3e2922;
     font-size: 22px;
     height:34px;
     width: 194px;
-    border:1.5px solid #ef7743;
+    border:1.5px solid #334d4d;
    color:white;
-    background-color:#3e2922 ;
-    box-shadow: 2px 2px 2px 0 #4d001f;
+    background-color:#334d4d ;
+    box-shadow: 2px 2px 2px 0 #85adad;
     margin-left: 25%;
     margin-top: 50px;
 }
 .btn:hover{
-    background-color:#ef7743;
-    border:2px solid #4d001f;
+    background-color:#a3c2c2;
+    border:2px solid #85adad;
     transition:1.5s;
     border-radius:10px;
-    color:#3e2922;
+    color:#a3c2c2;
 }
 .container .contactform .inputbox input
 {
@@ -144,7 +144,7 @@ color:#3e2922;
 {
    
     width: 40%;
-    background-color:#fedd90;
+    background-color:#b3cccc;
     min-height: 500px;
     padding: 60px;
     border: 3px solid #3e2922;
