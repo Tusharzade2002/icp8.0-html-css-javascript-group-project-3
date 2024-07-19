@@ -15,3 +15,8 @@ body {
     width: 460px;
 
 }
+.cart-height {
+    height: 340px;
+    margin-top: 10px;
+    background-color: #c8c6a9;
+}
