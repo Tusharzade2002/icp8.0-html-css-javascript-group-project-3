@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Pacifico&family=Protest+Riot&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 
-
+body{
+    background-color:#f3e0ba;
+}
 .pr{
     margin: 10px 22px ;  
     color: rgb(43, 25, 209);
@@ -9,4 +11,22 @@
     font-family: 'Lora', serif;
     position: relative;
     top: 32px;
+}
+.Contact{
+    
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #4d001f;
+   
+   
+} 
+.Contact .content
+{
+   min-width: 100px;
+   text-align: center;
+  
 }
