@@ -24,14 +24,22 @@ body{
     cursor: pointer;
     
 }
-
-
-
-.theme-selector-container{
-    position: fixed;
-    right: 5px;
-}
 .theme-select-icon{
     height: 30px;
     cursor: pointer;
 }
+.theme-selector-container{
+    position: fixed;
+    right: 5px;
+}
+.bg-light{
+    background-color: #ccd9ff;
+    color: black;
+}
+.bg-dark{
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+
+
