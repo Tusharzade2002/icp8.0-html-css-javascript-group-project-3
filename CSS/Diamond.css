@@ -34,6 +34,10 @@ body{
     right:5px;
     top:5px;
 }
+.bg-dark{
+    background-color: #1a1a1a;
+    color:#fff;
+}
 
 
 

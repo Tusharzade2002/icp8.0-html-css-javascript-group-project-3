@@ -8,7 +8,7 @@
     <!-- <script src="./../Javascript/diamond.js"></script> -->
 
 </head>
-<body>
+<body class="" id="main-body">
     <nav class="navbar">
         <div >
             <img src="Images/Logo/jewelary_palace_logo-removebg-preview (1).png">
@@ -16,8 +16,8 @@
     </nav>
 
     <div class="theme-selector-container">
-        <img src="./../Images/Logo/sun.png" class="theme-select-icon">
-        <img src="./../Images/Logo/full-moon.png"  class="theme-select-icon">
+        <img src="./../Images/Logo/sun.png" class="theme-select-icon" onclick="enableLight()">
+        <img src="./../Images/Logo/full-moon.png"  class="theme-select-icon" onclick="enableDark()">
 
 
     </div>
@@ -42,7 +42,10 @@
     </button>
    </div>
    <script>
-   
+        function enableDark(){
+           const mainBody= document.getElementById("main-body")
+           mainBody.classList.add("bg-dark")
+        }
    </script>
 </body>
 </html>
