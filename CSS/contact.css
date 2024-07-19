@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Pacifico&family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+
+.pr{
+    margin: 10px 22px ;  
+    color: rgb(43, 25, 209);
+    font-size: 22px;
+    font-family: 'Lora', serif;
+    position: relative;
+    top: 32px;
+}
