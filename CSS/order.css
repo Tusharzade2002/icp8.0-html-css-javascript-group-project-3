@@ -7,3 +7,11 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
+.form-container {
+    background-color: #c8c6a9;
+    border-radius: 30px;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 460px;
+
+}
