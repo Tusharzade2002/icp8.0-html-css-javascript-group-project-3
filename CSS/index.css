@@ -273,3 +273,15 @@ footer{
     font-size: 30px;
     margin-left: 5px;
 }
+.product-name
+{
+  font-size: larger;
+  text-align: center;
+
+}
+.product-price
+{
+  font-size: larger;
+  text-align:center;
+
+}
