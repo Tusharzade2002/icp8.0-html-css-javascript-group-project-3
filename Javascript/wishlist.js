@@ -1,18 +1,15 @@
-  // Sample data (replace with your actual wishlist data)
-  const wishlistItems = [
-    {
-        id: 1,
-        name: "Diamond Ring",
-        price: "$",
-        image: "Images/r1.jpeg"
-    },
-    {
-        id: 2,
-        name: "daimond Necklace",
-        price: "$",
-        image: "Images/neclace1.jpeg"
-    }
-];
+    const redirectButton = document.getElementById('redirectButton');
+  redirectButton.addEventListener('click', function() {
+    window.location.href = "../index.html"; 
+  })     
+ 
+
+
+
+
+
+
+
 
 // Function to display wishlist items
 function displayWishlist() {

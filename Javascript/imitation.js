@@ -1,5 +1,6 @@
 function handleQuantity(action){
     const quantityElement = document.getElementById("quantity-text")
+   
     let quantity = parseInt(quantityElement.innerText);
     if(quantity==1 && action=='decrement')
 {
