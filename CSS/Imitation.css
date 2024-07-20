@@ -117,12 +117,12 @@ body{
 
 }
 
-    .container {
+.container {
         position: relative;
         text-align: center;
         color: black;
-      }
-      .head-text {
+    }
+.head-text {
         position: absolute;
         top: 50%;
         left: 55%;
