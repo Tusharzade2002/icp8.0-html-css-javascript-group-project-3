@@ -2,6 +2,10 @@ function modes(){
     let element = document.body;
     element.classList.toggle("dark-mode");
 }
+function changeimg(imgname){
+    const mainimage = document.getElementById('main-image');
+    mainimage.src=imgname;
+}
 
 function changes(action){
     const qualityElement = document.getElementById("qualitytext");
