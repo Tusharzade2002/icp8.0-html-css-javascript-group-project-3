@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Pacifico&family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+body{
+    background-color:#f0f5f5;
+}
+.pr{
+    margin: 10px 22px ;  
+    color: rgb(43, 25, 209);
+    font-size: 22px;
+    font-family: 'Lora', serif;
+    position: relative;
+    top: 32px;
+}
+.container
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 30px;
+}
+.Contact{
+    
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #3d5c5c;
+   
+   
+} 
+.contactinfo{
+    font-family: 'Lora', serif;
+    color: #334d4d;
+}
+.Contact .content h2
+{
+text-align: center;
+font-family: 'EB Garamond', serif;
+font-size: 44px;
+margin-top: -40px;
+color:#3d5c5c;
+}
+.Contact .content p
+{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Lora', serif;
+    margin-top: 10px;
+    color:#3d5c5c;  
+}
+.Contact .content
+{
+   min-width: 100px;
+   text-align: center;
+  
+}
+.text{
+    margin-bottom:-5px;
+}
+.container .contactinfo-me
+{
+    width: 78%;
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;   
+}
+.con{
+    margin-left: 100px;
+    font-size: 18px;
+    margin-top: -12px;
+}
+.nm-txt{
+    font-size: 20px;
+    color: #3d5c5c;
+}
+.mp{
+    text-decoration: none;
+    font-family: 'Lora', serif;
+    color: #3d5c5c;   
+}
+.cnt{
+    text-decoration: none;
+    font-family: 'Lora', serif;
+    color: #3d5c5c;
+}
+.ml{
+    text-decoration: none;
+    font-family: 'Lora', serif;
+    color: #3d5c5c;
+    
+}
+.fo{
+    font-size: 35px;
+    font-family: 'Lora', serif;
+}
+.btn{
+    font-family: 'Lora', serif;
+    font-size: 22px;
+    height:34px;
+    width: 194px;
+    border:1.5px solid #334d4d;
+   color:white;
+    background-color:#334d4d ;
+    box-shadow: 2px 2px 2px 0 #85adad;
+    margin-left: 25%;
+    margin-top: 50px;
+}
+.btn:hover{
+    background-color:#a3c2c2;
+    border:2px solid #85adad;
+    transition:1.5s;
+    border-radius:10px;
+    color:#a3c2c2;
+}
+.container .contactform .inputbox input
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 22px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+.container .contactinfo .box
+{
+   
+    padding: 6px 0;
+    display: flex;
+}
+.container .contactinfo text{
+    margin-top: 10px;
+    padding-bottom: -70px;
+    font-family: 'Lora', serif;
+    
+}
+.container .contactform
+{
+   
+    width: 40%;
+    background-color:#b3cccc;
+    min-height: 500px;
+    padding: 60px;
+    border: 3px solid #3e2922;
+    color: #3e2922;
+}
+.f{
+    color:#3d5c5c;
+}
+.ft{
+    color:#3d5c5c;
+}
+
+/* media query */
+@media screen and (max-width: 648px){
+    .container{
+        width: 50%;
+        flex-direction: column;
+        padding-right: -13px;
+        margin-right: 112px;
+    }
+    .contactinfo-me {
+       width:140% ;
+    }
+    
+    .container .contactform {
+        width: 200%;
+        min-height: 250px;
+        margin-top: 15px;
+        margin-left:65%;
+       
+        
+    }
+    .container .contactform .inputbox textarea{
+         width: 80%;
+    }
+    .container .contactform .inputbox{
+        width: 80%;
+    }
+    .Contact .content h2{
+        margin-top: -20px;
+    }
+    .btn{
+    margin-left:56px;
+  
+     
+    }
+}
+@media screen and (min-width:992px)and(max-width:1300px) {
+    .container{
+        width: 100%;
+        padding-right: 21px;
+        margin-left: 40px;
+        min-width:992px;
+        max-width:1300px;
+       
+    }
+    .container .contactform{
+        width: 200%;
+        min-height: 400px;
+        margin-bottom: 20px;
+        margin-left:130px;
+      }
+    
+    .container textarea{
+        width: 67px;
+        margin-left: -60px;
+        padding-left: 70px;
+     
+      
+    }
+    .container .contactform .inputbox textarea{
+        width: 46%;
+   }
+   .Contact .content h2{
+    margin-top: -10px;
+   }
+
+    .btn{
+            margin-right: 78px;
+          
+    }
+  .container .contactform .inputbox{
+       width: 80%;
+   }
+   .Contact .content h2 p{
+       margin-bottom: -200px;
+   }
+
+}
