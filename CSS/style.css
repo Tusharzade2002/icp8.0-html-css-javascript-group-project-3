@@ -57,3 +57,14 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.btn{
+    height: 50px;
+    width: 50px;
+   display: block;
+   justify-content: left;
+    
+}
+.img-home-icon{
+    height: 50px;
+    width: 40px;
+}
