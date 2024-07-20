@@ -5,16 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ring Jwellary</title>
     <style>
+        body{
+            background-color: aliceblue;
+        }
          .product-bg {
             background-color: rgb(207, 203, 203);
-            height: 450px;
+            height: 400px;
             width: 370px;
             float: left;
             margin-left: 100px;
             margin-bottom: 50px;
-            border-radius: 10px;
+            border-radius: 5px;
             cursor: pointer;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            /* width: 100%; */
+            /* height: 60%; */
         }
+        .product-bg:hover {
+    transform: scale(1.05);
+}
         .design-img{
             width: 250px;
             width: 250px;
@@ -22,35 +31,117 @@
             margin: 50px auto;
             display: block;
         }
+        .price{
+            color: rgb(3, 16, 8);
+            font-size: 1em;
+            text-align: center;
+        }
+        .buttons {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            background-color: #333;
+            color: black;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        button:hover {
+        background-color: #555;
+        }
+        .buy-btn {
+            flex: 1;
+            margin-right: 5px;
+            background-color: #007bff;
+            color: white;
+        }
+        .buy-btn:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+        .like-btn {
+            flex: 1;
+            margin-left: 5px;
+        }
+
     </style>
 </head>
 <body>
     <div class="product-bg">
         <img src="./../Images/r1.jpeg" class="design-img">
+        <p class="price">only at.<del>1000</del>999</p>
+        <div class="buttons">
+            <button class="buy-btn">Buy Now</button>
+            <button class="like-btn" onclick="likeItem(this)">❤️<span>0</span></button>
+        </div>
     </div>
     <div class="product-bg">
         <img src="./../Images/r2.jpeg" class="design-img">
+        <p class="price">only at.<del>1000</del>800</p>
+        <div class="buttons">
+            <button class="buy-btn">Buy Now</button>
+            <button class="like-btn" onclick="likeItem(this)">❤️<span>0</span></button>
+        </div>
     </div>
     <div class="product-bg">
         <img src="./../Images/r3.jpeg" class="design-img">
+        <p class="price">only at.<del>1000</del>500</p>
+        <div class="buttons">
+            <button class="buy-btn">Buy Now</button>
+            <button class="like-btn" onclick="likeItem(this)">❤️<span>0</span></button>
+            
+        </div>
     </div>
     <div class="product-bg">
         <img src="./../Images/r4.jpg" class="design-img">
+        <p class="price">only at.<del>1000</del>650</p>
+        <div class="buttons">
+            <button class="buy-btn">Buy Now</button>
+            <button class="like-btn" onclick="likeItem(this)">❤️<span>0</span></button>
+        </div>
     </div>
     <div class="product-bg">
         <img src="./../Images/r5.jpeg" class="design-img">
+        <p class="price">only at.<del>1000</del>700</p>
+        <div class="buttons">
+            <button class="buy-btn">Buy Now</button>
+            <button class="like-btn" onclick="likeItem(this)">❤️ <span>0</span></button>
+        </div>
     </div>
     <div class="product-bg">
         <img src="./../Images/r6.jpeg" class="design-img">
+        <p class="price">only at.<del>1000</del>600</p>
+        <div class="buttons">
+            <button class="buy-btn">Buy Now</button>
+            <button class="like-btn" onclick="likeItem(this)">❤️ <span>0</span></button>
+        </div>
     </div>
     <div class="product-bg">
         <img src="./../Images/r7.jpeg" class="design-img">
+        <p class="price">only at.<del>1000</del>750</p>
+        <div class="buttons">
+            <button class="buy-btn">Buy Now</button>
+            <button class="like-btn" onclick="likeItem(this)">❤️ <span>0</span></button>
+        </div>
     </div>
     <div class="product-bg">
         <img src="./../Images/r4.jpg" class="design-img">
+        <p class="price">only at.<del>1000</del>859</p>
+        <div class="buttons">
+            <button class="buy-btn">Buy Now</button>
+            <button class="like-btn" onclick="likeItem(this)">❤️ <span>0</span></button>
+        </div>
     </div>
     <div class="product-bg">
         <img src="./../Images/r5.jpeg" class="design-img">
+        <p class="price">only at.<del>1000</del>800</p>
+        <div class="buttons">
+            <button class="buy-btn">Buy Now</button>
+            <button class="like-btn" onclick="likeItem(this)">❤️ <span>0</span></button>
+        </div>
     </div>
+    <script src="./../Javascript/ring.js"></script>
+    
 </body>
 </html>
