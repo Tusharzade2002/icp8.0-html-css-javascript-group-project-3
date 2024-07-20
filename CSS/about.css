@@ -104,6 +104,8 @@ span {
     margin-left: 160px;
     margin-bottom: 50px;
     border-radius: 13px;
+    border: 1px solid black;
+    padding: 5px;
 }
 .quality-container{
     display: flex;
@@ -117,8 +119,8 @@ span {
     padding: 10px;
 }
 .valueProduct {
-    font-size: 25px;
-    margin-left: 80px;
+    font-size: 27px;
+    text-align: center;
 }
 .operations {
     height: 40px;
@@ -126,7 +128,7 @@ span {
     cursor: pointer;
 }
 .quality-text{
-    font-size: 50px;
+    font-size: 40px;
 }
 .counter {
     height: 50px;
