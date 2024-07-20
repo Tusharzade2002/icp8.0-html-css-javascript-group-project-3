@@ -8,7 +8,7 @@
     <!-- <script src="./../Javascript/diamond.js"></script> -->
 
 </head>
-<body class="" id="main-body">
+<body class="bg-light" id="main-body">
     <nav class="navbar">
         <div >
             <img src="Images/Logo/jewelary_palace_logo-removebg-preview (1).png">
@@ -44,7 +44,14 @@
    <script>
         function enableDark(){
            const mainBody= document.getElementById("main-body")
+           mainBody.classList.remove("bg-light")
            mainBody.classList.add("bg-dark")
+        }
+
+        function enableLight(){
+            const mainBody= document.getElementById("main-body")
+           mainBody.classList.remove("bg-dark")
+           mainBody.classList.add("bg-light")
         }
    </script>
 </body>
