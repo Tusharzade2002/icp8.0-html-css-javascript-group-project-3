@@ -1,18 +1,3 @@
-  // Sample data (replace with your actual wishlist data)
-  const wishlistItems = [
-    {
-        id: 1,
-        name: "Diamond Ring",
-        price: "$",
-        image: "Images/r1.jpeg"
-    },
-    {
-        id: 2,
-        name: "daimond Necklace",
-        price: "$",
-        image: "Images/neclace1.jpeg"
-    }
-];
 
 // Function to display wishlist items
 function displayWishlist() {
