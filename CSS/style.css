@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding:0;
+}
+
+.title {
+    background-color: #eb2828;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.wishlist-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 15px;
+    width: 250px;
+}
+
+.wishlist-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wishlist-item h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.wishlist-item p {
+    font-size: 14px;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    cursor: pointer;
+}
+.btn{
+    height: 50px;
+    width: 50px;
+   display: block;
+   justify-content: left;
+    
+}
+.img-home-icon{
+    height: 50px;
+    width: 40px;
+}
+.btn-footer{
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}
+.header{
+    cursor: pointer;
+}

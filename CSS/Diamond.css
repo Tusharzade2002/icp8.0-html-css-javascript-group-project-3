@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(185, 228, 228);
+}
+.card{
+    height: 350px;
+    margin:30px;
+    padding: 10px;
+    border-radius: 10px;
+    display:inline-block;
+    width:250px;
+    border: 3px solid rgb(222, 202, 202);
+    background-color: rgb(207, 203, 203);
+    
+
+}
+.diamond-jwellary{
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f6e105;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+
+.theme-select-icon{
+    height: 50px;
+    cursor: pointer;
+}
+.theme-selector-container{
+    position: fixed;
+    right:5px;
+    top:5px;
+}
+.bg-dark{
+    background-color: #1a1a1a;
+    color:#fff;
+}
+
+
+
