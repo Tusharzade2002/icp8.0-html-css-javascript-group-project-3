@@ -5,13 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diamond Jwellery</title>
     <link rel="stylesheet" href="./../CSS/Diamond.css">
+    <!-- <script src="./../Javascript/diamond.js"></script> -->
+
 </head>
-<body>
+<body class="" id="main-body">
     <nav class="navbar">
-        <div>
+        <div >
             <img src="Images/Logo/jewelary_palace_logo-removebg-preview (1).png">
         </div>
     </nav>
+
+    <div class="theme-selector-container">
+        <img src="./../Images/Logo/sun.png" class="theme-select-icon" onclick="enableLight()">
+        <img src="./../Images/Logo/full-moon.png"  class="theme-select-icon" onclick="enableDark()">
+
+
+    </div>
+    
+
    <div class="card">
     <img src="./../Images/b10.jpg" height="250px" width="230px">
     <button class="diamond-jwellary" >
@@ -30,5 +41,11 @@
         <a href="file:///C:/Users/rg900/OneDrive/Desktop/icp8.0-html-css-javascript-group-project-3/pages/necklace.html">Diamond Necklace</a>
     </button>
    </div>
+   <script>
+        function enableDark(){
+           const mainBody= document.getElementById("main-body")
+           mainBody.classList.add("bg-dark")
+        }
+   </script>
 </body>
 </html>
