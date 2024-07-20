@@ -4,22 +4,23 @@ function modes(){
 }
 
 function changes(action){
-            const qualityElement = document.getElementById("qualitytext");
-            let quality = parseInt(qualityElement.innerText)
-            if(quality==1 && action=='dec'){
-                alert('Quantity cannot be less than 1')
-                return
-            }
-            else if(quality==5 && action=='inc'){
-                    alert('Quantity cannot be greater than 5')
-                    return
-            }
-            qualityElement.innerText=action == 'inc' ? ++quality : --quality
-             
-        }
+    const qualityElement = document.getElementById("qualitytext");
+    let quality = parseInt(qualityElement.innerText)
+    
+    if(quality==1 && action=='dec'){
+        alert('Quantity cannot be less than 1')
+        return
+    }
+    else if(quality==5 && action=='inc'){
+            alert('Quantity cannot be greater than 5')
+            return
+    }
+    qualityElement.innerText=action == 'inc' ? ++quality : --quality
+}
         function changes1(action){
             const qualityElement1 = document.getElementById("qualitytext1");
             let quality1 = parseInt(qualityElement1.innerText)
+            
             if(quality1==1 && action=='dec'){
                 alert('Quantity cannot be less than 1')
                 return
@@ -29,7 +30,6 @@ function changes(action){
                     return
             }
             qualityElement1.innerText=action == 'inc' ? ++quality1 : --quality1
-             
         }
         function changes2(action){
             const qualityElement2 = document.getElementById("qualitytext2");

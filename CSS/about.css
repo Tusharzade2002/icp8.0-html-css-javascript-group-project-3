@@ -77,15 +77,13 @@ span {
 }
 .product-bg {
     background-color: #d2d7db;
-    height: 460px;
+    height: 470px;
     width: 290px;
     float: left;
     margin-left: 160px;
     margin-bottom: 50px;
     border-radius: 13px;
-    cursor: pointer;
 }
-
 .product-bg img {
     border-radius: 50%;
     margin: 10px;
@@ -93,19 +91,15 @@ span {
 }
 .valueProduct {
     font-size: 25px;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 .operations {
     height: 40px;
     width: 40px;
     cursor: pointer;
 }
-#qualitytext{
-    font-size: 30px;
-}
-#text-size{
-    font-size: 30px;
-
+.quality-text{
+    font-size: 50px;
 }
 .counter {
     height: 50px;
