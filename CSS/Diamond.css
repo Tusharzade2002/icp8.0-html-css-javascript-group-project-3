@@ -1,6 +1,38 @@
 body{
     background-color: rgb(185, 228, 228);
 }
+.navbar{
+    display: flex;
+ 
+    height: 8%;
+    background-color:#f8ecec;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo img{
+    height: 80px;
+    margin: 5px;
+}
+.input-text{
+    height: 50px;
+    width: 650px;
+    font-size: 25px;
+    border: none;
+    margin: 10px 20px;
+}
+.nav-list{
+    display: flex;
+   
+}
+.nav-list img{
+    color: whitesmoke;
+    height: 50px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+
 .card{
     height: 350px;
     margin:30px;
