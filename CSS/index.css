@@ -285,7 +285,18 @@ footer{
   text-align:center;
 
 }
-
+/* slider */
+ .image-slider{
+      display: none;
+ }
+.slider{
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+    }
+.image-slider img{
+    width: 100%;
+}
 
 /* Small device */
 @media screen and (max-width: 600px)  {
