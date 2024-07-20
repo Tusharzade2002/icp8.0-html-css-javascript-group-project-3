@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 .navbar{
     display: flex;
@@ -285,3 +285,21 @@ footer{
   text-align:center;
 
 }
+
+
+/* Small device */
+@media screen and (max-width: 600px)  {
+    .img{
+   height: 40px;
+}
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+   
+  }
+
+  /* Tablet Devices */
+
+  @media screen and (min-width: 769px) and (max-width: 992px) {
+    
+  }
