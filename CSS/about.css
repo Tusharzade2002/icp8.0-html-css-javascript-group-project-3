@@ -209,6 +209,7 @@ span {
 }
 .font-contact-platform{
     font-size: 20px;
+    
 }
 .contact-form{
     width: 500px;
@@ -221,7 +222,6 @@ span {
 footer{
     background-color: #f8ecec;
     height: 350px;
-    margin-top: 100px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 
 }
@@ -271,6 +271,7 @@ footer{
 .footer-info{
     display: block;
     color: black;
+    font-size: 15px;
 }
 .logo-icon{
     height: 50px;
