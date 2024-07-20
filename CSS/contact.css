@@ -176,6 +176,16 @@ color:#3d5c5c;
     border: none;
     margin: 10px 20px;
 }
+.nav-list{
+    display: flex;
+   
+}
+.nav-list img{
+    color: whitesmoke;
+    height: 50px;
+    margin: 20px;
+    cursor: pointer;
+}
 
 /* media query */
 @media screen and (max-width: 648px){
