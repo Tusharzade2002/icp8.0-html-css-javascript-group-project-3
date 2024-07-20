@@ -63,13 +63,8 @@ body{
     border: 1px solid black;
     margin: 20px 20px 20px 20px;
     border-radius: 10px;
-    
-   
     background-color: #d2d7db;
-   
-    
-   
-
+  
 }
 .product-img
 {
@@ -79,8 +74,6 @@ body{
     height: 200px;
     width: 150px;
     align-items: center;
-    
-
     
 }
 .btn-buy-now
