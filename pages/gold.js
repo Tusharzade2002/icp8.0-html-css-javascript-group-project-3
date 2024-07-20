@@ -9,10 +9,19 @@ let Images=['./../Images/image/Slider 1.webp','./../Images/image/slider2.webp','
         Images.src=Images[random];
     }
 
-    const quantityElement = document.getElementById("quantity");
-        let quantity = parseInt(quantityElement.innerText);
+const quantityElements = document.querySelectorAll('.quantity');
+quantityElements.forEach((element) => {
+    let quantity = parseInt(element.innerText);
+    element.nextElementSibling.addEventListener('click', () => {
+        ChangeQuantity(element, 'inc');
+      });
+      element.previousElementSibling.addEventListener('click', () => {
+        ChangeQuantity(element, 'dec');
+      });
+    });
 
-        function ChangeQuantity(op) {
+  function ChangeQuantity(quantityElement, op) {
+    let quantity = parseInt(quantityElement.innerText);
 
             if (quantity == 1 && op == "dec"){
             alert('quantity cannot be less than 1')
