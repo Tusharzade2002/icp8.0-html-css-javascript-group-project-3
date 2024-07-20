@@ -25,13 +25,19 @@ body{
     
 }
 
-
-
-.theme-selector-container{
-    position: fixed;
-    right: 5px;
-}
 .theme-select-icon{
-    height: 30px;
+    height: 50px;
     cursor: pointer;
 }
+.theme-selector-container{
+    position: fixed;
+    right:5px;
+    top:5px;
+}
+.bg-dark{
+    background-color: #1a1a1a;
+    color:#fff;
+}
+
+
+
