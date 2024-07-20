@@ -1,36 +1,134 @@
-.card {
-    height: 230px;
-    width: 300px;
+.product-bg {
     background-color: #d2d7db;
+    height: 490px;
+    width: 290px;
+    float: left;
+    margin-left: 160px;
+    margin-bottom: 50px;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+.product-bg img {
+    border-radius: 50%;
+    margin: 10px;
     padding: 10px;
-    margin: 30px 10px; /* Adjust margin for spacing between cards */
-    border-radius: 10px;
-    text-align: center; /* Center align content */
+    padding: 20px 57px;
+    
 }
 
-.btn {
-    margin-top: 20px;
-    border-radius: 30px;
-    background-color: #2b3c6c;
+.valueProduct {
+    font-size: 15px;
+    margin-left: 100px;
+}
+
+.operations {
     height: 30px;
-    width: 90px;
-    color: white;
-    border: none;
+    width: 30px;
+    cursor: pointer;
 }
-
-.head {
-    font-size: 20px;
-    margin-top: -20px; /* Adjust as needed */
+#qualitytext{
+    font-size: 30px;
 }
-
-.img {
-    margin: 10px auto; /* Center image horizontally with some vertical margin */
-    display: block; /* Ensures image is treated as a block element */
+.design-img {
+    height: 200px;
+    width: 150px;
+    border-radius: 60px;
+    
 }
-
-.ctn {
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+ 
+    height: 8%;
+    background-color:#f8ecec;
+    padding: 20px;
+    justify-content: space-around;
     align-items: center;
+}
+.logo img{
+    height: 80px;
+    margin: 5px;
+}
+.input-text{
+    height: 50px;
+    width: 650px;
+    font-size: 25px;
+    border: none;
+    margin: 10px 20px;
+}
+.nav-list{
+    display: flex;
+   
+}
+.nav-list img{
+    color: whitesmoke;
+    height: 50px;
+    margin: 20px;
+    cursor: pointer;
+}
+.main-section{
+    display: flex;
+    justify-content: space-around;
+}
+.main-section p{
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+#image-slider{
+    display: block;
+    width: 100%;
+    margin: 0px auto;
+    transition: 1s;
+}
+.quantity-btn-container {
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    padding: 10px 10px;
+   }
+.btn1{
+    margin-left: 20px;
+    height: 20px;
+    width: 70px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 30px;
+    background-color: black;
+    cursor: pointer;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    color: beige;
+    }
+    .btn2{
+        margin-right:20px ;
+        height: 20px;
+        width: 70px;
+        text-align: center;
+        border-radius: 5px;
+        font-size: 30px;
+        background-color: black;
+        cursor: pointer;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+        color: beige;
+    }
+.buybtn{
+    height: 30px;
+    width: 120px;
+    margin-left: -180px;
+    border-radius: 5px;
+    background-color: black;
+    color: beige;
+    cursor: pointer;
+    margin-top:80px;
+    
+}
+.head{
+    text-align: center;
 }
