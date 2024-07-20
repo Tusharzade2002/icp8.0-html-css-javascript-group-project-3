@@ -17,3 +17,8 @@
 .review .review-slider .box:hover {
     box-shadow: 1px 1px 10px 4px darkgray;
 }
+.review .review-slider .box img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
