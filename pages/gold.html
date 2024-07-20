@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gold Page</title>
-    <link href="./../CSS/gold.css" rel="stylesheet"/>
-
+    <title>Gold page</title>
+    <link rel="stylesheet" href="./../CSS/gold.css">
 </head>
+
 <body>
     <nav class="navbar">
         <div class="logo">
@@ -15,433 +15,216 @@
         <input class="input-text" placeholder="Search for Gold Jewellery,Diamond,and more...."
             type="text"  />   
         <div class="nav-list">
-                <img class="account-icon" src="./../Images/Icon/account.png"/>
-                <img class="wishlist-icon" src="./../Images/Icon/wishlist .png"/>
-                <img class="shopping-icon" src="./../Images/Icon/shopping-cart.png"/>
+        <a href="./"><img class="account-icon" src="./../Images/image/contact.png"/></a>
+               <a href="./../pages/wishlist.html"> <img class="wishlist-icon" src="./../Images/Logo/wishlist.png "/></a>
+            <a href="./../order.html"><img class="shopping-icon" src="./../Images/Icon/shopping-cart.png"/></a>
         </div>     
 </nav>
+<section class="main-section">
+     <a href="./../pages/Imitation_Jewellery.html"> <p>Simple Jewellery</p> </a>
+     <a href="./../pages/silver.html"> <p>Silver Jewellery</p> </a>
+     <a href="./../pages/gold.html"> <p>Gold Jewellery</p>  </a>
+     <a href="./../pages/Diamond.html"> <p>Diamond Jewellery</p>  </a>
+     <a href="./../pages/Diamond.html"> <p>Personalised Jewellery</p>  </a>
+     <a href="./../pages/about.html"> <p>About</p></a>
+     <a href="./../contact.html"> <p>Contact</p></a>
+     <a href="./../review.html"> <p>Review</p></a>
 
-    <section class="main-section">
-        <a href="./../pages/Imitation_Jewellery.html"> <p>Simple Jewellery</p> </a>
-        <a href="./../pages/silver.html"> <p>Siler Jewellery</p> </a>
-        <a href="./../pages/gold.html"> <p>Gold Jewellery</p>  </a>
-        <a href="./../pages/Diamond.html"> <p>Diamond Jewellery</p>  </a>
-        <a href="./../pages/necklace.html"> <p>Personalised Jewellery</p>  </a>
-        <a href="./../pages/about.html"> <p>Contact</p></a>
-        <a href="./../pages/Diamond.html"> <p>Review</p></a>
-   </section>
+</section>
 
-<slider class="slider">
-     <img src="./../Images/image/Slider 1.webp" id="image-slider">
-</slider>
-
-</div>
- <br/><br/>
-
-<div class="product-bg">
-    <div card>
-        <img src="./../images/gold1.jpeg" class="design-img">
-             <h3 class="head">  designer necklace</h3>
-        <p class="valueProduct">Rs-160000/-</p>
+    <div class="product-bg">
+        <img src="./../Images/gold1.jpeg" class="design-img">
+              <h3 class="name"><b>Necklace </b></h3>
+        <p class="price">only at.<del>RS.100000</del> RS.99000</p>
+        <div class="buttons">
+            <button class="buy-btn">Buy Now</button>
+            <button class="like-btn" onclick="likeItem(this)">❤️<span>0</span></button>
+        </div>
     </div>
-           <div class="quantity-btn-container">
-            <button class="btn1" type="button" onclick="ChangeQuantity('dec')">
-                -
-            </button>
-            <span class="quantity">1</span>
-            <button  class="btn2" type="button" onclick="ChangeQuantity('inc')">
-                +
-            </button>
-            <div>
-            <button class="buybtn"><a href="./../order.html"><p class="btn">BUY NOW</p></a></button>
-           </div>
-            </div>
-</div>
-
-<div class="product-bg">
+    <div class="product-bg">
         <img src="./../Images/image/gold2.png" class="design-img">
-           <h3 class="head">  designer earrings</h3>
-         <p class="valueProduct">Rs-50000/-</p>
-         <div class="quantity-btn-container">
-         <button class="btn1" type="button" onclick="ChangeQuantity('dec')">
-            -
-         </button>
-         <span class="quantity">1</span>
-         <button  class="btn2" type="button" onclick="ChangeQuantity('inc')">
-            +
-         </button>
-         <div>
-            <button class="buybtn"><a href="./../order.html"><p class="btn">BUY NOW</p></a></button>
-         </div>
-         </div>
-</div>
-
-<div class="product-bg">
-    <img src="./../Images/image/gold3.jpeg" class="design-img">
-    <h3 class="head">  wedding bangles</h3>
-    <p class="valueProduct">Rs-10000/-</p>
-       <div class="quantity-btn-container">
-        <button class="btn1" type="button" onclick="ChangeQuantity('dec')">
-            -
-        </button>
-        <span class="quantity">1</span>
-        <button  class="btn2" type="button" onclick="ChangeQuantity('inc')">
-            +
-        </button>
-        <div>
-            <button class="buybtn"><a href="./../order.html"><p class="btn">BUY NOW</p></a></button>
-       </div>
-        </div>
-</div>
-
-<div class="product-bg">
-    <img src="./../Images/image/gold4.png" class="design-img">
-    <h3 class="head">  simple ring</h3>
-    <p class="valueProduct">Rs-40000/-</p>
-       <div class="quantity-btn-container">
-        <button class="btn1" type="button" onclick="ChangeQuantity('dec')">
-            -
-        </button>
-        <span class="quantity">1</span>
-        <button  class="btn2" type="button" onclick="ChangeQuantity('inc')">
-            +
-        </button>
-        <div>
-            <button class="buybtn"><a href="./../order.html"><p class="btn">BUY NOW</p></a></button>
-       </div>
-        </div>
-</div>
-
-<div class="product-bg">
-    <img src="./../Images/image/gold5.avif" class="design-img">
-    <h3 class="head">  gold chain</h3>
-    <p class="valueProduct">Rs-100000/-</p>
-       <div class="quantity-btn-container">
-        <button class="btn1" type="button" onclick="ChangeQuantity('dec')">
-            -
-        </button>
-        <span class="quantity">1</span>
-        <button  class="btn2" type="button" onclick="ChangeQuantity('inc')">
-            +
-        </button>
-        <div>
-            <button class="buybtn"><a href="./../order.html"><p class="btn">BUY NOW</p></a></button>
-       </div>
-        </div>
-</div>
-
-<div class="product-bg">
-    <img src="./../Images/gold6.avif" class="design-img">
-    <h3 class="head"> designer bracelate</h3>
-    <p class="valueProduct">Rs-250000/-</p>
-       <div class="quantity-btn-container">
-        <button class="btn1" type="button" onclick="ChangeQuantity('dec')">
-            -
-        </button>
-        <span class="quantity">1</span>
-        <button  class="btn2" type="button" onclick="ChangeQuantity('inc')">
-            +
-        </button>
-        <div>
-            <button class="buybtn"><a href="./../order.html"><p class="btn">BUY NOW</p></a></button>
-       </div>
-        </div>
-</div>
-
-<div class="product-bg">
-    <img src="./../Images/image/gold7.avif" class="design-img">
-    <h3 class="head">simple bracelate </h3>
-    <p class="valueProduct">Rs-50000/-</p>
-       <div class="quantity-btn-container">
-        <button class="btn1" type="button" onclick="ChangeQuantity('dec')">
-            -
-        </button>
-        <span class="quantity">1</span>
-        <button  class="btn2" type="button" onclick="ChangeQuantity('inc')">
-            +
-        </button>
-        <div>
-            <button class="buybtn"><a href="./../order.html"><p class="btn">BUY NOW</p></a></button>
-       </div>
-        </div>
-</div>
-
-<div class="product-bg">
-    <img src="./../Images/gold8.avif" class="design-img">
-    <h3 class="head">  designer rakhi</h3>
-    <p class="valueProduct">Rs-50000/-</p>
-       <div class="quantity-btn-container">
-        <button class="btn1" type="button" onclick="ChangeQuantity('dec')">
-            -
-        </button>
-        <span class="quantity">1</span>
-        <button  class="btn2" type="button" onclick="ChangeQuantity('inc')">
-            +
-        </button>
-        <div>
-            <button class="buybtn"><a href="./../order.html"><p class="btn">BUY NOW</p></a></button>
-       </div>
-        </div>
-</div>
-
-<div class="product-bg">
-    <img src="./../Images/gold9.jpg" class="design-img">
-    <h3 class="head">  designer ring</h3>
-    
-    <p class="valueProduct">Rs-50000/-</p>
-       <div class="quantity-btn-container">
-        <button class="btn1" type="button" onclick="ChangeQuantity('dec')">
-            -
-        </button>
-        <span class="quantity">1</span>
-        <button  class="btn2" type="button" onclick="ChangeQuantity('inc')">
-            +
-        </button>
-        <div>
-            <button class="buybtn"><a href="./../order.html"><p class="btn">BUY NOW</p></a></button>
-       </div>
-        </div>
-</div>
-
-<div class="product-bg">
-    <img src="./../Images/gold10.jpg" class="design-img">
-    <h3 class="head">pendent set</h3>
-    <p class="valueProduct">Rs-100000/-</p>
-       <div class="quantity-btn-container">
-        <button class="btn1" type="button" onclick="ChangeQuantity('dec')">
-            -
-        </button>
-        <span class="quantity">1</span>
-        <button  class="btn2" type="button" onclick="ChangeQuantity('inc')">
-            +
-        </button>
-        <div>
-            <button class="buybtn"><a href="./../order.html"><p class="btn">BUY NOW</p></a></button>
-       </div>
-        </div>
-</div>
-
-<div class="product-bg">
-    <img src="./../Images/gold11.jpg" class="design-img">
-    <h3 class="head">  designer earings</h3>
-    <p class="valueProduct">Rs-900000/-</p>
-       <div class="quantity-btn-container">
-        <button class="btn1" type="button" onclick="ChangeQuantity('dec')">
-            -
-        </button>
-        <span class="quantity">1</span>
-        <button  class="btn2" type="button" onclick="ChangeQuantity('inc')">
-            +
-        </button>
-        <div>
-            <button class="buybtn"><a href="./../order.html"><p class="btn">BUY NOW</p></a></button>
-       </div>
-        </div>
-</div>
-
-<div class="product-bg">
-    <img src="./../Images/image/gold12.jpg" class="design-img">
-    <h3 class="head"> women chain</h3>
-    <p class="valueProduct">Rs-90000/-</p>
-       <div class="quantity-btn-container">
-        <button class="btn1" type="button" onclick="ChangeQuantity('dec')">
-            -
-        </button>
-        <span class="quantity">1</span>
-        <button  class="btn2" type="button" onclick="ChangeQuantity('inc')">
-            +
-        </button>
-        <div>
-            <button class="buybtn"><a href="./../order.html"><p class="btn">BUY NOW</p></a></button>
-       </div>
-        </div>
-</div>
-
-<div class="product-bg">
-    <img src="./../Images/image/gold13.webp" class="design-img">
-         <h3 class="head">  simple mangalsutra</h3>
-    <p class="valueProduct">Rs-60000/-</p>
-       <div class="quantity-btn-container">
-        <button class="btn1" type="button" onclick="ChangeQuantity('dec')">
-            -
-        </button>
-        <span class="quantity">1</span>
-        <button  class="btn2" type="button" onclick="ChangeQuantity('inc')">
-            +
-        </button>
-        <div>
-            <button class="buybtn"><a href="./../order.html"><p class="btn">BUY NOW</p></a></button>
-       </div>
-        </div>
-</div>
-
-<div class="product-bg">
-    <img src="./../Images/gold14.jpg" class="design-img">
-    <h3 class="head">designer mangalsutra</h3>
-    <p class="valueProduct">Rs-150000/-</p>
-       <div class="quantity-btn-container">
-        <button class="btn1" type="button" onclick="ChangeQuantity('dec')">
-            -
-        </button>
-        <span class="quantity">1</span>
-        <button  class="btn2" type="button" onclick="ChangeQuantity('inc')">
-            +
-        </button>
-        <div>
-            <button class="buybtn"><a href="./../order.html"><p class="btn">BUY NOW</p></a></button>
-       </div>
-        </div>
-</div>
-
-<div class="product-bg">
-    <img src="./../Images/image/gold15.png" class="design-img">
-    <h3 class="head"> wedding set</h3>
-    <p class="valueProduct">Rs-300000/-</p>
-       <div class="quantity-btn-container">
-        <button class="btn1" type="button" onclick="ChangeQuantity('dec')">
-            -
-        </button>
-        <span class="quantity">1</span>
-        <button  class="btn2" type="button" onclick="ChangeQuantity('inc')">
-            +
-        </button>
-        <div>
-            <button class="buybtn"><a href="./../order.html"><p class="btn">BUY NOW</p></a></button>
-       </div>
-        </div>
-</div>
-
-<div class="product-bg">
-    <img src="./../Images/image/gold16.jpeg" class="design-img">
-    <h3 class="head"> bridal set</h3>
-    <p class="valueProduct">Rs-200000/-</p>
-       <div class="quantity-btn-container">
-        <button class="btn1" type="button" onclick="ChangeQuantity('dec')">
-            -
-        </button>
-        <span class="quantity">1</span>
-        <button  class="btn2" type="button" onclick="ChangeQuantity('inc')">
-            +
-        </button>
-        <div>
-            <button class="buybtn"><a href="./../order.html"><p class="btn">BUY NOW</p></a></button>
-       </div>
-        </div>
-</div>
-
-<div class="product-bg">
-    <img src="./../Images/image/gold17.jpeg" class="design-img">
-    <h3 class="head">men's chain</h3>
-    <p class="valueProduct">Rs-90000/-</p>
-       <div class="quantity-btn-container">
-        <button class="btn1" type="button" onclick="ChangeQuantity('dec')">
-            -
-        </button>
-        <span class="quantity">1</span>
-        <button  class="btn2" type="button" onclick="ChangeQuantity('inc')">
-            +
-        </button>
-        <div>
-            <button class="buybtn"><a href="./../order.html"><p class="btn">BUY NOW</p></a></button>
-       </div>
-        </div>
-</div>
-
-<div class="product-bg">
-    <img src="./../Images/image/gold18.jpg" class="design-img">
-    <h3 class="head">men's ring</h3>
-    <p class="valueProduct">Rs-70000/-</p>
-       <div class="quantity-btn-container">
-        <button class="btn1" type="button" onclick="ChangeQuantity('dec')">
-            -
-        </button>
-        <span class="quantity">1</span>
-        <button  class="btn2" type="button" onclick="ChangeQuantity('inc')">
-            +
-        </button>
-        <div>
-            <button class="buybtn"><a href="./../order.html"><p class="btn">BUY NOW</p></a></button>
-       </div>
-        </div>
-</div>
-
-<div class="product-bg">
-    <img src="./../Images/image/gold19.jpg" class="design-img">
-    <h3 class="head">god pendent</h3>
-    <p class="valueProduct">Rs-20000/-</p>
-       <div class="quantity-btn-container">
-        <button class="btn1" type="button" onclick="ChangeQuantity('dec')">
-            -
-        </button>
-        <span class="quantity">1</span>
-        <button  class="btn2" type="button" onclick="ChangeQuantity('inc')">
-            +
-        </button>
-        <div>
-            <button class="buybtn"><a href="./../order.html"><p class="btn">BUY NOW</p></a></button>
-       </div>
-        </div>
-</div>
-
-<div class="product-bg">
-    <img src="./../Images/image/gold20.jpg" class="design-img">
-    <h3 class="head">groom set</h3>
-    <p class="valueProduct">Rs-50000/-</p>
-       <div class="quantity-btn-container">
-        <button class="btn1" type="button" onclick="ChangeQuantity('dec')">
-            -
-        </button>
-        <span class="quantity">1</span>
-        <button  class="btn2" type="button" onclick="ChangeQuantity('inc')">
-            +
-        </button>
-        <div>
-            <button class="buybtn"><a href="./../order.html"><p class="btn">BUY NOW</p></a></button>
-       </div>
-        </div>
-</div>
-
-<div class="product-bg">
-    <img src="./../Images/image/gold21.webp" class="design-img">
-    <h3 class="head">simple mens ring</h3>
-    <p class="valueProduct">Rs-30000/-</p>
-       <div class="quantity-btn-container">
-        <button class="btn1" type="button" onclick="ChangeQuantity('dec')">
-            -
-        </button>
-        <span class="quantity">1</span>
-        <button  class="btn2" type="button" onclick="ChangeQuantity('inc')">
-            +
-        </button>
-        <div>
-            <button class="buybtn"><a href="./../order.html"><p class="btn">BUY NOW</p></a></button>
-       </div>
-        </div>
-</div>
-<footer>
-    <div class="footer-container">
-        <div class="footer-box">
-            <span class="footer-title">Information </span>
-            <span class="footer-info">
-                <img src="./../Images/Logo/jewelary_palace_logo-removebg-preview (1).png" alt="footer logo" class="logo-icon">
-            </span>
-
-            <span class="footer-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatum laboriosam laudantium
-                optio
-                aut eveniet inventore voluptate esse sunt nemo in sint, sequi, ab cupiditate molestias, similique
-                enim
-                neque quod?
-            </span>
-        </div>
-
-        </div>
-       
+        <h3 class="name"><b> Earrings</b></h3>
+        <p class="price">only at.<del>RS.100000</del> RS.50000</p>
+        <div class="buttons">
+            <button class="buy-btn">Buy Now</button>
+            <button class="like-btn" onclick="likeItem(this)">❤️<span>0</span></button>
         </div>
     </div>
-    <div class="copy">Copyright@All rights reserved</div>
-</footer>
+    <div class="product-bg">
+        <img src="./../Images/image/gold3.jpeg" class="design-img">
+        <h3 class="name"><b>Bangles </b></h3>
+        <p class="price">only at.<del>RS.90000</del>RS.80000</p>
+        <div class="buttons">
+            <button class="buy-btn">Buy Now</button>
+            <button class="like-btn" onclick="likeItem(this)">❤️<span>0</span></button>
+            
+        </div>
+    </div>
+    <div class="product-bg">
+        <img src="./../Images/image/gold4.png" class="design-img">
+        <h3 class="name"><b>Simple Ring </b></h3>
+        <p class="price">only at.<del>RS.15000</del>RS.10000</p>
+        <div class="buttons">
+            <button class="buy-btn">Buy Now</button>
+            <button class="like-btn" onclick="likeItem(this)">❤️<span>0</span></button>
+        </div>
+    </div>
+    <div class="product-bg">
+        <img src="./../Images/image/gold5.avif" class="design-img">
+        <h3 class="name"><b>Gold chain</b></h3>
+        <p class="price">only at.<del>RS.65000</del>RS.60000</p>
+        <div class="buttons">
+            <button class="buy-btn">Buy Now</button>
+            <button class="like-btn" onclick="likeItem(this)">❤️ <span>0</span></button>
+        </div>
+    </div>
+    <div class="product-bg">
+        <img src="./../Images/image/gold6.jpg" class="design-img">
+        <h3 class="name"><b>Gold chain </b></h3>
+        <p class="price">only at.<del>RS.65000</del>RS.60000</p>
+        <div class="buttons">
+            <button class="buy-btn">Buy Now</button>
+            <button class="like-btn" onclick="likeItem(this)">❤️ <span>0</span></button>
+        </div>
+    </div>
+    <div class="product-bg">
+        <img src="./../Images/image/gold7.avif" class="design-img">
+        <h3 class="name"><b>Bracelate </b></h3>
+        <p class="price">only at.<del>RS.55000</del>RS.50000</p>
+        <div class="buttons">
+            <button class="buy-btn">Buy Now</button>
+            <button class="like-btn" onclick="likeItem(this)">❤️ <span>0</span></button>
+        </div>
+    </div>
+    <div class="product-bg">
+        <img src="./../Images/gold8.avif" class="design-img">
+        <h3 class="name"><b>Rakhi </b></h3>
+        <p class="price">only at.<del>RS.10000</del>RS.8590</p>
+        <div class="buttons">
+            <button class="buy-btn">Buy Now</button>
+            <button class="like-btn" onclick="likeItem(this)">❤️ <span>0</span></button>
+        </div>
+    </div>
+    <div class="product-bg">
+        <img src="./../Images/gold9.jpg" class="design-img">
+        <h3 class="name"><b>Designer ring</b></h3>
+        <p class="price">only at.<del>RS.10000</del>RS.8000</p>
+        <div class="buttons">
+            <button class="buy-btn">Buy Now</button>
+            <button class="like-btn" onclick="likeItem(this)">❤️ <span>0</span></button>
+        </div>
+    </div>
 
+    <div class="product-bg">
+        <img src="./../Images/gold10.jpg" class="design-img">
+        <h3 class="name"><b>Pendent set </b></h3>
+        <p class="price">only at.<del>RS.100000</del>RS.80000</p>
+        <div class="buttons">
+            <button class="buy-btn">Buy Now</button>
+            <button class="like-btn" onclick="likeItem(this)">❤️ <span>0</span></button>
+        </div>
+    </div>
+
+    <div class="product-bg">
+        <img src="./../Images/image/gold12.jpg" class="design-img">
+        <h3 class="name"><b>Chain </b></h3>
+        <p class="price">only at.<del>RS.16000</del>RS.15000</p>
+        <div class="buttons">
+            <button class="buy-btn">Buy Now</button>
+            <button class="like-btn" onclick="likeItem(this)">❤️ <span>0</span></button>
+        </div>
+    </div>
+
+    <div class="product-bg">
+        <img src="./../Images/image/gold19.jpg" class="design-img">
+        <h3 class="name"><b>Designer chain </b></h3>
+        <p class="price">only at.<del>RS.10000</del>RS.8000</p>
+        <div class="buttons">
+            <button class="buy-btn">Buy Now</button>
+            <button class="like-btn" onclick="likeItem(this)">❤️ <span>0</span></button>
+        </div>
+    </div>
+    <div class="product-bg">
+        <img src="./../Images/image/gold13.webp" class="design-img">
+        <h3 class="name"><b>Mangalsutra</b></h3>
+        <p class="price">only at.<del>RS.10000</del>RS.8000</p>
+        <div class="buttons">
+            <button class="buy-btn">Buy Now</button>
+            <button class="like-btn" onclick="likeItem(this)">❤️ <span>0</span></button>
+        </div>
+    </div>
+    <div class="product-bg">
+        <img src="./../Images/image/gold17.jpeg" class="design-img">
+        <h3 class="name"><b>Mens chain </b></h3>
+        <p class="price">only at.<del>RS.12000</del>RS.10000</p>
+        <div class="buttons">
+            <button class="buy-btn">Buy Now</button>
+            <button class="like-btn" onclick="likeItem(this)">❤️ <span>0</span></button>
+        </div>
+    </div>
+
+    <div class="product-bg">
+        <img src="./../Images/image/gold15.png" class="design-img">
+        <h3 class="name"><b>Bridal set </b></h3>
+        <p class="price">only at.<del>RS.100000</del>RS.90000</p>
+        <div class="buttons">
+            <button class="buy-btn">Buy Now</button>
+            <button class="like-btn" onclick="likeItem(this)">❤️ <span>0</span></button>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-container">
+
+            <div class="footer-box">
+                <span class="footer-title">Information </span>
+                <span class="footer-info">
+                    <img src="./../Images/Logo/jewelary_palace_logo-removebg-preview (1).png" alt="footer logo" class="logo-icon">
+                </span>
+                <span class="footer-info">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatum laboriosam laudantium
+                    optio
+                    aut eveniet inventore voluptate esse sunt nemo in sint, sequi, ab cupiditate molestias, similique
+                    enim
+                    neque quod?
+                </span>
+            </div>
+            <div class="footer-box">
+                <span class="footer-title">Quick Links</span>
+                <span class="footer">
+                    <ul>
+                        <li><a href="./../index.html">Home</a></li>
+                        <li><a href="./../pages/Imitation_Jewellery.html">Simple Jewellery</a></li>
+                        <li><a href="./../pages/silver.html">silver Jewellery</a></li>
+                        <li><a href="./../pages/gold.html">Gold Jewellery</a></li>
+                        <li><a href="./../pages/">Personalised Jewellery</a></li>
+                        <li><a href="./../pages/about.html">About</a></li>
+                        <li><a href="./../pages/">Review</a></li>
+                    </ul>
+                </span>
+            </div>
+            <div class="footer-box">
+                <span class="footer-title">Contact us</span>
+                <div class="footer-add-container">
+                    <span class="footer-address-title">Address : </span><span class="footer-address">205, Shanti
+                        Complex, Above </span>
+                    <span class="footer-address">Shree Swami Samrth College Shirdi,</span>
+                    <span class="footer-address">Nagpur- 441108</span>
+                    <span class="footer-address-title">Mobile No : </span><span class="footer-address">+91
+                        8177976733</span>
+                    <span class="footer-address-title">Email : </span><span
+                        class="footer-address">tusharzade29@gmail.com</span>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="copy">Copyright@All rights reserved</div>
+    </footer> 
+    
+    
+    <script src="./../Javascript/gold.js"></script>
+    
+    
+    
 </body>
-<script src="./../Javascript/gold.js"></script>
 </html>
