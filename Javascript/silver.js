@@ -1,5 +1,14 @@
 function likeItem(button) {
-    let likeCount = button.querySelector('span');
-    let count = parseInt(likeCount.textContent);
-    likeCount.textContent = count + 1;
+    const span = button.querySelector('span');
+    let count = parseInt(span.textContent);
+
+    if (button.classList.contains('liked')) {
+        count--;
+        button.classList.remove('liked');
+    } else {
+        count++;
+        button.classList.add('liked');
+    }
+
+    span.textContent = count;
 }
