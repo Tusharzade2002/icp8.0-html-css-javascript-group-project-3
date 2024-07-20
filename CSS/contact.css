@@ -169,6 +169,13 @@ color:#3d5c5c;
     height: 80px;
     margin: 5px;
 }
+.input-text{
+    height: 50px;
+    width: 650px;
+    font-size: 25px;
+    border: none;
+    margin: 10px 20px;
+}
 
 /* media query */
 @media screen and (max-width: 648px){
