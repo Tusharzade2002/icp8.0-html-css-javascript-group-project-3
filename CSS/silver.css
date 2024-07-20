@@ -64,7 +64,7 @@ main {
 }
 
 .card {
-    background-color:rgb(247, 243, 243);
+    background-color:white;
     border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -72,6 +72,7 @@ main {
     width: 300px;
     text-align: center;
     transition: transform 0.2s;
+    border-radius: 25px;
 }
 
 .card:hover {
@@ -80,7 +81,7 @@ main {
 
 .card img {
     width: 100%;
-    height: auto;
+    height: 60%;
 }
 
 .card h2 {
@@ -89,7 +90,7 @@ main {
 }
 
 .price {
-    color: blue;
+    color: rgb(0, 255, 85);
     font-size: 1em;
 }
 
@@ -126,3 +127,14 @@ button:hover {
     justify-content: row;
     justify-content: space-around;
 }
+
+.buy-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.buy-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
