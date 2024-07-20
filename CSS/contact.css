@@ -156,6 +156,35 @@ color:#3d5c5c;
 .ft{
     color:#3d5c5c;
 }
+.navbar{
+    display: flex;
+    height: 8%;
+    background-color:#f8ecec;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo img{
+    height: 100px;
+    margin: 3px;
+}
+.input-text{
+    height: 50px;
+    width: 650px;
+    font-size: 25px;
+    border: none;
+    margin: 10px 20px;
+}
+.nav-list{
+    display: flex;
+   
+}
+.nav-list img{
+    color: whitesmoke;
+    height: 50px;
+    margin: 20px;
+    cursor: pointer;
+}
 
 /* media query */
 @media screen and (max-width: 648px){
