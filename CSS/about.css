@@ -20,7 +20,7 @@
     border-radius: 25px;
     margin-left: 480px;
 }
-div{
+.preview{
     display: flex;
     justify-content: center;
 }
