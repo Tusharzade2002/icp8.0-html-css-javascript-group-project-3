@@ -28,6 +28,7 @@
 .logo img{
     height: 80px;
     margin: 5px;
+    border: 1px solid black;
 }
 .input-text{
     height: 50px;
@@ -51,7 +52,7 @@
     width: 90px;
     margin: 10px;
     border: 1px solid black;
-    border-radius: 7px;
+    border-radius: 10px;
     cursor: pointer;
     object-fit: cover;
 }
@@ -142,10 +143,7 @@ span {
     margin-left: 0px;
     border-radius: 50% 20%;
 }
-.product{
-    background-color: yellow;
-   border-radius: 90px;
-}
+
 .product-bg {
     background-color: #d2d7db;
     height: 470px;
@@ -156,6 +154,9 @@ span {
     border-radius: 13px;
     border: 1px solid black;
     padding: 5px;
+}
+.product-bg :hover{
+    
 }
 .quality-container{
     display: flex;
