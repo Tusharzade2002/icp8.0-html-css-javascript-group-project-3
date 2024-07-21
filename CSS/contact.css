@@ -124,5 +124,13 @@ button:hover {
     
     
 }
+.footer-box{
+    border-bottom: 2px solid goldenrod;
+    height: 240px;
+    width: 300px;
+    color: black;
+    padding: 20px 10px;
+    text-align: justify;
+}
 
 
