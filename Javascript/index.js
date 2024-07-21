@@ -1,10 +1,15 @@
-let Image=document.getElementById("image-slider");
-let Images=['./../Images/image/Slider 1.webp','./../Images/image/slider2.webp','./../Images/image/slider3.webp','./../Images/image/Slider4.webp'];
-    
-    setInterval(sliderimg, 3000);
-
-   function sliderimg(){
-        let random = Math.floor(Math.random() * 4);
-        // console.log(random);
-        Images.src=Images[random];
+var imgs = document.querySelectorAll('.slider img');
+var dots = document.querySelectorAll('.dot');
+var currentImg = 0; // index of the first image 
+const interval = 3000; // duration(speed) of the slide
+function changeSlide(n) {
+    for (var i = 0; i < imgs.length; i++) { // reset
+      imgs[i].style.opacity = 0;
+      dots[i].className = dots[i].className.replace(' active', '');
     }
+  
+    currentImg = n;
+  
+    imgs[currentImg].style.opacity = 1;
+    dots[currentImg].className += ' active';
+  }

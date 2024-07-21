@@ -28,6 +28,7 @@
 .logo img{
     height: 80px;
     margin: 5px;
+    border: 1px solid black;
 }
 .input-text{
     height: 50px;
@@ -51,7 +52,7 @@
     width: 90px;
     margin: 10px;
     border: 1px solid black;
-    border-radius: 7px;
+    border-radius: 10px;
     cursor: pointer;
     object-fit: cover;
 }
@@ -90,6 +91,7 @@ span {
     border-radius: 90px;
     margin-right: 100px;
 }
+/* 3 small content add */
 .design-container {
     height: auto;
     position: relative;
@@ -123,6 +125,7 @@ span {
     top: -210px;
     font-size: 35px;
 }
+/* director indfo add*/
 .directorinfo {
     margin-top: 50px;
     margin-left: 100px;
@@ -131,6 +134,7 @@ span {
     margin-top: 70px;
     margin-right: 100px;
 }
+/* theme change */
 .dark-mode {
     background-color: black;
     color: whitesmoke;
@@ -142,10 +146,7 @@ span {
     margin-left: 0px;
     border-radius: 50% 20%;
 }
-.product{
-    background-color: yellow;
-   border-radius: 90px;
-}
+
 .product-bg {
     background-color: #d2d7db;
     height: 470px;
@@ -157,12 +158,14 @@ span {
     border: 1px solid black;
     padding: 5px;
 }
+
 .quality-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
 
 }
+/* product images */
 .product-bg img {
     border-radius: 50%;
     margin: 10px;
@@ -187,6 +190,7 @@ span {
     display: flex;
     justify-content: space-evenly;
 }
+/* some imp links */
 .contact-platform{
     height: 200px;
     width: 100%;
@@ -209,6 +213,7 @@ span {
 }
 .font-contact-platform{
     font-size: 20px;
+    
 }
 .contact-form{
     width: 500px;
@@ -221,7 +226,6 @@ span {
 footer{
     background-color: #f8ecec;
     height: 350px;
-    margin-top: 100px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 
 }
@@ -271,6 +275,7 @@ footer{
 .footer-info{
     display: block;
     color: black;
+    font-size: 15px;
 }
 .logo-icon{
     height: 50px;
@@ -327,15 +332,24 @@ footer{
 
 
 @media screen and (min-width: 100px) and (max-width:600px){
+    #main-image{
+        height: 390px;
+        width: 400px;
+        margin: 0;
+        margin-left: 50px;
+    }
+    .preview{
+        flex-wrap: wrap;
+    }
         .main-img{
-            width: 550px;
+            width: 500px;
             height: 500px;
             flex-wrap: wrap;
             margin: 0;
         }
         .main-info{
-            margin-top: 500px;
-            margin-left: -530px;
+            margin-top: 30px;
+            margin-left: 10px;
             line-height: normal;
             list-style: none;
 
@@ -363,6 +377,79 @@ footer{
         }
         .design-img{
             margin-left: 50px;
+        }
+        .section{
+            flex-wrap: wrap;
+        }
+        .directorinfo{
+            margin: 0;
+
+            flex-wrap: wrap;
+        }
+        .contact-platform{
+            flex-wrap: wrap;
+        }
+}
+@media screen and (min-width : 601px) and (max-width: 768px) {
+    #main-image{
+        height: 420px;
+        width: 600px;
+        margin: 0;
+        margin-left: 50px;
+    }
+    .preview{
+        flex-wrap: wrap;
+    }
+        .main-img{
+            width: 600px;
+            height: 500px;
+            flex-wrap: wrap;
+            margin-left: 50px;
+        }
+        .main-info{
+            margin-top: 30px;
+            margin-left: 30px;
+            line-height: normal;
+            list-style: none;
+
+        }
+        .design-img{
+            margin: 0;
+            padding: 0;
+        }
+        .first{
+            padding: 0;
+            margin-left: -100px;
+        }
+        .design-container{
+            flex-wrap: wrap;
+        }
+       .one{
+        left: 80px;
+        top: -190px;
+
+       }
+        .two{
+            left: 390px;
+            top: -190px;
+        }
+        .three{
+            left: 0px;
+            top: 120px;
+        }
+        .design-img{
+            margin-left: 50px;
+        }
+        .section{
+            flex-wrap: wrap;
+        }
+        .directorinfo{
+            margin-left: 30px;
+
+            flex-wrap: wrap;
+        }
+        .contact-platform{
+            flex-wrap: wrap;
         }
 }
 
