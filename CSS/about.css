@@ -95,7 +95,6 @@ span {
 }
 /* 3 small content add */
 .design-container {
-
     display: inline;
 }
 .one {
@@ -103,24 +102,30 @@ span {
     height: 100px;
     width: 200px;
     background-color: gray;
+    margin-left: 100px;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 30px;
     font-size: 35px;
 }
 .two {
     position: absolute;
-  
+  margin-left: 600px;
     font-size: 34px;
 }
 .three {
     position: absolute;
     font-size: 35px;
+    margin-left: 1100px;
 }
 /* director indfo add*/
 .directorinfo {
-    margin-top: 50px;
+    margin-top: 200px;
     margin-left: 100px;
 }
 .directorimg {
-    margin-top: 70px;
+    margin-top: 200px;
     margin-right: 100px;
 }
 /* theme change */
