@@ -102,3 +102,6 @@ button:hover {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     cursor: pointer;
 }
+.add{
+    text-align: center;
+}
