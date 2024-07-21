@@ -115,6 +115,14 @@ button:hover {
     padding-bottom: 20px;
     display: block;
 }
-
+.footer-info{
+    display: block;
+}
+.logo-icon{
+    height: 50px;
+    width: 50px;
+    
+    
+}
 
 
