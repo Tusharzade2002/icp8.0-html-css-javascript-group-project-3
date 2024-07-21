@@ -2,6 +2,16 @@ body{
 
     background-color: #F5F5F5;
 }
+.dark-mode {
+    background-color: black;
+    color: whitesmoke;
+}
+.btn-toggle {
+    cursor: pointer;
+    background-color: none;
+    background-color: transparent;
+    border: none;
+}
 .navbar{
     display: flex;
     height: 8%;
