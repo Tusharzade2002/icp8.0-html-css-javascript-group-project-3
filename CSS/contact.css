@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 
 body{
-    background-color:#f0f5f5;
+    background-color:white;
 }
 .pr{
     margin: 10px 22px ;  
@@ -30,13 +30,13 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: #3d5c5c;
+    color: black;
    
    
 } 
 .contactinfo{
     font-family: 'Lora', serif;
-    color: #334d4d;
+    color: black;
 }
 .Contact .content h2
 {
@@ -44,7 +44,7 @@ text-align: center;
 font-family: 'EB Garamond', serif;
 font-size: 44px;
 margin-top: -40px;
-color:#3d5c5c;
+color:black;
 }
 .Contact .content p
 {
@@ -52,7 +52,7 @@ color:#3d5c5c;
     font-size: 18px;
     font-family: 'Lora', serif;
     margin-top: 10px;
-    color:#3d5c5c;  
+    color:black;  
 }
 .Contact .content
 {
@@ -77,22 +77,22 @@ color:#3d5c5c;
 }
 .nm-txt{
     font-size: 20px;
-    color: #3d5c5c;
+    color: black;
 }
 .mp{
     text-decoration: none;
     font-family: 'Lora', serif;
-    color: #3d5c5c;   
+    color: blue;   
 }
 .cnt{
     text-decoration: none;
     font-family: 'Lora', serif;
-    color: #3d5c5c;
+    color: blue;
 }
 .ml{
     text-decoration: none;
     font-family: 'Lora', serif;
-    color: #3d5c5c;
+    color: blue;
     
 }
 .fo{
@@ -112,7 +112,7 @@ color:#3d5c5c;
     margin-top: 50px;
 }
 .btn:hover{
-    background-color:#a3c2c2;
+    background-color:black;
     border:2px solid #85adad;
     transition:1.5s;
     border-radius:10px;
@@ -144,20 +144,21 @@ color:#3d5c5c;
 {
    
     width: 40%;
-    background-color:#b3cccc;
+    background-color:white;
     min-height: 500px;
     padding: 60px;
     border: 3px solid #3e2922;
-    color: #3e2922;
+    color: black;
 }
 .f{
-    color:#3d5c5c;
+    color:white;
 }
 .ft{
-    color:#3d5c5c;
+    color:white;
 }
 .navbar{
     display: flex;
+ 
     height: 8%;
     background-color:#f8ecec;
     padding: 20px;
@@ -165,12 +166,12 @@ color:#3d5c5c;
     align-items: center;
 }
 .logo img{
-    height: 100px;
-    margin: 3px;
+    height: 80px;
+    margin: 5px;
 }
 .input-text{
     height: 50px;
-    width: 650px;
+    width: 550px;
     font-size: 25px;
     border: none;
     margin: 10px 20px;
@@ -180,10 +181,131 @@ color:#3d5c5c;
    
 }
 .nav-list img{
-    color: whitesmoke;
+    color: rgb(236, 174, 17);
     height: 50px;
     margin: 20px;
     cursor: pointer;
+}
+.main-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+}
+.main-section a{
+    text-decoration: none;
+    color: black;
+}
+.main-section p{
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #f8ecec;
+    height: 350px;
+    margin-top: 100px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.footer-container{
+    display:flex;
+    justify-content: space-around;
+    color: black;
+}
+.footer-box{
+    border-bottom: 2px solid goldenrod;
+    height: 240px;
+    width: 300px;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: justify;
+    
+}
+
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+}
+
+.footer ul li {
+    flex: 1;
+    text-align: start;
+
+}
+
+.footer ul li a {
+    display: block;
+    color: #fbf8f8;
+    text-decoration: none;
+    padding: 6px 20px;
+    font-size: 15px;
+    color: black;
+}
+
+.footer ul li a:hover {
+    color: rgb(204, 116, 15);;
+}
+.footer-info{
+    display: block;
+    color: black;
+}
+.logo-icon{
+    height: 50px;
+   
+   
+}
+.footer-info:hover{
+    color:rgb(204, 116, 15);
+    cursor: pointer;
+}
+.footer-title{
+    font-size: 20px ;
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 20px;
+    display: block;
+    color: black;
+}
+.footer li{
+    color: black;
+}
+.footer-title:hover{
+    color: rgb(204, 116, 15);;
+    cursor: pointer;
+}
+.footer-address{
+    display: block;
+    color: #fbf8f8;
+    font-size: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 50px;
+    color: black;
+}
+.footer-address:hover{
+    color:  rgb(204, 116, 15);
+    cursor: pointer;
+}
+.footer-address-title{
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+}
+.footer-address-title:hover{
+    color: rgb(204, 116, 15);
+    cursor: pointer;
+}
+.copy{
+    text-align: center;
+    margin: 5px;
 }
 
 /* media query */
