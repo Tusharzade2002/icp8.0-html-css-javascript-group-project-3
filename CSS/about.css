@@ -91,6 +91,7 @@ span {
     border-radius: 90px;
     margin-right: 100px;
 }
+/* 3 small content add */
 .design-container {
     height: auto;
     position: relative;
@@ -124,6 +125,7 @@ span {
     top: -210px;
     font-size: 35px;
 }
+/* director indfo add*/
 .directorinfo {
     margin-top: 50px;
     margin-left: 100px;
@@ -132,6 +134,7 @@ span {
     margin-top: 70px;
     margin-right: 100px;
 }
+/* theme change */
 .dark-mode {
     background-color: black;
     color: whitesmoke;
