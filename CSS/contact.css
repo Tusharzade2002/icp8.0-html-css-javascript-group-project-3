@@ -58,5 +58,9 @@ button:hover {
     position: relative;
     top: 32px;
 }
+.logo img{
+    height: 80px;
+    margin: 5px;
+}
 
 
