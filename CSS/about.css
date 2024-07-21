@@ -162,6 +162,7 @@ span {
     align-items: center;
 
 }
+/* product images */
 .product-bg img {
     border-radius: 50%;
     margin: 10px;
@@ -186,6 +187,7 @@ span {
     display: flex;
     justify-content: space-evenly;
 }
+/* some imp links */
 .contact-platform{
     height: 200px;
     width: 100%;
