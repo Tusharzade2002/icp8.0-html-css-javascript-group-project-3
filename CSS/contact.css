@@ -433,3 +433,14 @@ footer{
 
 }
 
+.dark-mode {
+    background-color: black;
+    color: whitesmoke;
+}
+.btn-toggle {
+    cursor: pointer;
+    background-color: none;
+    background-color: transparent;
+    border: none;
+}
+    
