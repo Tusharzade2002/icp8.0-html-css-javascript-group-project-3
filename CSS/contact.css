@@ -62,5 +62,29 @@ button:hover {
     height: 80px;
     margin: 5px;
 }
-
-
+.input-text{
+    height: 50px;
+    width: 550px;
+    font-size: 25px;
+    border: none;
+    margin: 10px 20px;
+}
+.nav-list{
+    display: flex;
+   
+}
+.nav-list img{
+    color: rgb(236, 174, 17);
+    height: 50px;
+    margin: 20px;
+    cursor: pointer;
+}
+.navbar{
+    display: flex;
+ 
+    height: 8%;
+    background-color:#f8ecec;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
