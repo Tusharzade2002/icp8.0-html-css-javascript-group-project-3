@@ -210,6 +210,9 @@ footer{
     color:  rgb(204, 116, 15);
     cursor: pointer;
 }
+.pg{
+    color: black;
+}
 
 
 @media screen and (max-width:768px){
