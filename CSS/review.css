@@ -36,7 +36,7 @@
     font-size: 24px; 
 }
 
-
+/* navbar */
 .navbar{
     display: flex;
  
@@ -83,7 +83,7 @@
 }
 
 
-
+/* footer */
 
 .copy {
     padding-top: 50px;
