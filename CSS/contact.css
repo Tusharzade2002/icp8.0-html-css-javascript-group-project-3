@@ -108,6 +108,13 @@ button:hover {
 .header{
     text-align: center;
 }
+.footer-title{
+    font-size: 14px ;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 20px;
+    display: block;
+}
 
 
 
