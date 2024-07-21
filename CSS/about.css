@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+/*navbar*/
 .navbar{
     display: flex;
  
@@ -47,6 +48,7 @@
     margin: 20px;
     cursor: pointer;
 }
+/* preview */
 .small-img{
     height: 90px;
     width: 90px;
@@ -241,7 +243,6 @@ footer{
     color: #fff;
     padding: 20px 10px;
     text-align: justify;
-    
 }
 
 .footer ul {
@@ -251,13 +252,11 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: left;
-
 }
 
 .footer ul li {
     flex: 1;
     text-align: start;
-
 }
 
 .footer ul li a {
@@ -279,8 +278,6 @@ footer{
 }
 .logo-icon{
     height: 50px;
-   
-   
 }
 .footer-info:hover{
     color:rgb(204, 116, 15);
@@ -330,7 +327,7 @@ footer{
     margin: 5px;
 }
 
-
+/* small device */
 @media screen and (min-width: 100px) and (max-width:600px){
     #main-image{
         height: 390px;
@@ -390,6 +387,7 @@ footer{
             flex-wrap: wrap;
         }
 }
+/* normal device */
 @media screen and (min-width : 601px) and (max-width: 768px) {
     #main-image{
         height: 420px;
