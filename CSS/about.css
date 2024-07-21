@@ -95,14 +95,27 @@ span {
 }
 /* 3 small content add */
 .design-container {
+    height: auto;
+    position: relative;
+    width: 500px;
     display: inline;
+    margin: 100px;
 }
+.design-img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 90px;
+    height: 300px;
+    width: 250px;
+    border-radius: 60px;
+}
+
 .one {
     position: absolute;
     height: 100px;
     width: 200px;
     background-color: #d2d7db;
-    margin-left: 150px;
+    margin-left: 100px;
     margin-top: 30px;
     text-align: center;
     border-radius: 50%;
@@ -110,19 +123,20 @@ span {
     padding: 30px;
     font-size: 35px;
 }
-.two {
-    position: absolute;
-    height: 100px;
-    width: 200px;
-    background-color: #d2d7db;
-    margin-left: 630px;
-    margin-top: 30px;
-    text-align: center;
-    border-radius: 50%;
-    border: 1px solid black;
-    padding: 30px;
-    font-size: 35px;
-}
+
+    .two {
+        position: absolute;
+        height: 100px;
+        width: 200px;
+        background-color: #d2d7db;
+        margin-left: 600px;
+        margin-top: 30px;
+        text-align: center;
+        border-radius: 90px;
+        border: 1px solid black;
+        padding: 30px;
+        font-size: 35px;
+    }
 .three {
     position: absolute;
     height: 100px;
@@ -131,9 +145,8 @@ span {
     margin-left: 1100px;
     margin-top: 30px;
     text-align: center;
-    border-radius: 50%;
+    border-radius: 50px;
     border: 1px solid black;
-
     padding: 30px;
     font-size: 35px;
 }
