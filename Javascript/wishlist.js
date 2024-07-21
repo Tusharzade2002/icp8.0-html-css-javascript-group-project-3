@@ -73,4 +73,4 @@ document.addEventListener('DOMContentLoaded', function() {
   } else {
       alert('LocalStorage is not supported in your browser.');
   }
-});
+});  
