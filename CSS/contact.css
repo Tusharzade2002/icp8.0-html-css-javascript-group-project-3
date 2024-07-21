@@ -308,6 +308,17 @@ footer{
     margin: 5px;
 }
 
+.dark-mode {
+    background-color: black;
+    color: whitesmoke;
+}
+.btn-toggle {
+    cursor: pointer;
+    background-color: none;
+    background-color: transparent;
+    border: none;
+}
+
 /* media query */
 @media screen and (max-width: 648px){
     .container{
