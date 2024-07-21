@@ -25,4 +25,4 @@ function likeItem(button){
       function modes(){
           let element = document.body;
           element.classList.toggle("dark-mode");
-      }
+      } 
