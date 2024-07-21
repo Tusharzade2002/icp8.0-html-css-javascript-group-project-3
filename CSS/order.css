@@ -74,12 +74,12 @@ th, td {
 }
 th {
     background-color: #f2f2f2;
-}.
+}
 
 /* navbar */
-
 .navbar{
     display: flex;
+ 
     height: 8%;
     background-color:#f8ecec;
     padding: 20px;
@@ -346,5 +346,4 @@ footer{
         cursor: pointer;
     }
 }
-
 
