@@ -651,7 +651,6 @@ footer{
             margin-left: 30px;
             line-height: normal;
             list-style: none;
-
         }
         .design-img{
             margin: 0;
@@ -665,17 +664,17 @@ footer{
             flex-wrap: wrap;
         }
        .one{
-        left: 80px;
-        top: -190px;
+        left: 0px;
+        top: 0px;
 
        }
         .two{
-            left: 390px;
-            top: -190px;
+            left: -500px;
+            top: 200px;
         }
         .three{
-            left: 0px;
-            top: 120px;
+            left: -1000px;
+            top: 400px;
         }
         .design-img{
             margin-left: 50px;
@@ -685,7 +684,7 @@ footer{
         }
         .directorinfo{
             margin-left: 30px;
-
+            margin-top: 600px;
             flex-wrap: wrap;
         }
         .contact-platform{
