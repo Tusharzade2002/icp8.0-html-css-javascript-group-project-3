@@ -5,6 +5,7 @@ body{
 
 .navbar{
     display: flex;
+ 
     height: 8%;
     background-color:#f8ecec;
     padding: 20px;
@@ -17,7 +18,7 @@ body{
 }
 .input-text{
     height: 50px;
-    width: 650px;
+    width: 550px;
     font-size: 25px;
     border: none;
     margin: 10px 20px;
@@ -27,7 +28,7 @@ body{
    
 }
 .nav-list img{
-    color: whitesmoke;
+    color: rgb(236, 174, 17);
     height: 50px;
     margin: 20px;
     cursor: pointer;
@@ -136,3 +137,109 @@ body{
         text-align:center;
 
       }
+      footer{
+        background-color: #f8ecec;
+        height: 350px;
+        margin-top: 100px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    }
+    .footer-container{
+        display:flex;
+        justify-content: space-around;
+        color: black;
+    }
+    .footer-box{
+        border-bottom: 2px solid goldenrod;
+        height: 240px;
+        width: 300px;
+        color: #fff;
+        padding: 20px 10px;
+        text-align: justify;
+        
+    }
+    
+    .footer ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 3;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    
+    }
+    
+    .footer ul li {
+        flex: 1;
+        text-align: start;
+    
+    }
+    
+    .footer ul li a {
+        display: block;
+        color: #fbf8f8;
+        text-decoration: none;
+        padding: 6px 20px;
+        font-size: 15px;
+        color: black;
+    }
+    
+    .footer ul li a:hover {
+        color: rgb(204, 116, 15);;
+    }
+    .footer-info{
+        display: block;
+        color: black;
+    }
+    .logo-icon{
+        height: 50px;
+       
+       
+    }
+    .footer-info:hover{
+        color:rgb(204, 116, 15);
+        cursor: pointer;
+    }
+    .footer-title{
+        font-size: 20px ;
+        font-weight: bold;
+        color: #fff;
+        padding-bottom: 20px;
+        display: block;
+        color: black;
+    }
+    .footer li{
+        color: black;
+    }
+    .footer-title:hover{
+        color: rgb(204, 116, 15);;
+        cursor: pointer;
+    }
+    .footer-address{
+        display: block;
+        color: #fbf8f8;
+        font-size: 15px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 50px;
+        color: black;
+    }
+    .footer-address:hover{
+        color:  rgb(204, 116, 15);
+        cursor: pointer;
+    }
+    .footer-address-title{
+        display: block;
+        color: #fff;
+        font-weight: bold;
+        font-size: 17px;
+        color: black;
+    }
+    .footer-address-title:hover{
+        color: rgb(204, 116, 15);
+        cursor: pointer;
+    }
+    .copy{
+        text-align: center;
+        margin: 5px;
+    }
