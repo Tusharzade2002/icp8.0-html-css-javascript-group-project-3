@@ -95,36 +95,23 @@ span {
 }
 /* 3 small content add */
 .design-container {
-    height: auto;
-    position: relative;
-    width: 500px;
+
     display: inline;
-    margin: 100px;
-}
-.design-img {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 90px;
-    height: 300px;
-    width: 250px;
-    border-radius: 60px;
 }
 .one {
     position: absolute;
-    left: 120px;
-    top: -210px;
+    height: 100px;
+    width: 200px;
+    background-color: gray;
     font-size: 35px;
 }
 .two {
     position: absolute;
-    left: 460px;
-    top: -210px;
+  
     font-size: 34px;
 }
 .three {
     position: absolute;
-    left: 805px;
-    top: -210px;
     font-size: 35px;
 }
 /* director indfo add*/
