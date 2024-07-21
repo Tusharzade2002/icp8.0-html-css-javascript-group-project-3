@@ -13,3 +13,7 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
     
     alert('Form submitted successfully!');
 });
+function modes(){
+    let element = document.body;
+    element.classList.toggle("dark-mode");
+}
