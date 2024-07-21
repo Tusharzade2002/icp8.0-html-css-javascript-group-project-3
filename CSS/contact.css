@@ -88,3 +88,17 @@ button:hover {
     justify-content: space-around;
     align-items: center;
 }
+.main-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+}
+.main-section a{
+    text-decoration: none;
+    color: black;
+}
+.main-section p{
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
