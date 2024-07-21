@@ -1,15 +1,29 @@
-var imgs = document.querySelectorAll('.slider img');
-var dots = document.querySelectorAll('.dot');
-var currentImg = 0; // index of the first image 
-const interval = 3000; // duration(speed) of the slide
-function changeSlide(n) {
-    for (var i = 0; i < imgs.length; i++) { // reset
-      imgs[i].style.opacity = 0;
-      dots[i].className = dots[i].className.replace(' active', '');
-    }
-  
-    currentImg = n;
-  
-    imgs[currentImg].style.opacity = 1;
-    dots[currentImg].className += ' active';
+let slideIndex = 0;
+const totalSlides = 3; // Number of slides
+
+function showSlide(index) {
+  const slider = document.getElementById('slider');
+  const slideWidth = document.getElementById('slide1').clientWidth;
+  slider.style.transform = `translateX(${-index * slideWidth}px)`;
+}
+
+function nextSlide() {
+  slideIndex++;
+  if (slideIndex >= totalSlides) {
+    slideIndex = 0;
   }
+  showSlide(slideIndex);
+}
+
+function prevSlide() {
+  slideIndex--;
+  if (slideIndex < 0) {
+    slideIndex = totalSlides - 1;
+  }
+  showSlide(slideIndex);
+}
+
+// Automatic slide change (optional)
+setInterval(() => {
+  nextSlide();
+}, 3000); 
