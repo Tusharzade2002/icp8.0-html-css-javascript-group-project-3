@@ -1,6 +1,7 @@
 
         body{
             background-color: aliceblue;
+            padding-left: 3px;
         }
          .product-bg {
             background-color: rgb(207, 203, 203);
@@ -37,27 +38,41 @@
             background-color: #333;
             color: black;
             border: none;
-            padding: 10px;
             cursor: pointer;
             transition: background-color 0.2s;
         }
-        button:hover {
-        background-color: #555;
+        
+        .buttons a {
+            text-decoration: none; /* Remove underline from anchor tags inside .buttons */
         }
+        
+        button:hover {
+            background-color: #555;
+        }
+        
         .buy-btn {
             flex: 1;
             margin-right: 5px;
             background-color: #007bff;
-            color: white;
+            color: white; /* Set text color for better visibility */
+            border: none;
+            padding: 1px;
+            cursor: pointer;
+            transition: background-color 0.2s;
         }
+        
         .buy-btn:hover {
             background-color: #0056b3;
             transform: scale(1.05);
         }
+        
         .like-btn {
             flex: 1;
             margin-left: 5px;
+            text-decoration: none; 
         }
+        
+
 
         .navbar{
             display: flex;
@@ -217,7 +232,7 @@
             margin: 5px;
         }
         .product-bg {
-            background-color:	#acaca4;
+            background-color:	#d2d7db;
             height: 470px;
             width: 290px;
             float: left;
@@ -329,6 +344,28 @@
         .name{
             text-align: center;
         }
+    
+    .dark-mode {
+      background-color:#ffcccc;
+      color: whitesmoke;
+  }
+  .btn-toggle {
+      cursor: pointer;
+      background-color: none;
+      background-color: transparent;
+     border:none;
+  }
+  .btn{
+        color: white;
+        
+        }  
+        .name{
+            text-decoration: none;
+            color: black;
+        }
+        
+    
+  
         /* slider */
          .image-slider{
               display: none;
@@ -341,6 +378,7 @@
         .image-slider img{
             width: 100%;
         }
+        
         
         /* Small device */
         @media screen and (max-width: 600px)  {
