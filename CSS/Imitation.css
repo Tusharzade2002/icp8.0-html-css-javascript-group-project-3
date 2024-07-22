@@ -6,13 +6,14 @@ body{
     display: flex;
     height: 8%;
     background-color:#f8ecec;
-    padding: 20px;
+    
     justify-content: space-around;
     align-items: center;
 }
 .logo img{
     height: 80px;
     margin: 5px;
+    background-color: rgb(101, 65, 65);
 }
 .input-text{
     height: 50px;
@@ -20,6 +21,16 @@ body{
     font-size: 25px;
     border: none;
     margin: 10px 20px;
+}
+.dark-mode {
+    background-color: black;
+    color: whitesmoke;
+}
+.btn-toggle {
+    cursor: pointer;
+    background-color: none;
+    background-color: transparent;
+    border: none;
 }
 .nav-list{
     display: flex;
