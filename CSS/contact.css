@@ -63,7 +63,6 @@ button:hover {
 }
 .pr{
     margin: 10px 22px ;  
-    color: rgb(43, 25, 209);
     font-size: 22px;
     font-family: 'Lora', serif;
     position: relative;
@@ -118,6 +117,7 @@ button:hover {
 }
 .header{
     text-align: center;
+    margin-top: 50px;
 }
 .footer-title{
     font-size: 14px ;
