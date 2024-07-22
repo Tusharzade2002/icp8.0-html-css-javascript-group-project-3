@@ -49,6 +49,7 @@ body{
     font-size: large;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     cursor: pointer;
+    color: black;
 }
 
 #image-slider{
@@ -70,6 +71,8 @@ body{
 }
 .shop-by-category-images{
     padding: 20px 40px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .shop-by-category-images img{
     margin: 55px;
@@ -320,7 +323,7 @@ footer{
                 width: 200px;
             
             }
-            .shop-by-category{
+            /* .shop-by-category{
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -339,7 +342,7 @@ footer{
             .shop-by-category-images img{
                 margin: 5px;
                 cursor: pointer;
-            }
+            } */
             .nav-list img {
                 color: rgb(236, 174, 17);
                 height: 20px;
@@ -389,13 +392,13 @@ footer{
     }
   }
   @media screen and (min-width: 400px) and (max-width: 815px){
-          .shop-by-category{
+          /* .shop-by-category{
              display: block;
              margin: auto;
           }
           .shop-by-category-images img{
             width: auto;
-          }
+          } */
           .logo img{
             height: 40px;
             margin: 5px;
@@ -690,7 +693,7 @@ footer{
         margin: 0px ;
       
     } */
-    .shop-by-category-images{
+    /* .shop-by-category-images{
         padding: 15px 30px;
     }
     .shop-by{
@@ -700,7 +703,7 @@ footer{
     .category{
           text-align: center;
           font-size: 25px;
-    }
+    } */
 
  }
 
@@ -744,7 +747,7 @@ footer{
         margin: 0px auto;
       
     }
-    .shop-by-category-images{
+    /* .shop-by-category-images{
         padding: 15px 30px;
     }
     .shop-by{
@@ -754,7 +757,7 @@ footer{
     .category{
           text-align: center;
           font-size: 35px;
-    }
+    } */
 }
 
 @media screen and (min-width: 993px) and (max-width: 1200px) {
@@ -765,7 +768,25 @@ footer{
         border: none;
         margin: 10px 20px;
     }
-    .shop-by-category{
+}
+    /* .shop-by-category{
         display: block;
              }
+} */
+
+
+.btn-toggle {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+.dark-mode {
+    background-color: rgb(36, 33, 33);
+    color: white;
+}
+.main-section {
+    color: white;
+}
+.dark-section p{
+    color: white;
 }
