@@ -35,7 +35,7 @@
     height: 50px;
     width: 650px;
     font-size: 25px;
-    border: none;
+    border: 1px solid black;
     margin: 10px 20px;
 }
 .nav-list{

@@ -69,13 +69,29 @@ button:hover {
     position: relative;
     top: 32px;
 }
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 8%;
+    background-color:#f8ecec;
+    padding: 0px;
+    justify-content: space-around;
+    align-items: center;
+}
 .logo img{
-    height: 80px;
+    height: 70px;
     margin: 5px;
+    background-color:rgb(101, 65, 65);
+    padding: 5px;
 }
 .input-text{
     height: 50px;
-    width: 500px;
+    width: 550px;
     font-size: 25px;
     border: none;
     margin: 10px 20px;
@@ -87,17 +103,8 @@ button:hover {
 .nav-list img{
     color: rgb(236, 174, 17);
     height: 50px;
-    margin: 20px;
+    margin: 15px;
     cursor: pointer;
-}
-.navbar{
-    display: flex;
- 
-    height: 8%;
-    background-color:#f8ecec;
-    padding: 20px;
-    justify-content: space-around;
-    align-items: center;
 }
 .main-section{
     display: flex;
@@ -237,6 +244,18 @@ footer{
     flex-direction: row;
     margin-left: 70px;
 }
+
+.dark-mode {
+    background-color:#b0aaad;
+    color: whitesmoke;
+}
+.btn-toggle {
+    cursor: pointer;
+    background-color: none;
+    background-color: transparent;
+   border:none;
+}
+
 @media screen and (max-width:768px){
     .copy {
         padding-top: 25px;
@@ -377,6 +396,7 @@ footer{
 .Contact .content h2{
         margin-top: -20px;
     }
+
     /* media query */
 @media screen and (max-width: 648px){
     .container{
@@ -455,14 +475,3 @@ footer{
 
 }
 
-.dark-mode {
-    background-color: black;
-    color: whitesmoke;
-}
-.btn-toggle {
-    cursor: pointer;
-    background-color: none;
-    background-color: transparent;
-    border: none;
-}
-    

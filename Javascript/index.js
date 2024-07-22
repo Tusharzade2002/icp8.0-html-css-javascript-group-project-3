@@ -27,3 +27,10 @@ function prevSlide() {
 setInterval(() => {
   nextSlide();
 }, 3000); 
+
+
+function modes(){
+  let element = document.body;
+  element.classList.toggle("dark-mode");
+  element.classList.toggle("dark-section p")
+}
