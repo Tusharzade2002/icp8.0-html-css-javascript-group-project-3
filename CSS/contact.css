@@ -4,12 +4,10 @@
 .roboto-condensed{
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
   }
 body {
-    font-family: Arial, sans-serif;
-    background-color: #F5F5F5;
+    background-color: white;
     margin: 0;
     padding: 0;
 }
@@ -25,6 +23,7 @@ body {
 }
 .map{
     margin-top: 20px;
+    
 }
 h1 {
     text-align: center;
