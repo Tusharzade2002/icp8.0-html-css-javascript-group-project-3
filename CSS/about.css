@@ -90,7 +90,8 @@ span {
 .main-img {
     height: 450px;
     margin: 0;
-    border-radius: 90px;
+    border-radius: 25px;
+    border: 1px solid black;
     margin-right: 100px;
 }
 /* 3 small content add */
@@ -166,7 +167,6 @@ span {
 }
 .btn-toggle {
     cursor: pointer;
-    background-color: none;
     background-color: transparent;
     border: none;
 }
@@ -653,9 +653,8 @@ footer{
     }
     #main-image{
         height: 390px;
-        width: 400px;
-        margin: 0;
-        margin-left: 50px;
+        width: 500px;
+        margin-left: 30px;
     }
     .preview{
         flex-wrap: wrap;
@@ -664,7 +663,8 @@ footer{
             width: 500px;
             height: 500px;
             flex-wrap: wrap;
-            margin: 0;
+            border: 1px solid black;
+            margin: 30px;
         }
         .main-info{
             margin-top: 30px;
