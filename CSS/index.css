@@ -358,6 +358,9 @@ footer{
              display: block;
              margin: auto;
           }
+          .shop-by-category-images img{
+            width: auto;
+          }
   }
 
   /* Tablet Devices */
