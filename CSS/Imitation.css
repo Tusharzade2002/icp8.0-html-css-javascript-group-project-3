@@ -1,0 +1,136 @@
+body{
+
+    background-color: #F5F5F5;
+}
+
+.navbar{
+    display: flex;
+    height: 8%;
+    background-color:#f8ecec;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo img{
+    height: 80px;
+    margin: 5px;
+}
+.input-text{
+    height: 50px;
+    width: 650px;
+    font-size: 25px;
+    border: none;
+    margin: 10px 20px;
+}
+.nav-list{
+    display: flex;
+   
+}
+.nav-list img{
+    color: whitesmoke;
+    height: 50px;
+    margin: 20px;
+    cursor: pointer;
+}
+.main-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+}
+.main-section a{
+    text-decoration: none;
+    color: black;
+}
+.main-section p{
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+.product-container
+{
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    width: 100%;
+    background-color: #F5F5F5;
+    align-items: center;
+}
+
+.product-card
+{
+    width: 230px;
+    height: 380px;
+    border: 1px solid black;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10px;
+    background-color: #d2d7db;
+  
+}
+.product-img
+{
+    border-radius: 50%;
+    margin: 10px 40px;
+    padding: 10px;
+    height: 200px;
+    width: 150px;
+    align-items: center;
+    
+}
+.btn-buy-now
+{
+    display: block;
+    margin: 10px auto;
+    font-size:20px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.btn-quantity
+{
+    height: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.qun-btn-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.quantity-text
+{
+    font-size: 30px;
+    margin-left: 5px;
+}
+.img{
+    height: 300px;
+    width: 100%;
+
+}
+
+.container {
+        position: relative;
+        text-align: center;
+        color: black;
+    }
+.head-text {
+        position: absolute;
+        top: 50%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+      }
+      .product-name
+      {
+        font-size: larger;
+        text-align: center;
+
+      }
+      .product-price
+      {
+        font-size: larger;
+        text-align:center;
+
+      }
