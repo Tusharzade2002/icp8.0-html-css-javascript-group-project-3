@@ -95,14 +95,33 @@ body{
     right:5px;
     top:5px;
 }
-.bg-dark{
+/* .bg-dark{
     background-color: #dcd7d7;
     color:#fff;
 }
 .bg-light{
     background-color: #ccd9ff;
     color: #000;
-}
+} */
+
+.dark-mode {
+    background-color:#b0aaad;
+    color: whitesmoke;
+    }
+    .btn-toggle {
+    cursor: pointer;
+    background-color: none;
+    background-color: transparent;
+    border:none;
+    }
+    .btn{
+    color: white;
+    
+    }  
+    .name{
+        text-decoration: none;
+        color: black;
+    }
 
 footer{
     background-color: #f8ecec;
@@ -327,6 +346,5 @@ footer{
         cursor: pointer;
     }
 }
-
 
 
