@@ -29,6 +29,7 @@
 .logo img{
     height: 80px;
     margin: 5px;
+    background-color:rgb(101, 65, 65);
     border: 1px solid black;
 }
 .input-text{
