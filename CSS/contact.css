@@ -16,9 +16,10 @@ body {
     margin: 70px auto;
     padding: 20px;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
     margin-top: 20px ;
+    border: 1px solid black;
     
 }
 .map{
@@ -42,7 +43,7 @@ label {
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 100%;
+    width: 95%;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
@@ -74,7 +75,7 @@ button:hover {
 }
 .input-text{
     height: 50px;
-    width: 550px;
+    width: 500px;
     font-size: 25px;
     border: none;
     margin: 10px 20px;
