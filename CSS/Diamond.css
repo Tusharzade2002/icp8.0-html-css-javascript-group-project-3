@@ -792,7 +792,7 @@ footer{
     } */
 }
 
-/* @media screen and (min-width: 993px) and (max-width: 1200px) {
+@media screen and (min-width: 993px) and (max-width: 1200px) {
     .input-text{
         height: 50px;
         width: 490px;
@@ -800,4 +800,4 @@ footer{
         border: none;
         margin: 10px 20px;
     }
-} */
+}
