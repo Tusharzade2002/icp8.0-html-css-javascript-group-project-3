@@ -3,6 +3,17 @@
 
 ![Navbar](./Images/Readme%20images/Navimg.png)
 
-# Image Slider 
+# Pages list
 
 ![pages list](./Images/Readme%20images/navbar%20list.png)
+
+# **`SLIDER IMAGE`**
+
+  # Slider image 1
+  ![pages list](./Images/Readme%20images/slider%20img1.png)
+
+   List Item 1
+  ![pages list](./Images/Readme%20images/slider%20img%202.png)
+
+    ##Slider image 3
+  ![pages list](./Images/Readme%20images/slider%20img%203.png)

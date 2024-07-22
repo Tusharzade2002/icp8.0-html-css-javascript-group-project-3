@@ -353,6 +353,12 @@ footer{
         transition: 1s;
     }
   }
+  @media screen and (min-width: 400px) and (max-width: 815px){
+          .shop-by-category{
+             display: block;
+             margin: auto;
+          }
+  }
 
   /* Tablet Devices */
 
