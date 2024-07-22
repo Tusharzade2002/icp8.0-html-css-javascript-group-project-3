@@ -12,8 +12,8 @@
   # Slider image 1
   ![pages list](./Images/Readme%20images/slider%20img1.png)
 
-   List Item 1
+  # Slider image 2
   ![pages list](./Images/Readme%20images/slider%20img%202.png)
 
-    ##Slider image 3
+   # Slider image 3
   ![pages list](./Images/Readme%20images/slider%20img%203.png)
