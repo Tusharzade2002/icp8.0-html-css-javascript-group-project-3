@@ -10,13 +10,14 @@
         }
        .product-bg {
             background-color: #d2d7db;
-            height: 400px;
-            width: 370px;
+            height: 450px;
+            width: 290px;
             float: left;
             margin-left: 100px;
             margin-bottom: 50px;
             border-radius: 5px;
             cursor: pointer;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
         .product-bg:hover {
             transform: scale(1.05);
@@ -53,16 +54,24 @@
             margin-right: 5px;
             background-color: #007bff;
             color: white;
-            border-radius: 10px;
+            /* border-radius: 10px; */
         }
+        .buy-btn a{
+            text-decoration: none;
+        }
+
         .buy-btn:hover {
             background-color: #0056b3;
             transform: scale(1.05);
+            border-radius:  10px 0 10px 0;;
         }
         .like-btn {
             flex: 1;
             margin-left: 5px;
-            border-radius: 10px;
+            /* border-radius: 10px; */
+        }
+        .like-btn a {
+            text-decoration: none;
         }
 
         
@@ -74,24 +83,36 @@
         <img src="./../Images/b1.jpeg" class="design-img">
         <p class="price">only at.<del>1000</del>999</p>
         <div class="buttons">
-            <a href="./../order.html"><button class="buy-btn">Buy Now</button></a>
-            <button class="like-btn" onclick="likeItem(this)">❤️<span>90</span></button>
+            <button class="buy-btn"><a href="./../order.html">
+                    <p class="btn">BUY NOW</p>
+                </a></button>
+            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                    <p class="btn">❤️<span class="name">0</span></p>
+                </a></button>
         </div>
     </div>
    <div class="product-bg">
         <img src="./../Images/b2.jpeg" class="design-img">
         <p class="price">only at.<del>1000</del>999</p>
         <div class="buttons">
-            <a href="./../order.html"><button class="buy-btn">Buy Now</button></a>
-            <button class="like-btn" onclick="likeItem(this)">❤️<span>60</span></button>
+            <button class="buy-btn"><a href="./../order.html">
+                    <p class="btn">BUY NOW</p>
+                </a></button>
+            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                    <p class="btn">❤️<span class="name">0</span></p>
+                </a></button>
         </div>
     </div>
     <div class="product-bg">
         <img src="./../Images/b7.webp" class="design-img">
         <p class="price">only at.<del>1000</del>999</p>
         <div class="buttons">
-            <a href="./../order.html"><button class="buy-btn">Buy Now</button></a>
-            <button class="like-btn" onclick="likeItem(this)">❤️<span>50</span></button>
+            <button class="buy-btn"><a href="./../order.html">
+                    <p class="btn">BUY NOW</p>
+                </a></button>
+            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                    <p class="btn">❤️<span class="name">0</span></p>
+                </a></button>
         </div>
         
     </div>
@@ -99,24 +120,36 @@
         <img src="./../Images/b4.jpg" class="design-img">
         <p class="price">only at.<del>1000</del>999</p>
         <div class="buttons">
-            <a href="./../order.html"><button class="buy-btn">Buy Now</button></a>
-            <button class="like-btn" onclick="likeItem(this)">❤️<span>55</span></button>
+            <button class="buy-btn"><a href="./../order.html">
+                    <p class="btn">BUY NOW</p>
+                </a></button>
+            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                    <p class="btn">❤️<span class="name">0</span></p>
+                </a></button>
         </div>
     </div>
     <div class="product-bg">
         <img src="./../Images/b5.webp" class="design-img">
         <p class="price">only at.<del>1000</del>999</p>
         <div class="buttons">
-            <a href="./../order.html"><button class="buy-btn">Buy Now</button></a>
-            <button class="like-btn" onclick="likeItem(this)">❤️<span>50</span></button>
+            <button class="buy-btn"><a href="./../order.html">
+                    <p class="btn">BUY NOW</p>
+                </a></button>
+            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                    <p class="btn">❤️<span class="name">0</span></p>
+                </a></button>
         </div>
     </div>
     <div class="product-bg">
         <img src="./../Images/b8.webp" class="design-img">
         <p class="price">only at.<del>1000</del>999</p>
         <div class="buttons">
-            <a href="./../order.html"><button class="buy-btn">Buy Now</button></a>
-            <button class="like-btn" onclick="likeItem(this)">❤️<span>80</span></button>
+            <button class="buy-btn"><a href="./../order.html">
+                    <p class="btn">BUY NOW</p>
+                </a></button>
+            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                    <p class="btn">❤️<span class="name">0</span></p>
+                </a></button>
         </div>
         
     </div>
@@ -124,48 +157,72 @@
         <img src="./../Images/b7.webp" class="design-img">
         <p class="price">only at.<del>1000</del>999</p>
         <div class="buttons">
-            <a href="./../order.html"><button class="buy-btn">Buy Now</button></a>
-            <button class="like-btn" onclick="likeItem(this)">❤️<span>50</span></button>
+            <button class="buy-btn"><a href="./../order.html">
+                    <p class="btn">BUY NOW</p>
+                </a></button>
+            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                    <p class="btn">❤️<span class="name">0</span></p>
+                </a></button>
         </div>
     </div>
     <div class="product-bg">
         <img src="./../Images/b8.webp" class="design-img">
         <p class="price">only at.<del>1000</del>999</p>
         <div class="buttons">
-            <a href="./../order.html"><button class="buy-btn">Buy Now</button></a>
-            <button class="like-btn" onclick="likeItem(this)">❤️<span>70</span></button>
+            <button class="buy-btn"><a href="./../order.html">
+                    <p class="btn">BUY NOW</p>
+                </a></button>
+            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                    <p class="btn">❤️<span class="name">0</span></p>
+                </a></button>
         </div>
     </div>
     <div class="product-bg">
         <img src="./../Images/b9.jpg" class="design-img">
         <p class="price">only at.<del>1000</del>999</p>
         <div class="buttons">
-            <a href="./../order.html"><button class="buy-btn">Buy Now</button></a>
-            <button class="like-btn" onclick="likeItem(this)">❤️<span>30</span></button>
+            <button class="buy-btn"><a href="./../order.html">
+                    <p class="btn">BUY NOW</p>
+                </a></button>
+            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                    <p class="btn">❤️<span class="name">0</span></p>
+                </a></button>
         </div>
     </div>
     <div class="product-bg">
         <img src="./../Images/b8.webp" class="design-img">
         <p class="price">only at.<del>1000</del>999</p>
         <div class="buttons">
-            <a href="./../order.html"><button class="buy-btn">Buy Now</button></a>
-            <button class="like-btn" onclick="likeItem(this)">❤️<span>90</span></button>
+            <button class="buy-btn"><a href="./../order.html">
+                    <p class="btn">BUY NOW</p>
+                </a></button>
+            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                    <p class="btn">❤️<span class="name">0</span></p>
+                </a></button>
         </div>
     </div>
     <div class="product-bg">
         <img src="./../Images/b7.webp" class="design-img">
         <p class="price">only at.<del>1000</del>999</p>
         <div class="buttons">
-            <a href="./../order.html"><button class="buy-btn">Buy Now</button></a>
-            <button class="like-btn" onclick="likeItem(this)">❤️<span>80</span></button>
+            <button class="buy-btn"><a href="./../order.html">
+                    <p class="btn">BUY NOW</p>
+                </a></button>
+            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                    <p class="btn">❤️<span class="name">0</span></p>
+                </a></button>
         </div>
     </div>
     <div class="product-bg">
         <img src="./../Images/b1.jpeg" class="design-img">
         <p class="price">only at.<del>1000</del>999</p>
         <div class="buttons">
-            <a href="./../order.html"><button class="buy-btn">Buy Now</button></a>
-            <button class="like-btn" onclick="likeItem(this)">❤️<span>70</span></button>
+            <button class="buy-btn"><a href="./../order.html">
+                    <p class="btn">BUY NOW</p>
+                </a></button>
+            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                    <p class="btn">❤️<span class="name">0</span></p>
+                </a></button>
         </div>
     </div>
     
