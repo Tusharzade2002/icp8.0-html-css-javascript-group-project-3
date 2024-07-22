@@ -26,3 +26,4 @@ let Images=['./../Images/image/Slider 1.webp','./../Images/image/slider2.webp','
         let element = document.body; 
         element.classList.toggle("dark-mode");
     }
+    
