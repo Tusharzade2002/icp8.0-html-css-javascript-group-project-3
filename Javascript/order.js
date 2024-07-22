@@ -42,3 +42,8 @@ document.addEventListener('DOMContentLoaded', function() {
         totalAmount.textContent = totalPrice.toFixed(2);
     }
 });
+
+function modes(){
+    let element = document.body;
+    element.classList.toggle("dark-mode");
+}
