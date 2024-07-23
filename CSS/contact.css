@@ -59,9 +59,7 @@ textarea {
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #45a049;
-}
+
 .pr{
     margin: 10px 22px ;  
     font-size: 22px;
@@ -397,81 +395,112 @@ footer{
         margin-top: -20px;
     }
 
-    /* media query */
-@media screen and (max-width: 648px){
-    .container{
-        width: 50%;
-        flex-direction: column;
-        padding-right: -13px;
-        margin-right: 112px;
-    }
-    .contactinfo-me {
-       width:140% ;
+    .map-div {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
     }
     
-    .container .contact-form {
-        width: 200%;
-        min-height: 250px;
-        margin-top: 10px;
-        margin-left:65%;
-       
+    .map {
+        flex: 1;
+        margin-right: 20px;
+    }
+    
+    .map iframe {
+        width: 100%; /* Make the map responsive */
+        height: 500px; /* Set a default height */
+        border: 0;
+    }
+    
+    .container {
+        flex: 1;
+        margin-top: 20px;
+    }
+    
+    .container h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    
+    .contact-form {
+        max-width: 600px; /* Limit form width */
+    }
+    
+    .contact-form label,
+    .contact-form input,
+    .contact-form textarea,
+    .contact-form button {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 5px;
+        font-size: 16px;
+        box-sizing: border-box;
+        margin-right: 10px auto;
+    }
+    
+    .contact-form textarea {
+        resize: vertical;
+    }
+    
+    .contact-form button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .div-contact {
+        display: flex;
+        margin-top: 250px;
         
     }
-    .container .contac-tform .inputbox textarea{
-         width: 80%;
-    }
-    .container .contact-form .inputbox{
-        width: 80%;
-    }
-    .Contact .content h2{
-        margin-top: -20px;
-    }
-    .btn{
-    margin-left:56px;
-  
-     
-    }
-}
-@media screen and (min-width:992px)and(max-width:1300px) {
-    .container{
-        width: 100%;
-        padding-right: 21px;
-        margin-left: 90px;
-        min-width:992px;
-        max-width:1300px;
-       
-    }
-    .container .contact-form{
-        width: 200%;
-        min-height: 400px;
-        margin-bottom: 10px;
-        margin-left:130px;
-      }
     
-    .container textarea{
-        width: 67px;
-        margin-left: -60px;
-        padding-left: 70px;
-     
-      
+    .div-contact  {
+        flex: 1;
+        margin: 5px 200px;
     }
-    .container .contact-form .inputbox textarea{
-        width: 46%;
-   }
-   .Contact .content h2{
-    margin-top: -10px;
-   }
-
-    .btn{
-            margin-right: 78px;
-          
+    
+    .div-contact img {
+        height: 280px;
+        border-radius: 10px;
+        justify-content: center;
     }
-  .container .contact-form .inputbox{
-       width: 80%;
-   }
-   .Contact .content h2 p{
-       margin-bottom: -200px;
-   }
-
-}
-
+    
+    /* Media Queries */
+    
+    /* Example: styles for screens smaller than 768px */
+    @media screen and (max-width: 768px) {
+        .map {
+            flex: 100%; /* Full width on smaller screens */
+            margin-right: 0;
+            margin-bottom: 20px;
+        }
+    
+        .container {
+            flex: 100%; /* Full width on smaller screens */
+        }
+    
+        contact-form {
+            padding: 10px; /* Adjust padding for smaller screens */
+        }
+    
+        .div-contact {
+            flex-direction: column;
+        }
+    
+        .div-contact img {
+            width: 100%; /* Full width image on smaller screens */
+            height: auto; /* Maintain aspect ratio */
+        }
+    }
+    
+    /* Example: styles for screens smaller than 480px */
+    @media screen and (max-width: 480px) {
+        .map iframe {
+            height: 300px; /* Adjust map height for very small screens */
+        }
+    
+        #contact-form {
+            max-width: 100%; /* Full width form on very small screens */
+        }
+    }

@@ -124,3 +124,8 @@ function handleQuantity(action){
                             
                                 quantityElement7.innerText = action=='increment' ? ++quantity7:--quantity7
                                 }     
+
+                                function modes(){
+                                    let element = document.body;
+                                    element.classList.toggle("dark-mode");
+                                }
