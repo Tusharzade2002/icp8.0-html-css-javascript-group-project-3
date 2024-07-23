@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    width: 99.6%;
 }
 .navbar{
     display: flex;
@@ -182,7 +183,7 @@ footer{
 }
 .copy{
     text-align: center;
-    margin: 5px;
+    margin: 2px ;
 }
 .product-bg {
     background-color: #d2d7db;
@@ -783,10 +784,10 @@ footer{
 .dark-mode {
     background-color: rgb(36, 33, 33);
     color: white;
+    .text{
+        color: white;
+    }
 }
 .main-section {
-    color: white;
-}
-.dark-section p{
     color: white;
 }
