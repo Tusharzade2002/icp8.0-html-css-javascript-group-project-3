@@ -265,56 +265,7 @@ body{
     }
     /* Media queries */
 
-/* For tablets */
-@media (min-width: 1500px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
 
-    .input-text {
-        width: 80%;
-        margin: 10px 0;
-    }
-
-    .main-section {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .product-container {
-        flex-direction: column;
-        height: 1800px;
-        display: inline-flex;
-        
-    }
-
-    .product-card {
-        width: 50%;
-        margin: 10px 0;
-    }
-
-    
-    .footer-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .footer-box {
-        width: 80%;
-        margin: 10px 0;
-    }
-    .product-img
-{
-    border-radius: 50%;
-    margin: 10px 40px;
-   
-    height: 400px;
-    width: 150px;
-    align-items: center;
-    
-}
-}
 
 @media (max-width: 768px) {
     .navbar {
