@@ -630,7 +630,7 @@ footer{
     }
     .search-input{
         height: 30px;
-        width: 250px;
+        width: 170px;
     }
     /* #image-slider{
         display: block;
@@ -674,15 +674,15 @@ footer{
         cursor: pointer;
     }
     #main-image{
-        height: 300px;
-        width: 300px;
+        height: 350px;
+        width: 320px;
         margin-left: 10px;
     }
     .preview{
         flex-wrap: wrap;
     }
         .main-img{
-            width: 300px;
+            width: 320px;
             height: 350px;
             flex-wrap: wrap;
             border: 1px solid black;
@@ -724,12 +724,12 @@ footer{
         .directorinfo{
             margin: 0;
             margin-top: 200px;
-            margin-right: 0;
+    
             flex-wrap: wrap;
         }
         .contact-platform{
             flex-wrap: wrap;
-            margin-bottom: 0px;
+            margin-bottom: 50px;
         }
 }
 /* normal device */
