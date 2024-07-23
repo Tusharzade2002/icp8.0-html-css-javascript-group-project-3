@@ -672,7 +672,6 @@ footer{
     #main-image{
         height: 300px;
         width: 300px;
-        margin-left: 30px;
     }
     .preview{
         flex-wrap: wrap;
@@ -711,15 +710,12 @@ footer{
             left: 0px;
             top: 430px;
         }
-        .design-img{
-            margin-left: 50px;
-        }
+       
         .section{
             flex-wrap: wrap;
         }
         .directorinfo{
             margin: 0;
-
             flex-wrap: wrap;
         }
         .contact-platform{
