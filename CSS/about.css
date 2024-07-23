@@ -699,26 +699,27 @@ footer{
             margin-left: -100px;
         }
        .one{
-        left: 90px;
-        top: -190px;
+        left: -190px;
+        top: 0px;
 
        }
         .two{
-            left: -20px;
-            top: 130px;
+            left: 0px;
+            top: 10px;
         }
         .three{
             left: 0px;
             top: 430px;
         }
        .product-bg{
-        margin: 5px;
+        margin: 5px 20px;
        }
         .section{
             flex-wrap: wrap;
         }
         .directorinfo{
             margin: 0;
+            margin-top: 200px;
             flex-wrap: wrap;
         }
         .contact-platform{
