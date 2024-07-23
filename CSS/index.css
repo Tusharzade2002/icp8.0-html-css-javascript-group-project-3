@@ -20,11 +20,11 @@ body{
     padding: 5px;
 }
 .input-text{
-    height: 50px;
-    width: 500px;
+    height: 60px;
+    width: 60%;
     font-size: 25px;
-    border: none;
-    margin: 10px 20px;
+    border: 1px solid black;
+
 }
 .nav-list{
     display: flex;
@@ -76,7 +76,7 @@ body{
     flex-wrap: wrap;
 }
 .shop-by-category-images img{
-    margin: 55px;
+    margin: 30px 100px;
     cursor: pointer;
 }
 footer{
@@ -363,6 +363,8 @@ footer{
     }
     .input-text{
         margin:5px 4px;
+        height: 40px;
+        width: 170px;
     }
     /* .nav-list{
         margin: 2px;
@@ -376,6 +378,9 @@ footer{
         margin: 2px;
         height: 10px;
         padding: 0px;
+    }
+    .shop-by-category-images{
+        margin: -70px;
     }
 }
 
