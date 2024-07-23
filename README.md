@@ -1,6 +1,7 @@
 # **icp8.0-html-css-javascript-group-project-3**
-## NavBar
 
+                       **Home page**
+## NavBar
 ![Navbar](./Images/Readme%20images/Navimg.png)
 
 # Pages list
