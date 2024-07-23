@@ -16,9 +16,9 @@
         <input class="input-text" placeholder="Search for Gold Jewellery,Diamond,and more...."
             type="text"  />   
         <div class="nav-list">
+            <a href="./"><img class="account-icon" src="./../Images/image/contact.png"/></a>
             <a href="./../pages/wishlist.html"> <img class="wishlist-icon" src="./../Images/Icon/wishlist .png "/></a>
             <a href="./../order.html"><img class="shopping-icon" src="./../Images/Icon/shopping-cart.png"/></a>
-            <button onclick="modes()" class="btn-toggle"><img src="./../Images/Logo/full-moon.png"></button>
             <button onclick="modes()" class="btn-toggle"><img src="./../Images/night-mode (1).png"></button>
         </div>     
 </nav>
@@ -33,113 +33,93 @@
      <a href="./../contact.html"> <p>Contact</p></a>
      <a href="./../pages/.html"> <p>Review</p></a>
 
-</section>
+</section><br/>
 
-    <div class="container">
-        <img src="./../Images/Imitation jewellery/27.jpg" class="img"/>
-       <p class="head-text"><b> <i>"Imitation is the sincerest form of flattery, <br/> so is wearing beautiful imitation jewelry."</i></b></p>
-    </div><br/>
-  <div class="product-container">
+
+   
+    <div class="product-bg">
+        <img src="./../Images/Imitation jewellery/13.jpeg" class="design-img">
+              <h3 class="name"><b>Bangales</b></h3>
+        <p class="price">only at.<del>RS.4,000</del> RS.3,000</p>
+        <div class="buttons">
+            <button class="buy-btn"><a href="./../order.html"><p class="btn">BUY NOW</p></a></button>
+            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html"><p class="btn">❤️<span class="name">0</span></p></a></button>
+        </div>
+    </div>
+
+    <div class="product-bg">
+        <img src="./../Images/Imitation jewellery/2.jpeg" class="design-img">
+              <h3 class="name"><b>Necklace</b></h3>
+        <p class="price">only at.<del>RS.6,000</del> RS.5,500</p>
+        <div class="buttons">
+            <button class="buy-btn"><a href="./../order.html"><p class="btn">BUY NOW</p></a></button>
+            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html"><p class="btn">❤️<span class="name">0</span></p></a></button>
+        </div>
+    </div>
   
-    <div class="product-card">
-        <img src="./../Images/Imitation jewellery/13.jpeg" class="product-img"/>
-        <p class="product-name"><b>Bangales</b></p>
-        <p class="product-price">₹4000</p>
-        <span class="qun-btn-container">
-            <img src="./../Images/minus (1).png" class="btn-quantity" onclick="handleQuantity('decrement')"/>
-           <span class=" quantity quantity-text" id="quantity-text">1</span> 
-            <img src="./../Images/plus (2).png" class="btn-quantity" onclick="handleQuantity('increment')"/>
-           </span><br/>
-           <a href="./../order.html"> <button class="btn-buy-now">Buy Now</button></a>
+    <div class="product-bg">
+        <img src="./../Images/Imitation jewellery/12.jpeg" class="design-img">
+              <h3 class="name"><b>Ear ring</b></h3>
+        <p class="price">only at.<del>RS.3,000</del> RS.2,000</p>
+        <div class="buttons">
+            <button class="buy-btn"><a href="./../order.html"><p class="btn">BUY NOW</p></a></button>
+            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html"><p class="btn">❤️<span class="name">0</span></p></a></button>
+        </div>
     </div>
-    <div class="product-card">
-        <img src="./../Images/Imitation jewellery/2.jpeg" class="product-img"/>
-        <p class="product-name"><b>Necklace</b></p>
-        <p class="product-price">₹6000</p>
-        <span class="qun-btn-container">
-            <img src="./../Images/minus (1).png" class="btn-quantity" onclick="handleQuantity1('decrement')"/>
-           <span class=" quantity1 quantity-text" id="quantity-text1">1</span> 
-            <img src="./../Images/plus (2).png" class="btn-quantity" onclick="handleQuantity1('increment')"/>
-           </span><br/>
-           <a href="./../order.html"> <button class="btn-buy-now">Buy Now</button></a>
+   
+    <div class="product-bg">
+        <img src="./../Images/Imitation jewellery/18.jpg" class="design-img">
+              <h3 class="name"><b>Ring</b></h3>
+        <p class="price">only at.<del>RS.1,000</del> RS.500</p>
+        <div class="buttons">
+            <button class="buy-btn"><a href="./../order.html"><p class="btn">BUY NOW</p></a></button>
+            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html"><p class="btn">❤️<span class="name">0</span></p></a></button>
+        </div>
     </div>
-    <div class="product-card">
-        <img src="./../Images/Imitation jewellery/12.jpeg" class="product-img"/>
-        <p class="product-name"> <b>Ear ring</b></p>
-        <p class="product-price">₹3000</p>
-        <span class="qun-btn-container">
-            <img src="./../Images/minus (1).png" class="btn-quantity" onclick="handleQuantity2('decrement')"/>
-           <span class="  quantity2 quantity-text" id="quantity-text2">1</span> 
-            <img src="./../Images/plus (2).png" class="btn-quantity" onclick="handleQuantity2('increment')"/>
-           </span><br/>
-           <a href="./../order.html"> <button class="btn-buy-now">Buy Now</button></a>
+   
+    <div class="product-bg">
+        <img src="./../Images/Imitation jewellery/20.jpg" class="design-img">
+              <h3 class="name"><b>Ring</b></h3>
+        <p class="price">only at.<del>RS.2,000</del> RS.1,000</p>
+        <div class="buttons">
+            <button class="buy-btn"><a href="./../order.html"><p class="btn">BUY NOW</p></a></button>
+            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html"><p class="btn">❤️<span class="name">0</span></p></a></button>
+        </div>
     </div>
-
-    <div class="product-card">
-        <img src="./../Images/Imitation jewellery/18.jpg" class="product-img"/>
-       <div><p class="product-name"><b>Ring</b> </p>
-       <p class="product-price">₹1000</p></div>
-       <span class="qun-btn-container">
-        <img src="./../Images/minus (1).png" class="btn-quantity" onclick="handleQuantity3('decrement')"/>
-       <span class="quantity3 quantity-text" id="quantity-text3">1</span> 
-        <img src="./../Images/plus (2).png" class="btn-quantity" onclick="handleQuantity3('increment')"/>
-       </span><br/>
-       <a href="./../order.html"> <button class="btn-buy-now">Buy Now</button></a>
-    </div>
-</div><br/>
-
-<div class="product-container">
-    <div class="product-card">
-        <img src="./../Images/Imitation jewellery/20.jpg" class="product-img"/>
-        <p class="product-name"><b> Ring </b></p>
-        <p class="product-price">₹1000</p>
-        <span class="qun-btn-container">
-            <img src="./../Images/minus (1).png" class="btn-quantity" onclick="handleQuantity4('decrement')"/>
-           <span class="quantity4 quantity-text" id="quantity-text4">1</span> 
-            <img src="./../Images/plus (2).png" class="btn-quantity" onclick="handleQuantity4('increment')"/>
-        </span><br/>
-        <a href="./../order.html"> <button class="btn-buy-now">Buy Now</button></a>
-    </div>
-
-    <div class="product-card">
-        <img src="./../Images/Imitation jewellery/14.png" class="product-img"/>
-        <p class="product-name"><b>Bracelets </b> </p>
-        <p class="product-price">₹2000</p>
-        <span class="qun-btn-container">
-            <img src="./../Images/minus (1).png" class="btn-quantity" onclick="handleQuantity5('decrement')"/>
-           <span class="quantity5 quantity-text" id="quantity-text5">1</span> 
-            <img src="./../Images/plus (2).png" class="btn-quantity" onclick="handleQuantity5('increment')"/>
-        </span><br/>
-        <a href="./../order.html"> <button class="btn-buy-now">Buy Now</button></a>
-    </div>
-
-    <div class="product-card">
-        <img src="./../Images/Imitation jewellery/11.jpeg" class="product-img"/>
-        <p class="product-name"><b> Necklace</b></p>
-        <p class="product-price">₹6000</p>
-        <span class="qun-btn-container">
-            <img src="./../Images/minus (1).png" class="btn-quantity" onclick="handleQuantity6('decrement')"/>
-           <span class="quantity6 quantity-text" id="quantity-text6">1</span> 
-            <img src="./../Images/plus (2).png" class="btn-quantity" onclick="handleQuantity6('increment')"/>
-           </span><br/>
-           <a href="./../order.html"> <button class="btn-buy-now">Buy Now</button></a>
-    </div>
-
-    <div class="product-card">
-        <img src="./../Images/Imitation jewellery/19.webp" class="product-img"/>
-        <p class="product-name"> <b>Ear ring</b></p>
-        <p class="product-price">₹4000</p>
-        <span class="qun-btn-container">
-            <img src="./../Images/minus (1).png" class="btn-quantity" onclick="handleQuantity7('decrement')"/>
-           <span class="quantity7 quantity-text" id="quantity-text7">1</span> 
-            <img src="./../Images/plus (2).png" class="btn-quantity" onclick="handleQuantity7('increment')"/>
-           </span><br/>
-           <a href="./../order.html"> <button class="btn-buy-now">Buy Now</button></a>
-       
-    </div>
-    </div><br/>
     
-  
+    <div class="product-bg">
+        <img src="./../Images/Imitation jewellery/14.png" class="design-img">
+              <h3 class="name"><b>Bracelets</b></h3>
+        <p class="price">only at.<del>RS.2,000</del> RS.1,500</p>
+        <div class="buttons">
+            <button class="buy-btn"><a href="./../order.html"><p class="btn">BUY NOW</p></a></button>
+            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html"><p class="btn">❤️<span class="name">0</span></p></a></button>
+        </div>
+    </div>
+
+    <div class="product-bg">
+        <img src="./../Images/Imitation jewellery/11.jpeg" class="design-img">
+              <h3 class="name"><b>Necklace</b></h3>
+        <p class="price">only at.<del>RS.6,000</del> RS.5,500</p>
+        <div class="buttons">
+            <button class="buy-btn"><a href="./../order.html"><p class="btn">BUY NOW</p></a></button>
+            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html"><p class="btn">❤️<span class="name">0</span></p></a></button>
+        </div>
+    </div>
+
+    <div class="product-bg">
+        <img src="./../Images/Imitation jewellery/19.webp" class="design-img">
+              <h3 class="name"><b>Ear ring</b></h3>
+        <p class="price">only at.<del>RS.4,000</del> RS.3,500</p>
+        <div class="buttons">
+            <button class="buy-btn"><a href="./../order.html"><p class="btn">BUY NOW</p></a></button>
+            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html"><p class="btn">❤️<span class="name">0</span></p></a></button>
+        </div>
+    </div>
+
+    
+
+    
     <footer>
         <div class="footer-container">
 
