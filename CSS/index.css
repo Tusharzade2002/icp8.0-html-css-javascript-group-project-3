@@ -70,7 +70,7 @@ body{
       font-size: 50px;
 }
 .shop-by-category-images{
-    padding: 20px 40px;
+    padding: 20px 150px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -769,10 +769,30 @@ footer{
         margin: 10px 20px;
     }
 }
-    /* .shop-by-category{
+    .shop-by-category{
         display: block;
-             }
-} */
+        pad: 20px 30px;
+    }
+    .shopp-by{
+        text-align: center;
+        /* font-size: 5px; */
+        font-weight: bold;
+        font-size: 15px;
+        display: block;
+    }
+    .category{
+        text-align: center;
+        font-weight: bold;
+        /* font-size:15px ; */
+        display:block;
+    }
+    .shop-by-category-images{
+       margin: 5px;
+       cursor: pointer;
+       /* padding: 20px 150px; */
+       padding-left: 50px;
+    }
+
 
 
 .btn-toggle {
