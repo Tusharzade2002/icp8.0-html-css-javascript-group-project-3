@@ -539,7 +539,7 @@ footer{
 background-color: #f8ecec;
 height:fit-content;
 padding: 20px 5px;
-margin-top: 8000px;
+margin-top: 00px;
 /* border: 5px solid red; */
 }
 .footer-container{
@@ -637,6 +637,7 @@ font-size: 11px;
 color: rgb(204, 116, 15);
 cursor: pointer;
 }
+
 }
 /*normal devices*/
 @media screen and (min-width: 600px) and (max-width: 768px){
