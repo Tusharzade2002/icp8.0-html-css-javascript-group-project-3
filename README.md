@@ -1,4 +1,4 @@
-# **`icp8.0-html-css-javascript-group-project-3`**
+# **icp8.0-html-css-javascript-group-project-3**
 ## NavBar
 
 ![Navbar](./Images/Readme%20images/Navimg.png)
@@ -7,7 +7,7 @@
 
 ![pages list](./Images/Readme%20images/navbar%20list.png)
 
-# **`SLIDER IMAGE`**
+# **SLIDER IMAGES**
 
   # Slider image 1
   ![pages list](./Images/Readme%20images/slider%20img1.png)
