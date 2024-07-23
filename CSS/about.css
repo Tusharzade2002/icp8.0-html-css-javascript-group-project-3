@@ -628,6 +628,10 @@ footer{
         margin: 10px;
         cursor: pointer;
     }
+    .search-input{
+        height: 30px;
+        width: 300px;
+    }
     /* #image-slider{
         display: block;
         width: 100%;
@@ -671,14 +675,14 @@ footer{
     }
     #main-image{
         height: 300px;
-        width: 300px;
-        margin-left: 10px;
+        width: 400px;
+        margin-left: 30px;
     }
     .preview{
         flex-wrap: wrap;
     }
         .main-img{
-            width: 300px;
+            width: 400px;
             height: 300px;
             flex-wrap: wrap;
             border: 1px solid black;
@@ -712,7 +716,7 @@ footer{
             top: 430px;
         }
        .product-bg{
-        margin: 5px 20px;
+        margin: 5px 50px;
        }
         .section{
             flex-wrap: wrap;
