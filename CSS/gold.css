@@ -333,7 +333,7 @@
         }
     
     .dark-mode {
-      background-color:#b0aaad;
+      background-color: #b47160;
       color: whitesmoke;
   }
   .btn-toggle {
@@ -881,6 +881,7 @@ footer{
         font-size: 25px;
         border: none;
         margin: 10px 20px;
+
     }
     .nav-list img{
         color: rgb(236, 174, 17);
@@ -1018,12 +1019,15 @@ footer{
         font-family:Verdana, Geneva, Tahoma, sans-serif;
         cursor: pointer;
         width: 1px;
+        
+        
+
     }
     .main-section{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         margin: 5px 0px;
-    
+        flex-direction: row;
     }
     .main-section a{
         text-decoration: none;
@@ -1112,7 +1116,6 @@ footer{
           font-size: 35px;
     }
 }
-
 @media screen and (min-width: 993px) and (max-width: 1200px) {
     .input-text{
         height: 50px;
