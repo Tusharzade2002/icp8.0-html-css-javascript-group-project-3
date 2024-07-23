@@ -589,7 +589,7 @@ footer{
 }
 
 /* small device */
-@media screen and (min-width: 100px) and (max-width:600px){
+@media screen and (min-width: 100px) and (max-width:450px){
     .logo img{
         height: 30px;
         margin: 5px;
@@ -676,7 +676,7 @@ footer{
     #main-image{
         height: 300px;
         width: 400px;
-        margin-left: 30px;
+        margin-left: 10px;
     }
     .preview{
         flex-wrap: wrap;
@@ -716,7 +716,7 @@ footer{
             top: 430px;
         }
        .product-bg{
-        margin: 5px 50px;
+        margin: 5px;
        }
         .section{
             flex-wrap: wrap;
