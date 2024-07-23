@@ -22,3 +22,7 @@ function likeItem(button){
           // console.log(random);
           Images.src=Images[random];
       }
+      function modes(){
+          let element = document.body;
+          element.classList.toggle("dark-mode");
+      } 

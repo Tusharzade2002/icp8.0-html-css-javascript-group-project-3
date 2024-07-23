@@ -1,3 +1,9 @@
+
+function modes(){
+    let element = document.body;
+    element.classList.toggle("dark-mode");
+}
+
 function handleQuantity(action){
     const quantityElement = document.getElementById("quantity-text")
    
