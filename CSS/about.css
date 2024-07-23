@@ -724,6 +724,7 @@ footer{
         .directorinfo{
             margin: 0;
             margin-top: 200px;
+            margin-right: 0;
             flex-wrap: wrap;
         }
         .contact-platform{
