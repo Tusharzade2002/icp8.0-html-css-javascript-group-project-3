@@ -672,6 +672,7 @@ footer{
     #main-image{
         height: 300px;
         width: 300px;
+        margin-left: 10px;
     }
     .preview{
         flex-wrap: wrap;
@@ -710,7 +711,9 @@ footer{
             left: 0px;
             top: 430px;
         }
-       
+       .product-bg{
+        margin: 5px;
+       }
         .section{
             flex-wrap: wrap;
         }
