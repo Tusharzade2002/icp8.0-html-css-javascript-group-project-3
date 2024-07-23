@@ -675,14 +675,14 @@ footer{
     }
     #main-image{
         height: 350px;
-        width: 320px;
+        width: 290px;
         margin-left: 10px;
     }
     .preview{
         flex-wrap: wrap;
     }
         .main-img{
-            width: 320px;
+            width: 290px;
             height: 350px;
             flex-wrap: wrap;
             border: 1px solid black;
