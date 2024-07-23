@@ -1,11 +1,9 @@
-function enableDark(){
-   const mainBody= document.getElementById("main-body")
-   mainBody.classList.remove("bg-light")
-   mainBody.classList.add("bg-dark")
+function sliderimg(){
+   let random = Math.floor(Math.random() * 4);
+   // console.log(random);
+   Images.src=Images[random];
 }
-
-function enableLight(){
-    const mainBody= document.getElementById("main-body")
-   mainBody.classList.remove("bg-dark")
-   mainBody.classList.add("bg-light")
+function modes(){
+   let element = document.body;
+   element.classList.toggle("dark-mode");
 }
