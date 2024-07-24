@@ -308,8 +308,8 @@ footer{
 }
 
 .dark-mode {
-    background-color: black;
-    color: whitesmoke;
+    background-color: #b0aaad;
+    color: black;
 }
 .btn-toggle {
     cursor: pointer;
