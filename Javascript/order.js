@@ -43,7 +43,10 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
+
 function modes(){
     let element = document.body;
     element.classList.toggle("dark-mode");
 }
+
+
