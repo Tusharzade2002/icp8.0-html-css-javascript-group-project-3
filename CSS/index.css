@@ -2,7 +2,6 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 99.6%;
 }
 .navbar{
     display: flex;
@@ -21,7 +20,7 @@ body{
 }
 .input-text{
     height: 50px;
-    width: 500px;
+    width: 5  00px;
     font-size: 25px;
     border: none;
     margin: 10px 20px;
@@ -194,14 +193,14 @@ footer{
 }
 .copy{
     text-align: center;
-    margin: 2px ;
+    margin: 5px;
 }
 .product-bg {
     background-color: #d2d7db;
     height: 470px;
-    width: 290px;
+    width: 250px;
     float: left;
-    margin-left: 160px;
+    margin-left: 10px;
     margin-bottom: 50px;
     border-radius: 13px;
     border: 1px solid black;
@@ -335,6 +334,11 @@ footer{
                 width: 200px;
             
             }
+            /* .shop-by-category{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
             .shop-by{
                 text-align: center;
                 font-size: 30px;
@@ -343,6 +347,13 @@ footer{
                   text-align: center;
                   font-size: 30px;
             }
+            .shop-by-category-images{
+                padding: 10px 20px;
+            }
+            .shop-by-category-images img{
+                margin: 5px;
+                cursor: pointer;
+            } */
             .nav-list img {
                 color: rgb(236, 174, 17);
                 height: 20px;
@@ -363,7 +374,9 @@ footer{
     .input-text{
         margin:5px 4px;
     }
-  
+    /* .nav-list{
+        margin: 2px;
+    } */
     .wishlist-icon{
         margin: 2px;
         height: 10px;
@@ -390,7 +403,13 @@ footer{
     }
   }
   @media screen and (min-width: 400px) and (max-width: 815px){
-       
+          /* .shop-by-category{
+             display: block;
+             margin: auto;
+          }
+          .shop-by-category-images img{
+            width: auto;
+          } */
           .logo img{
             height: 40px;
             margin: 5px;
@@ -475,9 +494,10 @@ footer{
     display: block;
 }
 .logo-icon{
-    height: 55px;
-    background-color: rgb(101, 65, 65);
-    padding: 3px;
+    height: 50px;
+    width: 50px;
+    
+    
 }
 .footer-info:hover{
     color:  rgb(204, 116, 15);
@@ -591,8 +611,10 @@ footer{
         cursor: pointer;
     }
     .logo-icon{
-        height: 40px;
-        background-color: rgb(101, 65, 65);
+        height: 35px;
+        width: 35px;
+        border-radius: 80px;
+        background-color: #fbf8f8;
         padding: 10px;
     }
     .footer-title{
@@ -662,11 +684,7 @@ footer{
         font-family:Verdana, Geneva, Tahoma, sans-serif;
         cursor: pointer;
     }
-    .search-container {
-        position: relative;
-        width: 200px; /* Adjust width as needed */
-        margin: 0 auto; /* Center the container */   
-      }
+ 
     
     .input-text{
         height: 44px;
@@ -690,29 +708,10 @@ footer{
         margin: 2px;
         cursor: pointer;
     }
-   .shop-by{
-        text-align: center;
-        font-size: 25px;
-        background-color: aqua;
-    }
-    .category{
-          text-align: center;
-          font-size: 25px;
-    } 
-  
+    
+
  }
- /* @media screen and (min-width:600px)and (max-width:768px){
- .shop-by{
-    text-align: center;
-    font-size: 55px;
-  
-}
-.category{
-      text-align: center;
-      font-size: 55px;
-} 
- } */
- @media screen and (min-width:650px)and (max-width:768px){
+
     .input-text{
         height: 44px;
         width: 300px;
@@ -720,12 +719,7 @@ footer{
         border: none;
         margin: 5px 10px;
     }
-    .search-container {
-        position: relative;
-        width: 10px; /* Adjust width as needed */
-        margin: 0 auto; /* Center the container */
-         
-      }
+   
     
     .search-icon {
         position: absolute;
@@ -747,13 +741,7 @@ footer{
         margin: 5px 0px;
         margin-left: 30px;
     }
-    .search-container {
-        position: relative;
-        width: 300px; /* Adjust width as needed */
-        margin: 0 auto; /* Center the container */
-         
-      }
-    
+  
     .search-icon {
         position: absolute;
         height: 35px;
@@ -769,14 +757,6 @@ footer{
     .logo img{
         height: 50px;
         margin: 5px;
-    }
-    .shop-by{
-        text-align: center;
-        font-size: 35px;
-    }
-    .category{
-          text-align: center;
-          font-size: 35px;
     }
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -813,7 +793,17 @@ footer{
         margin: 0px auto;
       
     }
-
+    /* .shop-by-category-images{
+        padding: 15px 30px;
+    }
+    .shop-by{
+        text-align: center;
+        font-size: 35px;
+    }
+    .category{
+          text-align: center;
+          font-size: 35px;
+    } */
 }
 
 @media screen and (min-width: 993px) and (max-width: 1200px) {
@@ -825,7 +815,7 @@ footer{
         margin: 10px 20px;
     }
 }
-  
+
 
 .btn-toggle {
     cursor: pointer;
@@ -835,40 +825,10 @@ footer{
 .dark-mode {
     background-color: rgb(36, 33, 33);
     color: white;
-    .text{
-        color: white;
-    }
 }
 .main-section {
     color: white;
 }
 
 
-.search-input {
-    width: 100%;
-    padding: 10px 30px 10px 10px; /* Padding for text and icon */
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    display: block;
-    margin-bottom: 50px;
-  }
 
-  .search-container {
-    position: relative;
-    width: 500px; /* Adjust width as needed */
-    margin: 0 auto; /* Center the container */
-     
-  }
-
-  
-  .search-icon {
-    position: absolute;
-    height: 40px;
-    top: 50%;
-    right: 0px;
-    transform: translateY(-50%);
-    cursor: pointer;
-   
-}
