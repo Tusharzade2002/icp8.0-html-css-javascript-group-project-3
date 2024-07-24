@@ -16,6 +16,16 @@ function likeItem(button){
   let Images=['./../Images/image/Slider 1.webp','./../Images/image/slider2.webp','./../Images/image/slider3.webp','./../Images/image/Slider4.webp'];
       
       setInterval(sliderimg, 3000);
+
+      function sliderimg(){
+        let random = Math.floor(Math.random() * 4);
+        // console.log(random);
+        Images.src=Images[random];
+    }
+    function modes(){
+        let element = document.body; 
+        element.classList.toggle("dark-mode");
+    }
   
     
     
