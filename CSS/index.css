@@ -2,7 +2,6 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 99.6%;
 }
 .navbar{
     display: flex;
@@ -183,7 +182,7 @@ footer{
 }
 .copy{
     text-align: center;
-    margin: 2px ;
+    margin: 5px;
 }
 .product-bg {
     background-color: #d2d7db;
@@ -324,6 +323,11 @@ footer{
                 width: 200px;
             
             }
+            /* .shop-by-category{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
             .shop-by{
                 text-align: center;
                 font-size: 30px;
@@ -332,6 +336,13 @@ footer{
                   text-align: center;
                   font-size: 30px;
             }
+            .shop-by-category-images{
+                padding: 10px 20px;
+            }
+            .shop-by-category-images img{
+                margin: 5px;
+                cursor: pointer;
+            } */
             .nav-list img {
                 color: rgb(236, 174, 17);
                 height: 20px;
@@ -352,7 +363,9 @@ footer{
     .input-text{
         margin:5px 4px;
     }
-  
+    /* .nav-list{
+        margin: 2px;
+    } */
     .wishlist-icon{
         margin: 2px;
         height: 10px;
@@ -379,7 +392,13 @@ footer{
     }
   }
   @media screen and (min-width: 400px) and (max-width: 815px){
-       
+          /* .shop-by-category{
+             display: block;
+             margin: auto;
+          }
+          .shop-by-category-images img{
+            width: auto;
+          } */
           .logo img{
             height: 40px;
             margin: 5px;
@@ -464,9 +483,10 @@ footer{
     display: block;
 }
 .logo-icon{
-    height: 55px;
-    background-color: rgb(101, 65, 65);
-    padding: 3px;
+    height: 50px;
+    width: 50px;
+    
+    
 }
 .footer-info:hover{
     color:  rgb(204, 116, 15);
@@ -580,8 +600,10 @@ footer{
         cursor: pointer;
     }
     .logo-icon{
-        height: 40px;
-        background-color: rgb(101, 65, 65);
+        height: 35px;
+        width: 35px;
+        border-radius: 80px;
+        background-color: #fbf8f8;
         padding: 10px;
     }
     .footer-title{
@@ -665,28 +687,25 @@ footer{
         margin: 2px;
         cursor: pointer;
     }
-   .shop-by{
+    /* #image-slider{
+        display: block;
+        width: 100%;
+        margin: 0px ;
+      
+    } */
+    /* .shop-by-category-images{
+        padding: 15px 30px;
+    }
+    .shop-by{
         text-align: center;
         font-size: 25px;
-        background-color: aqua;
     }
     .category{
           text-align: center;
           font-size: 25px;
-    } 
-  
+    } */
+
  }
- /* @media screen and (min-width:600px)and (max-width:768px){
- .shop-by{
-    text-align: center;
-    font-size: 55px;
-  
-}
-.category{
-      text-align: center;
-      font-size: 55px;
-} 
- } */
 
 @media screen and (min-width:600px)and (max-width:768px){
     .input-text{
@@ -702,14 +721,6 @@ footer{
     .logo img{
         height: 50px;
         margin: 5px;
-    }
-    .shop-by{
-        text-align: center;
-        font-size: 35px;
-    }
-    .category{
-          text-align: center;
-          font-size: 35px;
     }
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -736,7 +747,17 @@ footer{
         margin: 0px auto;
       
     }
-
+    /* .shop-by-category-images{
+        padding: 15px 30px;
+    }
+    .shop-by{
+        text-align: center;
+        font-size: 35px;
+    }
+    .category{
+          text-align: center;
+          font-size: 35px;
+    } */
 }
 
 @media screen and (min-width: 993px) and (max-width: 1200px) {
@@ -748,7 +769,6 @@ footer{
         margin: 10px 20px;
     }
 }
-<<<<<<< HEAD
     .shop-by-category{
         display: block;
         pad: 20px 30px;
@@ -770,13 +790,10 @@ footer{
        margin: 5px;
        cursor: pointer;
        /* padding: 20px 150px; */
-       padding-left: 50px;
+       padding-left: 5px;
     }
 
 
-=======
-  
->>>>>>> b0bd88e14d0ce2e97d13fddace1a1653a1d5f157
 
 .btn-toggle {
     cursor: pointer;
@@ -786,10 +803,10 @@ footer{
 .dark-mode {
     background-color: rgb(36, 33, 33);
     color: white;
-    .text{
-        color: white;
-    }
 }
 .main-section {
+    color: white;
+}
+.dark-section p{
     color: white;
 }
