@@ -306,7 +306,6 @@ footer{
           text-align: center;
           font-size: 25px;
     } 
-  
  }
 @media screen and (max-width: 600px)
 {
@@ -331,6 +330,7 @@ footer{
             .main-section p{
                 font-size: 8px;
             }
+            
         }
         @media screen and (min-width:600px)and (max-width:768px){
             .input-text{
