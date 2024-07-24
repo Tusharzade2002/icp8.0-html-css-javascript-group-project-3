@@ -20,7 +20,7 @@ body{
 }
 .input-text{
     height: 50px;
-    width: 500px;
+    width: 5  00px;
     font-size: 25px;
     border: none;
     margin: 10px 20px;
@@ -198,9 +198,9 @@ footer{
 .product-bg {
     background-color: #d2d7db;
     height: 470px;
-    width: 290px;
+    width: 250px;
     float: left;
-    margin-left: 160px;
+    margin-left: 10px;
     margin-bottom: 50px;
     border-radius: 13px;
     border: 1px solid black;
@@ -830,6 +830,5 @@ footer{
     color: white;
 }
 
-}
 
 
