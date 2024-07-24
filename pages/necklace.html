@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Necklace Jwellary</title>
+    <style>
+         body{
+            background-color: aliceblue;
+        }
+         .product-bg {
+            background-color: rgb(207, 203, 203);
+            height: 450px;
+            width: 290px;
+            float: left;
+            margin-left: 100px;
+            margin-bottom: 50px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .product-bg:hover {
+            transform: scale(1.05);
+        }
+        .design-img{
+            width: 250px;
+            width: 250px;
+            border-radius: 250px;
+            margin: 50px auto;
+            display: block;
+        }
+        .price{
+            color: rgb(3, 16, 8);
+            font-size: 1em;
+            text-align: center;
+        }
+        .buttons {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            background-color: #333;
+            color: black;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        button:hover {
+        background-color: #555;
+        }
+
+        .buy-btn {
+            flex: 1;
+            margin-right: 5px;
+            background-color: #007bff;
+            color: white;
+            /* border-radius: 10px; */
+        }
+
+        .buy-btn a{
+            text-decoration: none;
+        }
+
+        .buy-btn:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+            border-radius:  10px 0 10px 0;
+        }
+
+        .like-btn {
+            flex: 1;
+            margin-left: 5px;
+            /* border-radius: 10px; */
+        }
+
+        .like-btn :hover {
+            border-radius:  10px 0 10px 0;;
+        }
+
+        .like-btn a{
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div  class="product-bg">
+        <img src="./../Images/N04.jpg" class="design-img">
+        <p class="price">only at.<del>1000</del>999</p>
+        <div class="buttons">
+            <button class="buy-btn"><a href="./../order.html">
+                    <p class="btn">BUY NOW</p>
+                </a></button>
+            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                    <p class="btn">❤️<span class="name">0</span></p>
+                </a></button>
+        </div>
+    </div>
+    <div  class="product-bg">
+        <img src="./../Images/N23.jpg" class="design-img">
+        <p class="price">only at.<del>1000</del>999</p>
+        <div class="buttons">
+            <button class="buy-btn"><a href="./../order.html">
+                    <p class="btn">BUY NOW</p>
+                </a></button>
+            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                    <p class="btn">❤️<span class="name">0</span></p>
+                </a></button>
+        </div>
+    </div>
+    <div  class="product-bg">
+        <img src="./../Images/neclace3.png" class="design-img">
+        <p class="price">only at.<del>1000</del>999</p>
+        <div class="buttons">
+            <button class="buy-btn"><a href="./../order.html">
+                    <p class="btn">BUY NOW</p>
+                </a></button>
+            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                    <p class="btn">❤️<span class="name">0</span></p>
+                </a></button>
+        </div>
+    </div>
+    <div  class="product-bg">
+        <img src="./../Images/n4.jpg" class="design-img">
+        <p class="price">only at.<del>1000</del>999</p>
+        <div class="buttons">
+            <button class="buy-btn"><a href="./../order.html">
+                    <p class="btn">BUY NOW</p>
+                </a></button>
+            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                    <p class="btn">❤️<span class="name">0</span></p>
+                </a></button>
+        </div>
+    </div>
+    <div  class="product-bg">
+        <img src="./../Images/ne3.jpeg" class="design-img">
+        <p class="price">only at.<del>1000</del>999</p>
+        <div class="buttons">
+            <button class="buy-btn"><a href="./../order.html">
+                    <p class="btn">BUY NOW</p>
+                </a></button>
+            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                    <p class="btn">❤️<span class="name">0</span></p>
+                </a></button>
+        </div>
+    </div>
+    <div  class="product-bg">
+        <img src="./../Images/6.jpeg" class="design-img"> <p class="price">only at.<del>1000</del>999</p>
+        <div class="buttons">
+            <button class="buy-btn"><a href="./../order.html">
+                    <p class="btn">BUY NOW</p>
+                </a></button>
+            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                    <p class="btn">❤️<span class="name">0</span></p>
+                </a></button>
+        </div>
+    </div>
+    <div  class="product-bg">
+        <img src="./../Images/8.webp" class="design-img">
+        <p class="price">only at.<del>1000</del>999</p>
+        <div class="buttons">
+            <button class="buy-btn"><a href="./../order.html">
+                    <p class="btn">BUY NOW</p>
+                </a></button>
+            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                    <p class="btn">❤️<span class="name">0</span></p>
+                </a></button>
+        </div>
+    </div>
+    <div  class="product-bg">
+        <img src="./../Images/9.jpeg" class="design-img">
+        <p class="price">only at.<del>1000</del>999</p>
+        <div class="buttons">
+            <button class="buy-btn"><a href="./../order.html">
+                    <p class="btn">BUY NOW</p>
+                </a></button>
+            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                    <p class="btn">❤️<span class="name">0</span></p>
+                </a></button>
+        </div>
+    </div>
+    <div  class="product-bg">
+        <img src="./../Images/10.jpg" class="design-img">
+        <p class="price">only at.<del>1000</del>999</p>
+        <div class="buttons">
+            <button class="buy-btn">Buy Now</button>
+            <button class="like-btn" onclick="likeItem(this)">❤️<span>80</span></button>
+        </div>
+    </div>
+    <div  class="product-bg">
+        <img src="./../Images/neck4.jpg" class="design-img">
+        <p class="price">only at.<del>1000</del>999</p>
+        <div class="buttons">
+            <button class="buy-btn"><a href="./../order.html">
+                    <p class="btn">BUY NOW</p>
+                </a></button>
+            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                    <p class="btn">❤️<span class="name">0</span></p>
+                </a></button>
+        </div>
+    </div>
+    <div  class="product-bg">
+        <img src="./../Images/n16.webp" class="design-img">
+        <p class="price">only at.<del>1000</del>999</p>
+        <div class="buttons">
+            <button class="buy-btn"><a href="./../order.html">
+                    <p class="btn">BUY NOW</p>
+                </a></button>
+            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                    <p class="btn">❤️<span class="name">0</span></p>
+                </a></button>
+        </div>
+    </div>
+    <div  class="product-bg">
+        <img src="./../Images/np.webp" class="design-img">
+        <p class="price">only at.<del>1000</del>999</p>
+        <div class="buttons">
+            <button class="buy-btn"><a href="./../order.html">
+                    <p class="btn">BUY NOW</p>
+                </a></button>
+            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                    <p class="btn">❤️<span class="name">0</span></p>
+                </a></button>
+        </div>
+    </div>
+    <script src="./../Javascript/necklace.js"></script>
+</body>
+</html>
