@@ -29,6 +29,8 @@ color: #0f1111;
     padding: 0px;
     justify-content: space-around;
     align-items: center;
+    
+    
 }
 .main-section{
     display: flex;
@@ -43,7 +45,7 @@ color: #0f1111;
     font-size: large;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     cursor: pointer;
-
+   
 }
 .main-section p:hover{
     border: 1px solid black;
@@ -85,7 +87,7 @@ color: #0f1111;
     height: 400px;
     width: 600px;
     display: block;
-    margin-top: 20px;
+    margin-top: 40px;
     border: 1px solid black;
     box-shadow: 2px 2px 15px 0px black;
     border-radius: 25px;
