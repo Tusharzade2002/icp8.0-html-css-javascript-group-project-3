@@ -826,9 +826,13 @@ footer{
     background-color: transparent;
     border: none;
 }
+
 .dark-mode {
     background-color: rgb(36, 33, 33);
     color: white;
+    .text{
+        color: white;
+    }
 }
 .main-section {
     color: white;
