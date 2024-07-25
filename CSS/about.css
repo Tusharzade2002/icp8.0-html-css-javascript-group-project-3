@@ -735,7 +735,7 @@ footer{
         height: 50px;
         }
        .product-bg{
-        margin: 5px;
+        margin: 5px 15px;
        }
         .section{
             flex-wrap: wrap;
