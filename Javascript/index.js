@@ -1,5 +1,5 @@
 let slideIndex = 0;
-const totalSlides = 3; // Number of slides
+const totalSlides = 3;
 
 function showSlide(index) {
   const slider = document.getElementById('slider');
@@ -23,7 +23,7 @@ function prevSlide() {
   showSlide(slideIndex);
 }
 
-// Automatic slide change (optional)
+
 setInterval(() => {
   nextSlide();
 }, 3000); 
@@ -33,4 +33,9 @@ function modes(){
   let element = document.body;
   element.classList.toggle("dark-mode");
   element.classList.toggle("text")
+}
+
+const Search={
+  Earring:"./../pages/EarRing.html",
+  Bangle:"./../pages/Bangle.html"
 }
