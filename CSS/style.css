@@ -1,4 +1,7 @@
-
+.main-section p:hover{
+    border: 1px solid black;
+    padding: 1px;
+}
 
 .title {
     background-color: #eb2828;
