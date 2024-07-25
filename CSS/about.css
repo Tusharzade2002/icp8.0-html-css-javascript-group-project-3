@@ -18,11 +18,15 @@
     padding: 0px;
     justify-content: space-around;
     align-items: center;
+    position: sticky;
+    top: 0;
 }
 .main-section{
     display: flex;
     justify-content: space-around;
+    margin: 0;
     margin: 10px 0px;
+   
 }
 .main-section a{
     text-decoration: none;
@@ -633,12 +637,6 @@ footer{
         height: 30px;
         width: 170px;
     }
-    /* #image-slider{
-        display: block;
-        width: 100%;
-        margin: 0px ;
-      
-    } */
     .shop-by-category-images{
         padding: 15px 30px;
     }
@@ -683,8 +681,12 @@ footer{
         font-size: 35px;
         font-weight: 800;
     }
+   
     .directorinfo{
         margin: 0;
+    }
+    .directorimg{
+        margin-top: 0px;
     }
     .preview{
         flex-wrap: wrap;
@@ -697,10 +699,10 @@ footer{
             
         }
         .main-info{
-            margin-top: 30px;
+            margin-top: 10px;
             line-height: normal;
             list-style: none;
-            margin-right: 10px;
+            font-size: 20px;
 
         }
         .design-img{
@@ -714,16 +716,11 @@ footer{
        .one{
         left: -190px;
         top: 0px;
+        font-size: 20px;
+        height: 50px;
 
        }
-        .two{
-            left: 0px;
-            top: 10px;
-        }
-        .three{
-            left: 0px;
-            top: 430px;
-        }
+       
        .product-bg{
         margin: 5px;
        }
@@ -731,10 +728,9 @@ footer{
             flex-wrap: wrap;
         }
         .directorinfo{
-            margin: 0;
-            margin-top: 200px;
-    
+            margin-top: 400px;
             flex-wrap: wrap;
+            
         }
         .contact-platform{
             flex-wrap: wrap;
