@@ -87,7 +87,7 @@ color: #0f1111;
     height: 400px;
     width: 600px;
     display: block;
-    margin-top: 40px;
+    margin-top: 20px;
     border: 1px solid black;
     box-shadow: 2px 2px 15px 0px black;
     border-radius: 25px;
@@ -111,13 +111,13 @@ span {
 .main-info {
     font-size: 30px;
     padding-right: 150px;
+    margin-left: 30px;
 }
 .main-img {
     height: 450px;
     margin: 0;
     border-radius: 25px;
     border: 1px solid black;
-    margin-right: 100px;
 }
 /* 3 small content add */
 .design-container {
@@ -194,8 +194,12 @@ span {
     cursor: pointer;
     background-color: transparent;
     border: none;
+   
 }
-
+ .dark-mode .dark-section a{
+   color: white;
+    
+}
 .product-bg {
     background-color: #d2d7db;
     height: 470px;
@@ -277,12 +281,12 @@ footer{
     background-color: #f8ecec;
     height: 250px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-
 }
 .footer-container{
     display:flex;
     justify-content: space-around;
     color: black;
+    
 }
 .footer-box{
     border-bottom: 2px solid goldenrod;
@@ -372,6 +376,7 @@ footer{
 }
 .copy{
     text-align: center;
+    margin-bottom: 0;
     
 }.copy {
     padding-top: 30px;
@@ -685,6 +690,10 @@ footer{
         width: 290px;
         margin-left: 10px;
     }
+    span {
+        font-size: 35px;
+        font-weight: 800;
+    }
     .preview{
         flex-wrap: wrap;
     }
@@ -699,6 +708,7 @@ footer{
             margin-top: 30px;
             line-height: normal;
             list-style: none;
+            margin-right: 10px;
 
         }
         .design-img{
