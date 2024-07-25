@@ -609,6 +609,8 @@ footer{
         display: flex;
         justify-content: space-around;
         margin: 5px 0px;
+        border: none;
+        padding: 0;
     
     }
     .main-section a{
@@ -745,7 +747,7 @@ footer{
         }
         .contact-platform{
             flex-wrap: wrap;
-            margin-bottom: 70px;
+            margin-bottom: 150px;
         }
 }
 /* normal device */
