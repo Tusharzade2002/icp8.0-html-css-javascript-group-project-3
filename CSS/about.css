@@ -726,7 +726,12 @@ footer{
             font-size: 20px;
         height: 50px;
         }
-   
+        .three{
+            left: -1180px;
+            top: 300px;
+            font-size: 20px;
+        height: 50px;
+        }
        .product-bg{
         margin: 5px;
        }
