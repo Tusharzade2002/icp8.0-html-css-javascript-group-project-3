@@ -682,6 +682,9 @@ footer{
         font-size: 35px;
         font-weight: 800;
     }
+    .directorinfo{
+        margin: 0;
+    }
     .preview{
         flex-wrap: wrap;
     }
@@ -734,7 +737,7 @@ footer{
         }
         .contact-platform{
             flex-wrap: wrap;
-            margin-bottom: 50px;
+            margin-bottom: 70px;
         }
 }
 /* normal device */
