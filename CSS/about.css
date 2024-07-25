@@ -720,7 +720,13 @@ footer{
         height: 50px;
 
        }
-       
+        .two{
+            left: -680px;
+            top: 150px;
+            font-size: 20px;
+        height: 50px;
+        }
+   
        .product-bg{
         margin: 5px;
        }
