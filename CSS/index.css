@@ -198,9 +198,9 @@ footer{
 .product-bg {
     background-color: #d2d7db;
     height: 470px;
-    width: 290px;
+    width: 250px;
     float: left;
-    margin-left: 160px;
+    margin-left: 10px;
     margin-bottom: 50px;
     border-radius: 13px;
     border: 1px solid black;
@@ -331,7 +331,7 @@ footer{
 @media screen and (max-width: 600px)
 {
             .input-text{
-                width: 200px;
+                width: 100px;
             
             }
             /* .shop-by-category{
@@ -365,10 +365,10 @@ footer{
             }
 
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 400px){
     .logo img{
         height: 20px;
-        width: 40px;
+        width: 20px;
         margin: 5px 0px;
     }
     .input-text{
@@ -386,6 +386,10 @@ footer{
         margin: 2px;
         height: 10px;
         padding: 0px;
+    }
+    .input-text{
+        width: 100px;
+        height: 10px;
     }
 }
 
@@ -822,14 +826,17 @@ footer{
     background-color: transparent;
     border: none;
 }
+
 .dark-mode {
     background-color: rgb(36, 33, 33);
     color: white;
+    .text{
+        color: white;
+    }
 }
 .main-section {
     color: white;
 }
 
-}
 
 
