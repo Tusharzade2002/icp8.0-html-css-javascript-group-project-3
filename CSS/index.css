@@ -19,12 +19,20 @@ body{
     padding: 5px;
 }
 .input-text{
+
+    height: 60px;
+    width: 60%;
+
     height: 50px;
     width:auto;
+
     font-size: 25px;
+
+    border: 1px solid black;
+
     border: none;
     margin: 10px 20px;
-    
+
     /* background-image: url(./../Images/image/search\ icon.png);
     background-repeat: no-repeat;
    padding: 30px 30px;
@@ -35,6 +43,7 @@ body{
 .input-div img{
     position: relative;
     left: 6vh;
+
 }
 .nav-list{
     display: flex;
@@ -86,13 +95,13 @@ body{
     flex-wrap: wrap;
 }
 .shop-by-category-images img{
-    margin: 55px;
+    margin: 30px 100px;
     cursor: pointer;
 }
 footer{
     background-color: #f8ecec;
     height: 350px;
-    margin-top: 100px;
+    margin-top: 30px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 
 }
@@ -145,8 +154,6 @@ footer{
 }
 .logo-icon{
     height: 50px;
-   
-   
 }
 .footer-info:hover{
     color:rgb(204, 116, 15);
@@ -305,6 +312,25 @@ footer{
 
 }
 
+
+
+.btn-toggle {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.dark-mode {
+    background-color: rgb(36, 33, 33);
+    color: white;
+    .text{
+        color: white;
+    }
+}
+.main-section {
+    color: white;
+}
+
 /* Slider */
 .slider-container {
     max-width: 100%;
@@ -373,6 +399,8 @@ footer{
     }
     .input-text{
         margin:5px 4px;
+        height: 40px;
+        width: 170px;
     }
     /* .nav-list{
         margin: 2px;
@@ -387,6 +415,10 @@ footer{
         height: 10px;
         padding: 0px;
     }
+
+    .shop-by-category-images{
+        margin: -90px;
+
     .input-text{
         width: 300px;
         height: 10px;
@@ -846,23 +878,4 @@ footer{
     }
 }
 
-
-.btn-toggle {
-    cursor: pointer;
-    background-color: transparent;
-    border: none;
 }
-
-.dark-mode {
-    background-color: rgb(36, 33, 33);
-    color: white;
-    .text{
-        color: white;
-    }
-}
-.main-section {
-    color: white;
-}
-
-
-
