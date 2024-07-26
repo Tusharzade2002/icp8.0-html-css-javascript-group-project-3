@@ -401,7 +401,7 @@ footer{
 }
 @media screen and (max-width: 400px){
     .logo img{
-        height: 6px;
+        height: 25px;
         margin: 5px 0px;
     }
     .shop-by-category-images img{
@@ -473,24 +473,18 @@ footer{
         transition: 1s;
     }
   }
-  /* @media screen and (min-width: 400px) and (max-width: 815px){
-          /* .shop-by-category{
-             display: block;
-             margin: auto;
-          }
-          .shop-by-category-images img{
-            width: auto;
-          } */
+   @media screen and (min-width: 400px) and (max-width: 815px){
+        
           .logo img{
             height: 40px;
             margin: 5px;
         }
     }
-   */
+   
 
   /* Tablet Devices */
 
-  @media screen and (min-width: 769px) and (max-width: 992px) {
+  /* @media screen and (min-width: 769px) and (max-width: 992px) {
      .navbar{
         width: 100%;
         margin: 5px 0px;
@@ -503,7 +497,7 @@ footer{
         margin: 10px 10px;
     }
 
-  }
+  } */
   /* footer start */
 .copy {
     padding-top: 30px;
