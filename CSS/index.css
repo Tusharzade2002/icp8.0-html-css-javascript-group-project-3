@@ -19,21 +19,20 @@ body{
     padding: 5px;
 }
 .input-text{
-<<<<<<< HEAD
+
     height: 60px;
     width: 60%;
-=======
+
     height: 50px;
     width:auto;
->>>>>>> 1e2434fcd44b0087debae38311d0fcea51290830
+
     font-size: 25px;
-<<<<<<< HEAD
+
     border: 1px solid black;
 
-=======
     border: none;
     margin: 10px 20px;
-    
+
     /* background-image: url(./../Images/image/search\ icon.png);
     background-repeat: no-repeat;
    padding: 30px 30px;
@@ -44,7 +43,7 @@ body{
 .input-div img{
     position: relative;
     left: 6vh;
->>>>>>> cb6eb2ce55e113df332034bf6cef1c53d0865bd2
+
 }
 .nav-list{
     display: flex;
@@ -313,6 +312,25 @@ footer{
 
 }
 
+
+
+.btn-toggle {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.dark-mode {
+    background-color: rgb(36, 33, 33);
+    color: white;
+    .text{
+        color: white;
+    }
+}
+.main-section {
+    color: white;
+}
+
 /* Slider */
 .slider-container {
     max-width: 100%;
@@ -397,12 +415,12 @@ footer{
         height: 10px;
         padding: 0px;
     }
-<<<<<<< HEAD
+
     .shop-by-category-images{
         margin: -90px;
 
     .input-text{
-        width: 20px;
+        width: 300px;
         height: 10px;
     }
     .shop-by{
@@ -418,7 +436,7 @@ footer{
  
 .input-text{
     height: 44px;
-    width: 100px;
+    width: 200px;
     font-size: 15px;
     border: none;
     margin: 5px 10px;
@@ -540,6 +558,7 @@ footer{
 .logo-icon{
     height: 50px;
     width: 50px;
+    background-color: rgb(101, 65, 65);
     
     
 }
@@ -859,23 +878,4 @@ footer{
     }
 }
 
-
-.btn-toggle {
-    cursor: pointer;
-    background-color: transparent;
-    border: none;
 }
-
-.dark-mode {
-    background-color: rgb(36, 33, 33);
-    color: white;
-    .text{
-        color: white;
-    }
-}
-.main-section {
-    color: white;
-}
-
-
-
