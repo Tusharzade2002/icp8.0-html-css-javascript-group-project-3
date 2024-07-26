@@ -96,7 +96,10 @@
             width: 100%;
             height: 8%;
             background-color:#f8ecec;
+<<<<<<< HEAD
+=======
             padding: 0px;
+>>>>>>> cb6eb2ce55e113df332034bf6cef1c53d0865bd2
             justify-content: space-around;
             align-items: center;
         }
@@ -104,7 +107,10 @@
             height: 60px;
             margin: 5px;
             background-color:rgb(101, 65, 65);
+<<<<<<< HEAD
+=======
             padding: 5px;
+>>>>>>> cb6eb2ce55e113df332034bf6cef1c53d0865bd2
         }
         .input-text{
             height: 50px;
