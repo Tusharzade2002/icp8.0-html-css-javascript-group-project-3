@@ -204,7 +204,9 @@ span {
     border: 1px solid black;
     padding: 5px;
 }
-
+.product-bg:hover {
+    transform: scale(1.05);
+}
 .quality-container{
     display: flex;
     justify-content: space-around;
