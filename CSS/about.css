@@ -286,44 +286,26 @@ span {
 }
 /* some imp links */
 .contact-platform{
-    height: 200px;
+    height: 70px;
     width: 100%;
     display: flex;
     justify-content:space-around;
     align-items: center;
+    margin-bottom: 50px;
+}
+.contact-platform h3{
+    font-size: 40px;
+}
+
+.social-media{
+    margin: 19px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid black;
 
 }
-.receiver{
-    width: 200px;
-    font-size: 20px;
-}
-.gmail{
-    width: 200px;
-    font-size: 20px;
-}
-.google-maps{
-    width: 200px;
-    font-size: 20px;
-}
-.gitgub{
-    width: 200px;
-    font-size: 20px;
-    margin: 0;
-}
-.instagram{
-    width: 200px;
-    font-size: 20px;
-}
-.font-contact-platform{
-    font-size: 20px;
-    
-}
-.contact-form{
-    width: 500px;
-    height: 400px;
-    margin-left:60vh ;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.social-media:hover{
+    background-color: #c0bcbc;
 }
 /*footer **/
 
@@ -581,73 +563,12 @@ footer{
         cursor: pointer;
         width: 1px;
     }    
-    .main-section{
-        display: flex;
-        justify-content: space-around;
-        margin: 5px 0px;
-        border: none;
-        padding: 0;
-    
-    }
-    .main-section a{
-        text-decoration: none;
-        color: black;
-    }
-    .main-section p{
-        font-size: 10px;;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-        cursor: pointer;
-    }
-    
-    .input-text{
-        height: 40px;
-        width: 240px;
-        border: none;
-        margin: 3px 5px;
-    }
+  
+  
     .nav-list img{
-        color: rgb(236, 174, 17);
+        margin: 0;
         height: 25px;
-        margin: 10px;
-        cursor: pointer;
-    }
-    .search-input{
-        height: 30px;
-        width: 170px;
-    }
-    .shop-by-category-images{
-        padding: 15px 30px;
-    }
-    .shop-by{
-        text-align: center;
-        font-size: 25px;
-    }
-    .category{
-          text-align: center;
-          font-size: 25px;
-    }
-
-    .input-text{
-        width: 200px;
-    }
-    .shop-by-category{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .shop-by{
-        text-align: center;
-        font-size: 30px;
-    }
-    .category{
-          text-align: center;
-          font-size: 30px;
-    }
-    .shop-by-category-images{
-        padding: 10px 20px;
-    }
-    .shop-by-category-images img{
-        margin: 5px;
+        margin-left: 1px;
         cursor: pointer;
     }
     #main-image{
