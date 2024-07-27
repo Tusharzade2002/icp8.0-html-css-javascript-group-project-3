@@ -307,130 +307,6 @@ span {
 .social-media:hover{
     background-color: #c0bcbc;
 }
-/*footer **/
-
-.copy {
-    padding-top: 30px;
-    text-align: center;
-    width: 100%;
-    height: 50px;
-    color: black;
-}
-.copy:hover{
-    color:  rgb(204, 116, 15);
-    cursor: pointer;
-}
-footer{
-    background-color:#f8ecec;
-    height: 350px;
-    color: black;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-
-}
-.footer-container{
-    display:flex;
-    justify-content: space-around;
-    color: black;
-
-}
-.footer-box{
-    border-bottom: 2px solid goldenrod;
-    height: 240px;
-    width: 300px;
-    color: black;
-    padding: 20px 10px;
-    text-align: justify;
-}
-
-.footer ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 3px;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-
-}
-
-.footer ul li {
-    flex: 1;
-    text-align: start;
-
-}
-
-.footer ul li a {
-    display: block;
-    color: #fbf8f8;
-    text-decoration: none;
-    font-size: 14px;
-    padding: 6px;
-    color:black;
-}
-
-.footer ul li a:hover {
-    color: rgb(204, 116, 15) ;
-}
-.footer-info{
-    display: block;
-    font-size: 14px;
-    text-decoration: none;
-}
-.logo-icon{
-    height: 50px;
-    background-color: rgb(101, 65, 65);
-    
-    
-}
-.footer-info:hover{
-    color:  rgb(204, 116, 15);
-    cursor: pointer;
-}
-.footer-title{
-    font-size: 20px ;
-    font-weight: bold;
-    color: black;
-    padding-bottom: 20px;
-    display: block;
-}
-
-.footer li{
-    color: black;
-    text-decoration: none;
-}
-.footer-title:hover{
-    color:  rgb(204, 116, 15);
-    cursor: pointer;
-}
-.footer-address{
-    display: block;
-    color: black;
-    font-size: 15px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    padding-left: 50px;
-}
-.footer-address:hover{
-    color:  rgb(204, 116, 15);
-    cursor: pointer;
-}
-.footer-address-title{
-    display: block;
-    color: black;
-    font-weight: bold;
-    font-size: 17px;
-}
-.footer-address-title:hover{
-    color:  rgb(204, 116, 15);
-    cursor: pointer;
-}
-/*small navbar*/
-.small-navbar{
-    position: fixed;
-    top: 30;
-    right: 0;
-    background-color:#f8ecec;    
-
-}
 @media screen and (max-width:768px){
     .copy {
         padding-top: 25px;
@@ -569,27 +445,25 @@ footer{
         width: 290px;
         margin-left: 10px;
     }
-    span {
-        font-size: 35px;
-        font-weight: 800;
-    }
    .directorimg{
         margin-top: 0px;
     }
     .preview{
         flex-wrap: wrap;
     }
-        .main-img{
+    .main-img{
             width: 290px;
             height: 350px;
             flex-wrap: wrap;
             border: 1px solid black;
             
-        }
+    }
         .main-info{
-            margin-top: 10px;
-            margin: 0;
+            span{
+                font-size: 25px;
+            }
            font-size: 20px;
+           margin-right: 10px;
 
         }
         .design-img{
