@@ -565,4 +565,38 @@ footer{
             margin: -1600px;
         }   
 }
+/* tablet device*/
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .main-img{
+        margin-top: 20px;
+        margin-left: 10px;
+        height: 600px;
+        width: 400px;
+    }
+    #main-image{
+        margin-left: 150px;
+        height: 400px;
+        width: 600px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .contact-platform{
+        flex-wrap: wrap;
+        margin:-850px;
+    }
+}
+
 
