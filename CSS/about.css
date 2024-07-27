@@ -333,7 +333,7 @@ footer{
 .footer ul li a {
     display: block;
     color: #fbf8f8;
-    text-decoration: none;
+    /*text-decoration: none;*/
     padding: 6px;
     color:black;
 }
@@ -394,7 +394,14 @@ footer{
     color:  rgb(204, 116, 15);
     cursor: pointer;
 }
+/*small navbar*/
+.small-navbar{
+    position: fixed;
+    top: 30;
+    right: 0;
+    background-color:#f8ecec;    
 
+}
 @media screen and (max-width:768px){
     .copy {
         padding-top: 25px;
@@ -516,6 +523,7 @@ footer{
 
 /* small device */
 @media screen and (min-width: 100px) and (max-width:450px){
+    
     .logo img{
         height: 30px;
         margin: 5px;
@@ -665,6 +673,18 @@ footer{
             flex-wrap: wrap;
             margin-bottom: 150px;
         }
+
+        .main-section{
+            display: none;
+        }
+        ..small-navbar{
+            display: block;
+        }
+        .menu-icon{
+            height: 30px;
+        }
+
+        
 }
 /* normal device */
 @media screen and (min-width : 601px) and (max-width: 768px) {
