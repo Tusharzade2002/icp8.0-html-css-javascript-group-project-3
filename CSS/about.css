@@ -554,21 +554,14 @@ footer{
 @media screen and (min-width: 100px) and (max-width:450px){
     
     .logo img{
-        height: 30px;
-        margin: 5px;
+        height: 20px;
+        margin-left: 5px;
     }
-    .main-section p{
-        font-size: 1px;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-        cursor: pointer;
-        width: 1px;
-    }    
-  
-  
-    .nav-list img{
-        margin: 0;
+    .nav-list{
+    gap: 9px;
+    }
+ .nav-list img{
         height: 25px;
-        margin-left: 1px;
         cursor: pointer;
     }
     #main-image{
@@ -639,7 +632,7 @@ footer{
         }
         .contact-platform{
             flex-wrap: wrap;
-            margin-bottom: 150px;
+            margin-bottom: 190px;
         }
 
         .main-section{
