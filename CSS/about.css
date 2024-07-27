@@ -562,7 +562,7 @@ footer{
         }
         .contact-platform{
             flex-wrap: wrap;
-            margin-bottom: 70px;
+            margin: -1600px;
         }   
 }
 
