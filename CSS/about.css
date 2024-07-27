@@ -1,4 +1,13 @@
-
+.menu-container {
+    position: relative;
+    display: inline-block;
+}
+.menu-select {
+    display: none; /* Hides the actual select dropdown */
+}
+.menu-label {
+    cursor: pointer;
+}
 * {
     margin: 0;
     padding: 0;
@@ -112,6 +121,36 @@ span {
     border-radius: 25px;
     border: 1px solid black;
 }
+/* new add */
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+  } 
+  .menu-logo {
+    color: white;
+    cursor: pointer; 
+  }
+  #page-select {
+    display: none;
+    color: #333;
+    background-color: white;
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+   div >.menuimg{
+    background-color: transparent;
+    border: none;
+  }
+  
 /* 3 small content add */
 .design-container {
     height: auto;
