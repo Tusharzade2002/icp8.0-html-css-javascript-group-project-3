@@ -157,6 +157,7 @@ footer{
 }
 .logo-icon{
     height: 50px;
+    background-color: rgb(101, 65, 65)
 }
 .footer-info:hover{
     color:rgb(204, 116, 15);
@@ -561,7 +562,7 @@ footer{
 }
 .logo-icon{
     height: 50px;
-    width: 50px;
+    /* width: 50px; */
     background-color: rgb(101, 65, 65);
     
     
@@ -680,9 +681,10 @@ footer{
     .logo-icon{
         height: 35px;
         width: 35px;
-        border-radius: 80px;
+     
         background-color: #fbf8f8;
         padding: 10px;
+        background-color: rgb(101, 65, 65)
     }
     .footer-title{
         font-size: 14px ;
