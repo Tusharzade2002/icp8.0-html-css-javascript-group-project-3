@@ -158,11 +158,6 @@ span {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
-.dropdown:hover .dropbtn {
-    color: #f7a636;
-}
-
   
 /* 3 small content add */
 .design-container {

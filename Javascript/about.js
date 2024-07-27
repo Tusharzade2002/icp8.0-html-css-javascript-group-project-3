@@ -1,22 +1,3 @@
-function toggleDropdown() {
-    const pageSelect = document.getElementById('page-select');
-    if (pageSelect.classList.contains('hidden')) {
-      pageSelect.classList.remove('hidden');
-      pageSelect.style.display = 'block';
-    } else {
-      pageSelect.classList.add('hidden');
-      pageSelect.style.display = 'none';
-    }
-  }
-  
-  function redirectToPage() {
-    const pageSelect = document.getElementById('page-select');
-    const selectedPage = pageSelect.value;
-    if (selectedPage) {
-      window.location.href = selectedPage;
-    }
-  }
-  
 
 function modes(){
     let element = document.body;
