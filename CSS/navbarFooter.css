@@ -60,52 +60,6 @@
     background-color:#d2d7db ;
     border: 1px solid black;
 }
-/* preview */
-.small-img{
-    height: 90px;
-    width: 90px;
-    margin: 10px;
-    border: 1px solid black;
-    border-radius: 10px;
-    cursor: pointer;
-    object-fit: cover;
-}
-#main-image{
-    height: 400px;
-    width: 600px;
-    display: block;
-    margin-top: 20px;
-    border: 1px solid black;
-    box-shadow: 2px 2px 15px 0px black;
-    border-radius: 25px;
-    margin-left: 480px;
-    
-}
-.preview{
-    display: flex;
-    justify-content: center;
-}
-.section {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-}
-
-span {
-    font-size: 50px;
-    font-weight: 900;
-}
-.main-info {
-    font-size: 30px;
-    padding-right: 150px;
-    margin-left: 30px;
-}
-.main-img {
-    height: 450px;
-    margin: 0;
-    border-radius: 25px;
-    border: 1px solid black;
-}
 /* new add */
 
 .dropdown {
@@ -142,9 +96,21 @@ span {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}/* theme change */
+.dark-mode {
+    background-color: rgb(36, 33, 33);
+    color: white;
 }
-  
-
+.btn-toggle {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+   
+}
+ .dark-mode .dark-section a{
+   color: white;
+    
+}
 
 
 /*footer **/
@@ -263,11 +229,166 @@ footer{
     color:  rgb(204, 116, 15);
     cursor: pointer;
 }
-/*small navbar*/
-.small-navbar{
-    position: fixed;
-    top: 30;
-    right: 0;
-    background-color:#f8ecec;    
 
+
+
+
+@media screen and (min-width: 100px) and (max-width:450px){
+    
+    .logo img{
+        height: 20px;
+        margin-left: 5px;
+    }
+    .nav-list{
+    gap: 9px;
+    }
+ .nav-list img{
+        height: 25px;
+        cursor: pointer;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){    
+    .logo img{
+        height: 30px;
+        margin-left: 40px;
+    }
+    .nav-list{
+    gap: 37px;
+    }
+ .nav-list img{
+        height: 35px;
+        cursor: pointer;
+    }
+.copy {
+    padding-top: 25px;
+    text-align: center;
+    width: 100%;
+    height: 25px;
+    background-color: #f8ecec;
+    color: black;
+    font-size: 14px;
+}
+.copy:hover{
+    color: rgb(204, 116, 15);
+    cursor: pointer;
+}
+footer{
+    background-color: #f8ecec;
+    height:fit-content;
+    padding: 20px 5px;
+    margin-top: 100px;
+    /* border: 5px solid red; */
+}
+.footer-container{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+.footer-box{
+    border-bottom: 2px solid goldenrod;
+    height: 200px;
+    width: 300px;
+    color:black;
+    padding: 10px 10px;
+    text-align: justify;
+}
+
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-decoration: none;
+    flex-wrap: wrap;
+
+}
+
+.footer ul li {
+    flex: 1;
+    text-align: start;
+
+}
+
+.footer ul li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 6px 20px;
+    font-size: 10px;
+}
+
+.footer ul li a:hover {
+    color:  rgb(204, 116, 15);
+}
+.footer-info{
+    display: block;
+    font-size: 10px;
+    padding: 10px 2px;
+}
+
+.footer-info:hover{
+    color:  rgb(204, 116, 15);
+    cursor: pointer;
+}
+.logo-icon{
+    height: 35px;
+    width: 35px;
+    border-radius: 80px;
+    background-color: #fbf8f8;
+    padding: 10px;
+}
+.footer-title{
+    font-size: 14px ;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 20px;
+    display: block;
+}
+.footer-title:hover{
+    color:  rgb(204, 116, 15);
+    cursor: pointer;
+}
+.footer-add-container{
+    margin-left: 40px;
+}
+.footer-address{
+    display: block;
+    color: black;
+    font-size: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 50px;
+}
+.footer-address:hover{
+    color:  rgb(204, 116, 15);
+    cursor: pointer;
+}
+.footer-address-title{
+    display: block;
+    color: black;
+    font-weight: bold;
+    font-size: 11px;
+}
+.footer-address-title:hover{
+    color: rgb(204, 116, 15);
+    cursor: pointer;
+}
 }
