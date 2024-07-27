@@ -244,12 +244,18 @@ footer{
     .nav-list{
     width: 450px;
     justify-content: center;
-    gap:13px;
+    gap:11px;
     }
  .nav-list img{
         height: 25px;
         cursor: pointer;
     }
+    .dropdown-content{
+        left: -100px;
+        padding: 0;
+    }
+
+    
 }
 
 
@@ -264,10 +270,12 @@ footer{
         margin-left: 30px;
     }
     .nav-list{
-    gap: 20; 
+    gap: 20px; 
+    width: 768px;
+    justify-content: center;
     }
  .nav-list img{
-        height: 20px;
+        height: 35px;
         cursor: pointer;
     }
     .copy {
@@ -385,4 +393,6 @@ footer{
     color: rgb(204, 116, 15);
     cursor: pointer;
 }
+
+
 }
