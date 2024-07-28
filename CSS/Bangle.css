@@ -1,16 +1,18 @@
 .navbar{
     display: flex;
- 
     height: 8%;
     background-color:#f8ecec;
-    padding: 20px;
     justify-content: space-around;
     align-items: center;
 }
 .logo img{
     height: 80px;
     margin: 5px;
+<<<<<<< HEAD
+    background-color:rgb(101, 65, 65);
+=======
     background-color:rgb(101, 65, 65) ;
+>>>>>>> cb6eb2ce55e113df332034bf6cef1c53d0865bd2
 }
 .input-text{
     height: 50px;
