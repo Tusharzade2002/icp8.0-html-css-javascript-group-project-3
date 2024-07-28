@@ -1,23 +1,4 @@
-.menu-container {
-    position: relative;
-    display: inline-block;
-}
-.menu-select {
-    display: none; /* Hides the actual select dropdown */
-}
-.menu-label {
-    cursor: pointer;
-}
-* {
-    margin: 0;
-    padding: 0;
-}
-.search-input {
-    width: 60%;
-    height: 60px;
-    font-size: 1rem;
-    border: 1px solid black;
-}
+
 /*navbar*/
 .navbar{
     display: flex;
@@ -111,8 +92,9 @@ span {
 }
 .main-info {
     font-size: 30px;
-    padding-right: 150px;
-    margin-left: 30px;
+    padding-right: 120px;
+    text-align: justify;
+    margin-left: 70px;
 }
 .main-img {
     height: 450px;
@@ -441,13 +423,20 @@ footer{
     .main-img{
             width: 290px;
             height: 350px;
+            margin-top: 20px;
+            margin-left: 20px;
             flex-wrap: wrap;
             border: 1px solid black;
             
         }
+        .section{
+            margin: 0;
+            padding: 0;
+        }
         .main-info{
             margin-top: 10px;
-            margin: 0;
+            margin-left: 20px;
+            padding-right:50px ;
            font-size: 20px;
 
         }
@@ -512,11 +501,12 @@ footer{
             width: 550px;
             height: 500px;
             flex-wrap: wrap;
-            margin-left: 30px;
+          margin: 5px 0px 0px 30px;
         }
         .main-info{
             margin-top: 30px;
             margin-left: 30px;
+            padding-right: 100px;
             line-height: normal;
             list-style: none;
         }
@@ -555,14 +545,13 @@ footer{
             margin-top: 600px;
             flex-wrap: wrap;
         }
-        .main-img{
-            margin-top: -120px;
-            height: 400px;
-            width: 500px;
+        .directorimg{
+            margin-top: 20px;
         }
+     
         .contact-platform{
             flex-wrap: wrap;
-            margin: -1600px;
+            margin: -1650px;
         }   
 }
 /* tablet device*/
