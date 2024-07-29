@@ -14,6 +14,12 @@
             border: 1px solid black;
             padding: 5px;
         }
+        .content{
+            
+            flex-direction: wrap;
+            
+
+        }
         
         .product-bg:hover {
     transform: scale(1.05);
@@ -153,24 +159,27 @@
         footer{
             background-color: #f8ecec;
             height: 350px;
+            margin-top: 100px;
             font-family:Verdana, Geneva, Tahoma, sans-serif;
-            
-            
+        
         }
         .footer-container{
             display:flex;
             justify-content: space-around;
             color: black;
+            margin-left: 0px;
+            padding: 0px;
         }
         .footer-box{
             border-bottom: 2px solid goldenrod;
             height: 240px;
             width: 300px;
-            color: #fff;
+            color: black;
             padding: 20px 10px;
-            text-align: justify;
+            text-align: justify; 
             
         }
+        
         .footer ul {
             list-style-type: none;
             margin: 0;
@@ -180,11 +189,13 @@
             justify-content: left;
         
         }
+        
         .footer ul li {
             flex: 1;
             text-align: start;
         
         }
+        
         .footer ul li a {
             display: block;
             color: #fbf8f8;
@@ -193,6 +204,7 @@
             font-size: 15px;
             color: black;
         }
+        
         .footer ul li a:hover {
             color: rgb(204, 116, 15);;
         }
@@ -202,8 +214,7 @@
         }
         .logo-icon{
             height: 50px;
-           
-           
+            background-color: rgb(101, 65, 65)
         }
         .footer-info:hover{
             color:rgb(204, 116, 15);
@@ -262,8 +273,7 @@
                 cursor: pointer;
             }    
 
-        
-       
+            
            
 
 
@@ -636,6 +646,7 @@
         color: rgb(204, 116, 15);
         cursor: pointer;
     }
+   
     footer{
         background-color: #f8ecec;
         height:fit-content;
@@ -827,7 +838,12 @@
 
 /* Small devices (max-width: 480px) */
 @media only screen and (max-width: 480px) {
+    .content{
+        display: flex;
+        justify-content: center;
+    }
     .product-bg {
+        
         margin-top: 20px;
       width: 220px;
       height: 250px;
@@ -854,7 +870,12 @@
   
   /* Normal devices (max-width: 768px) */
   @media only screen and (max-width: 768px) {
+    .content{
+        display: flex;
+        justify-content: center;
+    }
     .product-bg {
+        
       width: 250px;
       height: 400px;
       margin-left: 100px;
@@ -878,6 +899,10 @@
   
   /* Tablets (max-width: 1024px) */
   @media only screen and (max-width: 1024px) {
+    .content{
+        display: flex;
+        justify-content: center;
+    }
     .product-bg {
       width: 280px;
       height: 450px;

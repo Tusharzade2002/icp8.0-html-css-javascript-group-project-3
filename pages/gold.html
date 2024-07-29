@@ -5,24 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gold page</title>
     <link rel="stylesheet" href="./../CSS/gold.css">
+    <link rel="stylesheet" href="./../CSS/">
 </head>
 <body>
     <nav class="navbar">
         <div class="logo">
-             <img src="./../Images/Logo/jewelary_palace_logo-removebg-preview (1).png"/>
+            <img src="./../Images/Logo/jewelary_palace_logo-removebg-preview (1).png" />
         </div>
-        <div class="search-container">
-            <input class="input-text" class="search-input" type="text"  />  
-            <!-- <img src="./Images/image/search icon.png" alt="Search" class="search-icon" onclick="search()">  -->
-        </div>
-        <div class="nav-list">
-        <a href="./"><img class="account-icon" src="./../Images/image/contact.png"/></a>
-               <a href="./../pages/wishlist.html"> <img class="wishlist-icon" src="./../Images/Logo/wishlist.png "/></a>
-            <a href="./../order.html"><img class="shopping-icon" src="./../Images/Icon/shopping-cart.png"/></a>
-            <button onclick="modes()" class="btn-toggle"><img src="./../Images/night-mode.png"></button>
 
-        </div>     
-</nav>
+        <div class="nav-list">
+            <a href="./../index.html"> <img class="wishlist-icon" src="./../Images/image/home.png" /></a>
+            <a href="./../pages/contact.html"><img class="shopping-icon" src="./../Images/image/contact1.png" /></a>
+            <a href="./../pages/about.html"><img class="shopping-icon" src="./../Images/image/parental-control.png" /></a>
+            <a href="./../pages/wishlist.html"> <img class="wishlist-icon" src="./../Images/Icon/wishlist .png " /></a>
+            <a href="./../order.html"><img class="shopping-icon" src="./../Images/Icon/shopping-cart.png" /></a>
+            <a href="./../pages/review.html"><img class="shopping-icon" src="./../Images/review.png" /></a>
+            <div class="dropdown">
+                <a class="dropbtn" href="#"><img src="./../Images/image/menu.png"><i class="fas fa-caret-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="./../pages/gold.html">Gold Jewelry</a>
+                    <a href="./../pages/silver.html">Silver Jewellery</a>
+                    <a href="./../pages/Imitation_Jewellery.html">Simple jewelary</a>
+                    <a href="./../pages/Diamond.html">Diamond Jewelary</a>
+                </div>
+            </div>
+            <button onclick="modes()" class="btn-toggle"><img src="./../Images/night-mode (1).png"></button>
+        </div>
+
+    </nav>
 <section class="main-section">
     <a href="./../index.html"> <p>Home</p> </a>
      <a href="./../pages/Imitation_Jewellery.html"> <p>Simple Jewellery</p> </a>
@@ -33,6 +43,7 @@
      <a href="./../contact.html"> <p>Contact</p></a>
      <a href="./../review.html"> <p>Review</p></a>
 </section>
+     <div class="content">
     <div class="product-bg">
         <img src="./../Images/gold1.jpeg" class="design-img">
               <h3 class="name1"><b>Necklace </b></h3>
@@ -168,19 +179,19 @@
             <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html"><p class="btn">❤️<span class="name">0</span></p></a></button>
         </div>
     </div>
+    </div>
     <footer>
         <div class="footer-container">
+
             <div class="footer-box">
                 <span class="footer-title">Information </span>
                 <span class="footer-info">
                     <img src="./../Images/Logo/jewelary_palace_logo-removebg-preview (1).png" alt="footer logo" class="logo-icon">
                 </span>
                 <span class="footer-info">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatum laboriosam laudantium
-                    optio
-                    aut eveniet inventore voluptate esse sunt nemo in sint, sequi, ab cupiditate molestias, similique
-                    enim
-                    neque quod?
+                    We sell the finest gold available and offer a variety of jewelry, including gold, silver, and diamond pieces. 
+                    You can place an order anytime, and we guarantee the best service.We offer inspiration and information
+                     on the world of authentic, natural jewelry. 
                 </span>
             </div>
             <div class="footer-box">
@@ -191,26 +202,27 @@
                         <li><a href="./../pages/Imitation_Jewellery.html">Simple Jewellery</a></li>
                         <li><a href="./../pages/silver.html">silver Jewellery</a></li>
                         <li><a href="./../pages/gold.html">Gold Jewellery</a></li>
-                        <li><a href="./../pages/">Personalised Jewellery</a></li>
+                        <li><a href="./../pages/Diamond.html">Diamond Jewellery</a></li>
                         <li><a href="./../pages/about.html">About</a></li>
-                        <li><a href="./../pages/">Review</a></li>
+                        <li><a href="./../review.html">Review</a></li>
                     </ul>
                 </span>
             </div>
             <div class="footer-box">
                 <span class="footer-title">Contact us</span>
                 <div class="footer-add-container">
-                    <span class="footer-address-title">Address : </span><span class="footer-address">205, Shanti
-                        Complex, Above </span>
-                    <span class="footer-address">Shree Swami Samrth College Shirdi,</span>
+                    <span class="footer-address-title">Address : </span><span class="footer-address">733 / B khalgaon ,Satgaon </span>
+                    <span class="footer-address">ButiBori,</span>
                     <span class="footer-address">Nagpur- 441108</span>
                     <span class="footer-address-title">Mobile No : </span><span class="footer-address">+91
                         8177976733</span>
                     <span class="footer-address-title">Email : </span><span
                         class="footer-address">tusharzade29@gmail.com</span>
+
                 </div>
             </div>
-        </div>
+
+          </div>
         <div class="copy">Copyright@All rights reserved</div>
     </footer> 
     <script src="./../Javascript/gold.js"></script>
