@@ -37,6 +37,6 @@
   ## Contact 
 - Contact : +918767242064
 - Project Link :
-  - https://jewerlypalace.vercel.app/
+  - https://66a7803683b5bc2559e201a2--precious-beignet-51e0b8.netlify.app/
   
-  - https://github.com/Maheshwarigadakh/icp8.0-html-css-javascript-group-project-3.git
+  - https://github.com/Tusharzade2002/icp8.0-html-css-javascript-group-project-3
