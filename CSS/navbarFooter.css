@@ -46,13 +46,18 @@
 }
 .nav-list{
     display: flex;
-    gap: 9px; 
+    gap: 30px; 
     justify-content: end;
    
 }
+#navbar-1{
+    gap: 70px;
+}
+
 .nav-list img{
     color: whitesmoke;
     height: 50px;
+
     cursor: pointer;
 }
 .nav-list img:hover{
