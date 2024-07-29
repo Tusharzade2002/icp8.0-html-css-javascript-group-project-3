@@ -57,7 +57,7 @@
 
 
 ## Contribution Graph 
-![Graph](./Images/image.png)
+![scrrenshot](./Images/image.png)
    
 
 
