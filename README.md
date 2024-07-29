@@ -1,6 +1,8 @@
 # **icp8.0-html-css-javascript-group-project-3**
 
-                       **Home page**
+# Jewellery Palace ![img](./Images/Logo/jewelary_palace_logo-removebg-preview%20(1).png)
+
+                       
 
 ## Home page
 ![scrrenshot](./Images/home_screenshot.png)
