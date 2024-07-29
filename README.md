@@ -24,6 +24,23 @@
 
 
 
+## Features
+
+- About us
+- Contact us
+- Review
+- Different jewellery categories
+- Free and Open-Source Platform
+- Interactive Design: User-friendly interface with engaging graphics and stickers.
+- Responsive Layout: Optimized for mobile, tablet, and desktop devices.
+
+## Our Jewellary Categerious
+
+- Gold Jewellery
+- Silver Jewellery 
+- Diamond Jewellery 
+- Simple Jewellery
+
 
 
 
