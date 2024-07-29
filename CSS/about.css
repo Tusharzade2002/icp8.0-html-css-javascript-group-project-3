@@ -40,12 +40,8 @@
     padding: 5px;
 
 }
-.nav-list{
-    display: flex;
-    gap: 40px;
-    justify-content: end;
-   
-}
+
+
 .nav-list img{
     color: whitesmoke;
     height: 50px;

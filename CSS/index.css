@@ -429,12 +429,11 @@ footer{
         padding: 0px;
     } 
     .shop-by{
-        font-size: 20px;
-
+        font-size: 20px ;
     }
     .category{
         font-size: 20px;
-}
+    }
 .navbar{
     width: 100%;
 }
@@ -458,6 +457,7 @@ footer{
         border: 2px solid black;
         margin: 5px 10px;
     }
+  
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
@@ -601,7 +601,9 @@ footer{
 .footer-address-title:hover{
     color:  rgb(204, 116, 15);
     cursor: pointer;
+   
 }
+
 
 @media screen and (max-width:768px){
     .copy {

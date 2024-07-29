@@ -275,6 +275,23 @@ footer{
 
     
 }
+.buy-btn {
+    flex: 1;
+    margin-right: 5px;
+    background-color: #007bff;
+    color: white; 
+    border: none;
+    padding: 1px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    height: 50px;
+    width: 100%;
+}
+.like-btn {
+    flex: 1;
+    margin-left: 5px;
+    text-decoration: none; 
+}
  .btn-quantity
 {
     height: 30px;
