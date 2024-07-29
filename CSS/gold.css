@@ -58,6 +58,7 @@
             padding: 1px;
             cursor: pointer;
             transition: background-color 0.2s;
+            
         }
         
         .buy-btn:hover {
