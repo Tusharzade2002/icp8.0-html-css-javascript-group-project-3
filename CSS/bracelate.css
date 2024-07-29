@@ -3,7 +3,11 @@ body{
 }
 .product-bg {
     background-color: #d2d7db;
+
+    height: 400px;
+
     height: 450px;
+
     width: 290px;
     float: left;
     margin-left: 100px;
@@ -490,6 +494,24 @@ footer{
             margin:-1800px;
         }
 
+        .dark-mode {
+            background-color:#b0aaad;
+            color: whitesmoke;
+            }
+            .btn-toggle {
+            cursor: pointer;
+            background-color: none;
+            background-color: transparent;
+            border:none;
+            }
+            .btn{
+            color: white;
+            
+            }  
+            .name{
+                text-decoration: none;
+                color: black;
+            }
 
         
 }
