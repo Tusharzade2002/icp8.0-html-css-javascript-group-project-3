@@ -42,9 +42,12 @@
 }
 .nav-list{
     display: flex;
-    gap: 40px;
+    gap: 50px;
     justify-content: end;
    
+}
+#navbar-1{
+    gap: 70px;
 }
 .nav-list img{
     color: whitesmoke;
