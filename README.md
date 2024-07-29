@@ -37,6 +37,6 @@
   ## Contact 
 - Contact : +918177976733
 - Project Link :
-  - https://66a79751d7b6d103bdfff809--zingy-cascaron-b7014f.netlify.app/
+  - https://66a798e5bbc01e035c2aabda--chipper-frangollo-a1cae3.netlify.app/   
   
   - https://github.com/Tusharzade2002/icp8.0-html-css-javascript-group-project-3
