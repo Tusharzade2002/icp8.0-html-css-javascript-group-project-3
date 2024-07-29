@@ -35,7 +35,7 @@
 ![scrrenshot](./Images/image.png)
 
   ## Contact 
-- Contact : +918767242064
+- Contact : +918177976733
 - Project Link :
   - https://66a79751d7b6d103bdfff809--zingy-cascaron-b7014f.netlify.app/
   
