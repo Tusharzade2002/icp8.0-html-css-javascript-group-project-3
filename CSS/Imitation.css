@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color:white;
+    
 }
 .navbar{
     display: flex;
@@ -380,8 +380,8 @@ footer{
 }
 @media screen and (max-width: 480px){
     .logo img{
-        height: 20px;
-        width: 40px;
+        height: 15px;
+        width: 30px;
         margin: 5px 0px;
     }
     .input-text{
@@ -673,7 +673,7 @@ footer{
 /* navbar */
  @media screen and(min-width:400px)and (max-width: 600px){
     .logo img{
-        height: 50px;
+        height: 30px;
         margin: 5px;
     }
     .main-section p{
