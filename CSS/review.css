@@ -274,8 +274,10 @@ footer{
             .main-section p{
                 font-size: 8px;
             }
-            
-        }
+            .swiper-wrapper{
+                width: 100%;
+            }            
+            }
         @media screen and (min-width:600px)and (max-width:768px){
             .input-text{
                 height: 40px;

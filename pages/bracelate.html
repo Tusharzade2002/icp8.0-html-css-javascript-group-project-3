@@ -4,230 +4,248 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bracelate Jwellary</title>
-    <style>
-         body{
-            background-color: aliceblue;
-        }
-       .product-bg {
-            background-color: #d2d7db;
-            height: 450px;
-            width: 290px;
-            float: left;
-            margin-left: 100px;
-            margin-bottom: 50px;
-            border-radius: 5px;
-            cursor: pointer;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        .product-bg:hover {
-            transform: scale(1.05);
-        }
-        .design-img{
-            width: 250px;
-            width: 250px;
-            border-radius: 250px;
-            margin: 50px auto;
-            display: block;
-        }
-        .price{
-            color: rgb(3, 16, 8);
-            font-size: 1em;
-            text-align: center;
-        }
-
-        .buttons {
-            display: flex;
-            justify-content: space-around;
-            padding: 10px;
-            background-color: #333;
-            color: black;
-            border: none;
-            padding: 10px;
-            cursor: pointer;
-            transition: background-color 0.2s;
-        }
-        button:hover {
-        background-color: #555;
-        }
-        .buy-btn {
-            flex: 1;
-            margin-right: 5px;
-            background-color: #007bff;
-            color: white;
-            /* border-radius: 10px; */
-        }
-        .buy-btn a{
-            text-decoration: none;
-        }
-
-        .buy-btn:hover {
-            background-color: #0056b3;
-            transform: scale(1.05);
-            border-radius:  10px 0 10px 0;;
-        }
-        .like-btn {
-            flex: 1;
-            margin-left: 5px;
-            /* border-radius: 10px; */
-        }
-        .like-btn a {
-            text-decoration: none;
-        }
-
-        
-
-    </style>
+    <link rel="stylesheet" href="./../CSS/navbarFooter.css">
+            <link rel="stylesheet" href="./../CSS/bracelate.css">
+            <link rel="stylesheet" href="./../CSS/navbarFooter.css"/>
+            
 </head>
 <body>
-    <div class="product-bg">
-        <img src="./../Images/b1.jpeg" class="design-img">
-        <p class="price">only at.<del>1000</del>999</p>
-        <div class="buttons">
-            <button class="buy-btn"><a href="./../order.html">
-                    <p class="btn">BUY NOW</p>
-                </a></button>
-            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
-                    <p class="btn">❤️<span class="name">0</span></p>
-                </a></button>
-        </div>
-    </div>
-   <div class="product-bg">
-        <img src="./../Images/b2.jpeg" class="design-img">
-        <p class="price">only at.<del>1000</del>999</p>
-        <div class="buttons">
-            <button class="buy-btn"><a href="./../order.html">
-                    <p class="btn">BUY NOW</p>
-                </a></button>
-            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
-                    <p class="btn">❤️<span class="name">0</span></p>
-                </a></button>
-        </div>
-    </div>
-    <div class="product-bg">
-        <img src="./../Images/b7.webp" class="design-img">
-        <p class="price">only at.<del>1000</del>999</p>
-        <div class="buttons">
-            <button class="buy-btn"><a href="./../order.html">
-                    <p class="btn">BUY NOW</p>
-                </a></button>
-            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
-                    <p class="btn">❤️<span class="name">0</span></p>
-                </a></button>
-        </div>
-        
-    </div>
-    <div class="product-bg">
-        <img src="./../Images/b4.jpg" class="design-img">
-        <p class="price">only at.<del>1000</del>999</p>
-        <div class="buttons">
-            <button class="buy-btn"><a href="./../order.html">
-                    <p class="btn">BUY NOW</p>
-                </a></button>
-            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
-                    <p class="btn">❤️<span class="name">0</span></p>
-                </a></button>
-        </div>
-    </div>
-    <div class="product-bg">
-        <img src="./../Images/b5.webp" class="design-img">
-        <p class="price">only at.<del>1000</del>999</p>
-        <div class="buttons">
-            <button class="buy-btn"><a href="./../order.html">
-                    <p class="btn">BUY NOW</p>
-                </a></button>
-            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
-                    <p class="btn">❤️<span class="name">0</span></p>
-                </a></button>
-        </div>
-    </div>
-    <div class="product-bg">
-        <img src="./../Images/b8.webp" class="design-img">
-        <p class="price">only at.<del>1000</del>999</p>
-        <div class="buttons">
-            <button class="buy-btn"><a href="./../order.html">
-                    <p class="btn">BUY NOW</p>
-                </a></button>
-            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
-                    <p class="btn">❤️<span class="name">0</span></p>
-                </a></button>
-        </div>
-        
-    </div>
-    <div class="product-bg">
-        <img src="./../Images/b7.webp" class="design-img">
-        <p class="price">only at.<del>1000</del>999</p>
-        <div class="buttons">
-            <button class="buy-btn"><a href="./../order.html">
-                    <p class="btn">BUY NOW</p>
-                </a></button>
-            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
-                    <p class="btn">❤️<span class="name">0</span></p>
-                </a></button>
-        </div>
-    </div>
-    <div class="product-bg">
-        <img src="./../Images/b8.webp" class="design-img">
-        <p class="price">only at.<del>1000</del>999</p>
-        <div class="buttons">
-            <button class="buy-btn"><a href="./../order.html">
-                    <p class="btn">BUY NOW</p>
-                </a></button>
-            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
-                    <p class="btn">❤️<span class="name">0</span></p>
-                </a></button>
-        </div>
-    </div>
-    <div class="product-bg">
-        <img src="./../Images/b9.jpg" class="design-img">
-        <p class="price">only at.<del>1000</del>999</p>
-        <div class="buttons">
-            <button class="buy-btn"><a href="./../order.html">
-                    <p class="btn">BUY NOW</p>
-                </a></button>
-            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
-                    <p class="btn">❤️<span class="name">0</span></p>
-                </a></button>
-        </div>
-    </div>
-    <div class="product-bg">
-        <img src="./../Images/b8.webp" class="design-img">
-        <p class="price">only at.<del>1000</del>999</p>
-        <div class="buttons">
-            <button class="buy-btn"><a href="./../order.html">
-                    <p class="btn">BUY NOW</p>
-                </a></button>
-            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
-                    <p class="btn">❤️<span class="name">0</span></p>
-                </a></button>
-        </div>
-    </div>
-    <div class="product-bg">
-        <img src="./../Images/b7.webp" class="design-img">
-        <p class="price">only at.<del>1000</del>999</p>
-        <div class="buttons">
-            <button class="buy-btn"><a href="./../order.html">
-                    <p class="btn">BUY NOW</p>
-                </a></button>
-            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
-                    <p class="btn">❤️<span class="name">0</span></p>
-                </a></button>
-        </div>
-    </div>
-    <div class="product-bg">
-        <img src="./../Images/b1.jpeg" class="design-img">
-        <p class="price">only at.<del>1000</del>999</p>
-        <div class="buttons">
-            <button class="buy-btn"><a href="./../order.html">
-                    <p class="btn">BUY NOW</p>
-                </a></button>
-            <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
-                    <p class="btn">❤️<span class="name">0</span></p>
-                </a></button>
-        </div>
-    </div>
-    
-    <script src="./../Javascript/bracelate.js"></script>
 
+    <nav class="navbar">
+        <div class="logo">
+            <img src="./../Images/Logo/jewelary_palace_logo-removebg-preview (1).png" />
+        </div>
+
+        <div class="nav-list">
+            <a href="./../index.html"> <img class="wishlist-icon" src="./../Images/home (1).png" /></a>
+            <a href="./../pages/contact.html"><img class="shopping-icon" src="./../Images/contact.png" /></a>
+            <a href="./../pages/about.html"><img class="shopping-icon" src="./../Images/parental-control.png" /></a>
+            <a href="./../pages/wishlist.html"> <img class="wishlist-icon" src="./../Images/Icon/wishlist .png " /></a>
+            <a href="./../order.html"><img class="shopping-icon" src="./../Images/Icon/shopping-cart.png" /></a>
+            <a href="./../pages/review.html"><img class="shopping-icon" src="./../Images/review.png" /></a>
+            <div class="dropdown">
+                <a class="dropbtn" href="#"><img src="./../Images/menu (1).png"><i class="fas fa-caret-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="./../pages/gold.html">Gold Jewellery</a>
+                    <a href="./../pages/silver.html">Silver Jewellery</a>
+                    <a href="./../pages/Imitation_Jewellery.html">Simple jewellery</a>
+                    <a href="./../pages/Diamond.html">Diamond Jewellery</a>
+                </div>
+            </div>
+            <button onclick="modes()" class="btn-toggle"><img src="./../Images/night-mode (1).png"></button>
+        </div>
+
+    </nav>
+
+    
+    <div class="product-container">
+
+
+        <div class="product-bg">
+            <img src="./../Images/b1.jpeg" class="design-img">
+            <p class="price">only at.<del>1000</del>999</p>
+            <div class="buttons">
+                <button class="buy-btn"><a href="./../order.html">
+                        <p class="btn">BUY NOW</p>
+                    </a></button>
+                <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                        <p class="btn">❤️<span class="name">0</span></p>
+                    </a></button>
+            </div>
+        </div>
+       <div class="product-bg">
+            <img src="./../Images/b2.jpeg" class="design-img">
+            <p class="price">only at.<del>1000</del>999</p>
+            <div class="buttons">
+                <button class="buy-btn"><a href="./../order.html">
+                        <p class="btn">BUY NOW</p>
+                    </a></button>
+                <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                        <p class="btn">❤️<span class="name">0</span></p>
+                    </a></button>
+            </div>
+        </div>
+        <div class="product-bg">
+            <img src="./../Images/b7.webp" class="design-img">
+            <p class="price">only at.<del>1000</del>999</p>
+            <div class="buttons">
+                <button class="buy-btn"><a href="./../order.html">
+                        <p class="btn">BUY NOW</p>
+                    </a></button>
+                <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                        <p class="btn">❤️<span class="name">0</span></p>
+                    </a></button>
+            </div>
+            
+        </div>
+        <div class="product-bg">
+            <img src="./../Images/b4.jpg" class="design-img">
+            <p class="price">only at.<del>1000</del>999</p>
+            <div class="buttons">
+                <button class="buy-btn"><a href="./../order.html">
+                        <p class="btn">BUY NOW</p>
+                    </a></button>
+                <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                        <p class="btn">❤️<span class="name">0</span></p>
+                    </a></button>
+            </div>
+        </div>
+        <div class="product-bg">
+            <img src="./../Images/b5.webp" class="design-img">
+            <p class="price">only at.<del>1000</del>999</p>
+            <div class="buttons">
+                <button class="buy-btn"><a href="./../order.html">
+                        <p class="btn">BUY NOW</p>
+                    </a></button>
+                <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                        <p class="btn">❤️<span class="name">0</span></p>
+                    </a></button>
+            </div>
+        </div>
+        <div class="product-bg">
+            <img src="./../Images/b8.webp" class="design-img">
+            <p class="price">only at.<del>1000</del>999</p>
+            <div class="buttons">
+                <button class="buy-btn"><a href="./../order.html">
+                        <p class="btn">BUY NOW</p>
+                    </a></button>
+                <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                        <p class="btn">❤️<span class="name">0</span></p>
+                    </a></button>
+            </div>
+            
+        </div>
+        <div class="product-bg">
+            <img src="./../Images/b7.webp" class="design-img">
+            <p class="price">only at.<del>1000</del>999</p>
+            <div class="buttons">
+                <button class="buy-btn"><a href="./../order.html">
+                        <p class="btn">BUY NOW</p>
+                    </a></button>
+                <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                        <p class="btn">❤️<span class="name">0</span></p>
+                    </a></button>
+            </div>
+        </div>
+        <div class="product-bg">
+            <img src="./../Images/b8.webp" class="design-img">
+            <p class="price">only at.<del>1000</del>999</p>
+            <div class="buttons">
+                <button class="buy-btn"><a href="./../order.html">
+                        <p class="btn">BUY NOW</p>
+                    </a></button>
+                <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                        <p class="btn">❤️<span class="name">0</span></p>
+                    </a></button>
+            </div>
+        </div>
+        <div class="product-bg">
+            <img src="./../Images/b9.jpg" class="design-img">
+            <p class="price">only at.<del>1000</del>999</p>
+            <div class="buttons">
+                <button class="buy-btn"><a href="./../order.html">
+                        <p class="btn">BUY NOW</p>
+                    </a></button>
+                <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                        <p class="btn">❤️<span class="name">0</span></p>
+                    </a></button>
+            </div>
+        </div>
+        <div class="product-bg">
+            <img src="./../Images/b8.webp" class="design-img">
+            <p class="price">only at.<del>1000</del>999</p>
+            <div class="buttons">
+                <button class="buy-btn"><a href="./../order.html">
+                        <p class="btn">BUY NOW</p>
+                    </a></button>
+                <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                        <p class="btn">❤️<span class="name">0</span></p>
+                    </a></button>
+            </div>
+        </div>
+        <div class="product-bg">
+            <img src="./../Images/b7.webp" class="design-img">
+            <p class="price">only at.<del>1000</del>999</p>
+            <div class="buttons">
+                <button class="buy-btn"><a href="./../order.html">
+                        <p class="btn">BUY NOW</p>
+                    </a></button>
+                <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                        <p class="btn">❤️<span class="name">0</span></p>
+                    </a></button>
+            </div>
+        </div>
+        <div class="product-bg">
+            <img src="./../Images/b1.jpeg" class="design-img">
+            <p class="price">only at.<del>1000</del>999</p>
+            <div class="buttons">
+                <button class="buy-btn"><a href="./../order.html">
+                        <p class="btn">BUY NOW</p>
+                    </a></button>
+                <button class="like-btn" onclick="likeItem(this)"><a href="./../pages/wishlist.html">
+                        <p class="btn">❤️<span class="name">0</span></p>
+                    </a></button>
+            </div>
+        </div>
+        
+    
+        
+       
+    
+    
+        <footer>
+            <div class="footer-container">
+    
+                <div class="footer-box">
+                    <span class="footer-title">Information </span>
+                    <span class="footer-info">
+                        <img src="./../Images/Logo/jewelary_palace_logo-removebg-preview (1).png" alt="footer logo"
+                            class="logo-icon">
+                    </span>
+                    <span class="footer-info">
+                        We sell the finest gold available and offer a variety of jewelry, including gold, silver, and
+                        diamond pieces.
+                        You can place an order anytime, and we guarantee the best service.We offer inspiration and
+                        information
+                        on the world of authentic, natural jewelry.
+                    </span>
+                </div>
+                <div class="footer-box">
+                    <span class="footer-title">Quick Links</span>
+                    <span class="footer">
+                        <ul>
+                            <li><a href="./../index.html">Home</a></li>
+                            <li><a href="./../pages/Imitation_Jewellery.html">Simple Jewellery</a></li>
+                            <li><a href="./../pages/silver.html">silver Jewellery</a></li>
+                            <li><a href="./../pages/gold.html">Gold Jewellery</a></li>
+                            <li><a href="./../pages/Diamond.html">Personalised Jewellery</a></li>
+                            <li><a href="./../pages/about.html">About</a></li>
+                            <li><a href="./../review.html">Review</a></li>
+                        </ul>
+                    </span>
+                </div>
+                <div class="footer-box">
+                    <span class="footer-title">Contact us</span>
+                    <div class="footer-add-container">
+                        <span class="footer-address-title">Address : </span><span class="footer-address">733 / B khalgaon
+                            ,Satgaon </span>
+                        <span class="footer-address">ButiBori,</span>
+                        <span class="footer-address">Nagpur- 441108</span>
+                        <span class="footer-address-title">Mobile No : </span><span class="footer-address">+91
+                            8177976733</span>
+                        <span class="footer-address-title">Email : </span><span
+                            class="footer-address">tusharzade29@gmail.com</span>
+    
+                    </div>
+                </div>
+    
+            </div>
+            <div class="copy">Copyright@All rights reserved</div>
+        </footer>
+
+    </div>
+
+    
 </body>
 </html>
 

@@ -1,15 +1,16 @@
 .navbar{
     display: flex;
- 
     height: 8%;
     background-color:#f8ecec;
-    padding: 20px;
     justify-content: space-around;
     align-items: center;
 }
 .logo img{
     height: 80px;
     margin: 5px;
+
+    background-color:rgb(101, 65, 65);
+
     background-color:rgb(101, 65, 65) ;
 }
 .input-text{
@@ -160,9 +161,7 @@ footer{
 {
     display: flex;
     flex-wrap: wrap;
-    height: 450px;
-    width: 90%;
-   
+    justify-content: center;
     align-items: center;
 }
 
@@ -171,7 +170,7 @@ footer{
     width: 230px;
     height: 430px;
     border: 1px solid black;
-    margin: 20px 20px 20px 20px;
+    margin: 20px 10px;
     border-radius: 10px;
     background-color: #d2d7db;
   
@@ -179,14 +178,11 @@ footer{
 .product-img
 {
     border-radius: 50%;
-    margin: 10px 40px;
+    margin: 10px 10px;
     padding: 5px;
     height: 200px;
     width: 150px;
     align-items: center;
-    
-
-    
 }
 .btn-buy-now
 {
@@ -246,14 +242,6 @@ footer{
         text-align:center;
 
       }
-
-
-
-
-
-
-
-
       body{
         background-color: aliceblue;
         padding-left: 3px;
@@ -261,10 +249,9 @@ footer{
     .product-bg {
         background-color:#d2d7db;
         height: 470px;
-        width: 290px;
+        width: 300px;
         float: left;
-        margin-left: 160px;
-        margin-bottom: 50px;
+        margin: 10px 35px;
         border-radius: 13px;
         border: 1px solid black;
         padding: 5px;
@@ -1027,7 +1014,7 @@ footer{
 
 }
   /*normal devices*/
-@media screen and (min-width:600px)and (max-width:768px){
+/* @media screen and (min-width:600px)and (max-width:768px){
 .input-text{
     height: 40px;
     width: 230px;
@@ -1041,9 +1028,9 @@ footer{
     margin: 5px 0px;
     flex-direction: row;
 }
-}
+} */
         /*tablets devices*/
-@media screen and (min-width: 769px) and (max-width: 992px) {
+/* @media screen and (min-width: 769px) and (max-width: 992px) {
 .logo img{
     height: 50px;
     margin: 5px;
@@ -1074,9 +1061,9 @@ footer{
     flex-direction: row;
 }
 
-}
+} */
       /*big devices*/
-  @media screen and (min-width: 993px) and (max-width: 1200px) {
+  /* @media screen and (min-width: 993px) and (max-width: 1200px) {
 .input-text{
     height: 50px;
     width: 490px;
@@ -1090,11 +1077,11 @@ footer{
     margin: 5px 0px;
     flex-direction: row;
 }
-}
+} */
 /* Media queries */
 
 /* Small devices (max-width: 480px) */
-@media only screen and (max-width: 480px) {
+/* @media only screen and (max-width: 480px) {
 .product-bg {
     margin-top: 20px;
   width: 220px;
@@ -1118,10 +1105,10 @@ footer{
     
   padding: 0.5px;
 }
-}
+} */
 
 /* Normal devices (max-width: 768px) */
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
 .product-bg {
   width: 250px;
   height: 400px;
@@ -1142,14 +1129,14 @@ footer{
 .buy-btn {
   padding: 0.7px;
 }
-}
+} */
 
 /* Tablets (max-width: 1024px) */
-@media only screen and (max-width: 1024px) {
+/* @media only screen and (max-width: 1024px) {
 .product-bg {
   width: 280px;
   height: 450px;
-  margin-left: 120px;
+  margin-left: 80px;
 }
 .design-img {
   width: 220px;
@@ -1165,14 +1152,14 @@ footer{
 .buy-btn {
   padding: 1px;
 }
-}
+} */
 
 /* Big devices (min-width: 1200px) */
-@media only screen and (min-width: 1200px) {
+/* @media only screen and (min-width: 1200px) {
 .product-bg {
   width: 320px;
   height: 500px;
-  margin-left: 140px;
+  margin-left: 70px;
 }
 .design-img {
   width: 250px;
@@ -1187,7 +1174,7 @@ footer{
 .buy-btn {
   padding: 1.2px;
 }
-}
+} */
 
 
    
