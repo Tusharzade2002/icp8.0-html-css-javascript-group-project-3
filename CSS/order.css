@@ -13,8 +13,8 @@ body {
     padding: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 460px;
-
 }
+
 .form-control {
     width: 300px; /* Adjust width as needed */
     height: 23px; 
