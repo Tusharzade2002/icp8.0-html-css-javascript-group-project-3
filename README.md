@@ -1,6 +1,6 @@
 # **icp8.0-html-css-javascript-group-project-3**
 
-# Jewellery Palace ![img](./Images/Logo/jewelary_palace_logo-removebg-preview%20(1).png)
+# Jewellery Palace <img src="./Images/Logo/jewelary_palace_logo-removebg-preview (1).png" height=40px>
 
                        
 
