@@ -57,7 +57,7 @@
 
 
 ## Contribution Graph 
-![Graph](img/graph.png)
+![Graph](./Images/image.png)
    
 
 
